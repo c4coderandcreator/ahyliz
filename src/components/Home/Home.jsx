@@ -69,46 +69,67 @@ const Home = () => {
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-[url('')]">
-        <div className="flex">
-          <div>
-            <img src="" alt="" />
-          </div>
-          <div>
-            <p>About us</p>
+      <div className="bg-cover bg-[#f4f9ff] px-[6.8rem] py-20">
+        <div className="flex items-center justify-center w-full ">
+          <div className="flex justify-center w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>About us</p>
+            </div>
           </div>
         </div>
-        <p>Leading the Way in Tailored IT Solutions</p>
-        <p>Pioneering excellence in technology services</p>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+          Leading the Way in Tailored IT Solutions
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+          Pioneering excellence in technology services
+        </p>
 
-        <div className="flex">
-          <div className="grid grid-cols-2">
-            <div className="flex flex-col">
-              <p>60</p>
+        <div className="flex my-[5rem] gap-[3.125rem]">
+          <div className="grid grid-cols-2 ">
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-[#f8f9fa] border-2 rounded-tl-lg">
+              <p className="font-[CamptonExtraBold] text-[#5cc9a7] text-[2.25rem]">
+                60
+              </p>
               <p>Clients Worldwide</p>
             </div>
-            <div className="flex flex-col">
-              <p>21</p>
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-white rounded-tr-lg border-t-2 border-b-2 border-r-2">
+              <p className="font-[CamptonExtraBold] text-[#4545e2] text-[2.25rem]">
+                21
+              </p>
               <p>Team Members</p>
             </div>
-            <div className="flex flex-col">
-              <p>96%</p>
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-white border-l-2 border-r-2">
+              <p className="font-[CamptonExtraBold] text-black text-[2.25rem]">
+                96%
+              </p>
               <p>Client Retention</p>
             </div>
-            <div className="flex flex-col">
-              <p>11 Years</p>
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-[#f8f9fa]   border-r-2">
+              <p className="font-[CamptonExtraBold] text-[#ffb116] text-[2.25rem]">
+                11 Years
+              </p>
               <p>In Business</p>
             </div>
-            <div className="flex flex-col">
-              <p>100+</p>
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-[#f8f9fa] border-2 rounded-bl-lg">
+              <p className="font-[CamptonExtraBold] text-[#4f45e2] text-[2.25rem]">
+                100+
+              </p>
               <p>Projects Completed</p>
             </div>
-            <div className="flex flex-col">
-              <p>24/7</p>
+            <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-white rounded-br-lg border-t-2 border-r-2 border-b-2">
+              <p className="font-[CamptonExtraBold] text-[#5cc9a7] text-[2.25rem]">
+                24/7
+              </p>
               <p>IT Support</p>
             </div>
           </div>
-          <div>
+          <div className="w-[44.56rem] h-[33.5rem]">
             <p>
               Welcome to Ahyliz Technologies - Pioneers of Digital Innovation.{" "}
             </p>
@@ -124,7 +145,10 @@ const Home = () => {
             </p>
             <div className="flex">
               <div>
-                <img src="" alt="img" />
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg.svg"
+                  alt="img"
+                />
               </div>
               <div>
                 <p>Software Development</p>
@@ -132,7 +156,10 @@ const Home = () => {
             </div>
             <div className="flex">
               <div>
-                <img src="" alt="img" />
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
+                  alt="img"
+                />
               </div>
               <div>
                 <p>Cybersecurity</p>
@@ -140,7 +167,10 @@ const Home = () => {
             </div>
             <div className="flex">
               <div>
-                <img src="" alt="img" />
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-2.svg"
+                  alt="img"
+                />
               </div>
               <div>
                 <p>Cloud Computing</p>
@@ -149,9 +179,13 @@ const Home = () => {
             <p>Read More</p>
           </div>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 gap-[6.68rem]">
           <div>
-            <img src="" alt="" /> <p>Leading IT Service Provider</p>
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
+              alt="img"
+            />{" "}
+            <p>Leading IT Service Provider</p>
             <p>
               Ahyliz Technologies stands at the forefront of the industry,
               providing innovative IT solutions tailored to meet the evolving
@@ -159,7 +193,11 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src="" alt="" /> <p>Exceeding Client Expectations</p>
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20172.svg"
+              alt="img"
+            />{" "}
+            <p>Exceeding Client Expectations</p>
             <p>
               Our commitment to excellence ensures that we go above and beyond
               to deliver solutions that surpass the expectations of our clients,
@@ -167,7 +205,11 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src="" alt="" /> <p>Driving Business Growth</p>
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
+              alt="img"
+            />{" "}
+            <p>Driving Business Growth</p>
             <p>
               By leveraging cutting-edge technology and strategic expertise, we
               empower businesses to achieve substantial growth and operational
