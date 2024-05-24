@@ -297,6 +297,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="bg-[url('')]">
+        <div className="flex justify-between items-center">
+          <div>Learn more about Ahyliz Technologies</div>
+          <div> See How It Works?</div>
+        </div>
+      </div>
     </>
   );
 };
