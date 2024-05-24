@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import HomeSecBg from "../HomeSecBg/HomeSecBg";
 
 const Home = () => {
   return (
@@ -69,7 +70,7 @@ const Home = () => {
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-[6.8rem] py-20">
+      <div className="bg-cover bg-[#f4f9ff] px-[7.5rem] py-20">
         <div className="flex items-center justify-center w-full ">
           <div className="flex justify-center w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -90,8 +91,12 @@ const Home = () => {
           Pioneering excellence in technology services
         </p>
 
-        <div className="flex my-[5rem] gap-[3.125rem]">
-          <div className="grid grid-cols-2 ">
+        <div className="flex my-[5rem] gap-[3.125rem] justify-center">
+          <div>
+            {" "}
+            <HomeSecBg />{" "}
+          </div>
+          {/* <div className="grid grid-cols-2">
             <div className="flex flex-col justify-center items-center h-[11.7rem] w-[15.4rem] bg-[#f8f9fa] border-2 rounded-tl-lg">
               <p className="font-[CamptonExtraBold] text-[#5cc9a7] text-[2.25rem]">
                 60
@@ -128,12 +133,12 @@ const Home = () => {
               </p>
               <p>IT Support</p>
             </div>
-          </div>
+          </div> */}
           <div className="w-[44.56rem] h-[33.5rem]">
-            <p>
+            <p className="font-[CamptonBold] text-[1.5rem] leading-8">
               Welcome to Ahyliz Technologies - Pioneers of Digital Innovation.{" "}
             </p>
-            <p>
+            <p className="font-[CamptonBook] text-[1rem] py-4">
               As leaders in Enterprise Digital Transformation, Cloud Consulting,
               Managed IT Services, and Software Development, we provide
               businesses with the sophisticated technology frameworks essential
@@ -143,7 +148,7 @@ const Home = () => {
               revolutionize your business operations, propelling you to a
               substantial competitive edge.
             </p>
-            <div className="flex">
+            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  py-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg.svg"
@@ -154,7 +159,7 @@ const Home = () => {
                 <p>Software Development</p>
               </div>
             </div>
-            <div className="flex">
+            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
@@ -165,7 +170,7 @@ const Home = () => {
                 <p>Cybersecurity</p>
               </div>
             </div>
-            <div className="flex">
+            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-2.svg"
@@ -176,41 +181,50 @@ const Home = () => {
                 <p>Cloud Computing</p>
               </div>
             </div>
-            <p>Read More</p>
+            <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[CamptonBook]">
+              Read More
+            </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-[6.68rem]">
-          <div>
+        <div className="flex justify-center items-center text-center gap-[6rem] mx-[4rem]">
+          <div className="flex flex-col items-center">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
               alt="img"
             />{" "}
-            <p>Leading IT Service Provider</p>
-            <p>
+            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+              Leading IT Service <br />
+              Provider
+            </p>
+            <p className="font-[CamptonBook]">
               Ahyliz Technologies stands at the forefront of the industry,
               providing innovative IT solutions tailored to meet the evolving
               needs of businesses.
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20172.svg"
               alt="img"
             />{" "}
-            <p>Exceeding Client Expectations</p>
-            <p>
+            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+              Exceeding Client <br /> Expectations
+            </p>
+            <p className="font-[CamptonBook]">
               Our commitment to excellence ensures that we go above and beyond
               to deliver solutions that surpass the expectations of our clients,
               driving tangible business results.
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20173.svg"
               alt="img"
             />{" "}
-            <p>Driving Business Growth</p>
-            <p>
+            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+              Driving Business <br /> Growth
+            </p>
+            <p className="font-[CamptonBook]">
               By leveraging cutting-edge technology and strategic expertise, we
               empower businesses to achieve substantial growth and operational
               efficiency.
