@@ -192,7 +192,7 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
               Leading IT Service <br />
               Provider
             </p>
@@ -207,7 +207,7 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20172.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
               Exceeding Client <br /> Expectations
             </p>
             <p className="font-[CamptonBook]">
@@ -221,13 +221,78 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20173.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pb-5">
+            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
               Driving Business <br /> Growth
             </p>
             <p className="font-[CamptonBook]">
               By leveraging cutting-edge technology and strategic expertise, we
               empower businesses to achieve substantial growth and operational
               efficiency.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* Our Services */}
+      <div className=" px-[7.5rem] py-20">
+        <div className="flex items-center justify-center w-full items-center ">
+          <div
+            className="flex justify-center w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Icons/star.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+              <p>Our Services</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+          Elevating Your Business with Tailored Solutions
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+          Get your self ready for the most comprehensive solutions
+        </p>
+        <div className="flex justify-center pt-[5rem] gap-2 w-full font-[CamptonBook]">
+          <div className="text-right w-[22.5rem]">
+            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+              Enterprise Digital <br /> Transformation
+            </p>
+            <p className="pb-[6.5rem]">
+              Transform your business with Ahyliz <br /> Technologies'
+              comprehensive Enterprise Digital <br /> Transformation
+            </p>
+            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+              Software Development
+            </p>
+            <p>
+              Drive innovation and efficiency with Ahyliz <br /> Technologies'
+              Software Development services.
+            </p>
+          </div>
+          <div className="w-[31.18rem]">
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Images/Group%201000004731.svg"
+              alt="img"
+            />
+          </div>
+          <div className="w-[22.5rem]">
+            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+              Cloud Consulting Services
+            </p>
+            <p className="pb-[8.7rem]">
+              Navigate the complexities of cloud <br /> environments with Ahyliz
+              Technologies' Cloud <br /> Consulting services.
+            </p>
+            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+              Managed IT Services
+            </p>
+            <p>
+              Ensure uninterrupted business operations with <br /> Ahyliz
+              Technologies' Managed IT Services.
             </p>
           </div>
         </div>
