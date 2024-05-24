@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import HomeSecBg from "../HomeSecBg/HomeSecBg";
+import HowIt from "../HomeSecBg/HowIt";
 
 const Home = () => {
   return (
@@ -234,7 +235,7 @@ const Home = () => {
       </div>
       {/* Our Services */}
       <div className=" px-[7.5rem] py-20">
-        <div className="flex items-center justify-center w-full items-center ">
+        <div className="flex  justify-center w-full items-center ">
           <div
             className="flex justify-center w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -297,10 +298,43 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url('')]">
-        <div className="flex justify-between items-center">
-          <div>Learn more about Ahyliz Technologies</div>
-          <div> See How It Works?</div>
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
+        <div className="flex justify-between items-center mx-[7.5rem] my-24 bg-[#f7f7f7] w-full rounded-lg">
+          <div className="px-8 py-3 font-[CamptonBold] text-[1.5rem]">
+            Learn more about Ahyliz Technologies
+          </div>
+          <div className="px-4 py-3 mx-8 my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.875rem] font-[CamptonBold]">
+            {" "}
+            See How It Works?
+          </div>
+        </div>
+      </div>
+      {/* How it works */}
+      <div className=" px-[7.5rem] py-20 bg-[#f4f9ff]">
+        <div className="flex justify-center w-full items-center ">
+          <div
+            className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Icons/star.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+              <p>How it Works?</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+          Streamlining Your Journey to Technological Excellence
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+          Navigating your path to seamless integration
+        </p>
+        <div className="flex items-center justify-center my-8 rounded-2xl">
+          <HowIt />
         </div>
       </div>
     </>
