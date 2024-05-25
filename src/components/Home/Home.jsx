@@ -334,7 +334,10 @@ const Home = () => {
           Navigating your path to seamless integration
         </p>
         <div className="flex items-center justify-center my-8 rounded-2xl">
-          <HowIt />
+          <img
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
+            alt="img"
+          />
         </div>
       </div>
     </>
