@@ -333,7 +333,7 @@ const Home = () => {
         <p className="text-center font-[CamptonBook] text-[1.25rem]">
           Navigating your path to seamless integration
         </p>
-        <div className="flex items-center justify-center my-8 rounded-2xl">
+        <div className="flex items-center justify-center my-8 rounded-2xl mt-[5rem]">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
             alt="img"
