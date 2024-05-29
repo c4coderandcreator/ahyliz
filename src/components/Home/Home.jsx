@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import HomeSecBg from "../HomeSecBg/HomeSecBg";
-import HowIt from "../HomeSecBg/HowIt";
+import WhiteA from "../HomeSecBg/WhiteA";
+import PurpleA from "../HomeSecBg/PurpleA";
 
 const Home = () => {
   return (
@@ -341,6 +342,62 @@ const Home = () => {
         </div>
       </div>
       {/* PLU */}
+      <div className=" px-[7.5rem] py-20 ">
+        <div className="flex justify-center w-full items-center ">
+          <div
+            className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Icons/star.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+              <p>People Love Us</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+          Discover Our Clients' Experiences
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+          Insights from satisfied customers
+        </p>
+        <div className="flex">
+          <div className="flex flex-col text-center items-center">
+            <div>
+              Managed IT services by Ahyliz Technologies ensured our systems ran
+              smoothly, allowing us to focus on core business operations.
+            </div>
+            <div>
+              {" "}
+              <WhiteA />{" "}
+            </div>
+          </div>
+          <div className="flex flex-col gap text-center items-center mt-8">
+            <div className="bg-[#4f45e2] text-center p-6 rounded-2xl">
+              Impressive cloud consulting services from Ahyliz Technologies.
+              Seamless transition and improved efficiency!
+            </div>
+            <div>
+              {" "}
+              <PurpleA />{" "}
+            </div>
+          </div>
+          <div className="flex flex-col text-center items-center">
+            <div className="text-center">
+              Ahyliz Technologies transformed our outdated systems into
+              efficient digital solutions. Highly recommend their expertise!
+            </div>
+            <div className="translate-y-8 z-10">
+              {" "}
+              <WhiteA />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
