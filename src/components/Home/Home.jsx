@@ -344,7 +344,7 @@ const Home = () => {
         </div>
       </div>
       {/* PLU */}
-      <div className=" px-[7.5rem] py-20 ">
+      <div className=" px-[7.5rem] pt-20 ">
         <div className="flex justify-center w-full items-center ">
           <div
             className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -386,6 +386,14 @@ const Home = () => {
             <div>
               <WhiteA />
             </div>
+            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003.png"
+                alt="img"
+              />
+              <p className="text-center font-[CamptonSemiBold] pt-1">Stephen</p>
+              <p className="text-center font-[CamptonBook]">@client</p>
+            </div>
           </div>
           {/* child 2 */}
           <div className="flex flex-col text-center items-center mt-8">
@@ -401,6 +409,16 @@ const Home = () => {
             </div>
             <div>
               <PurpleA />
+            </div>
+            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2002.png"
+                alt="img"
+              />
+              <p className="text-center font-[CamptonSemiBold] pt-1">
+                Alen Max
+              </p>
+              <p className="text-center font-[CamptonBook]">@client</p>
             </div>
           </div>
           {/* child 3 */}
@@ -420,24 +438,15 @@ const Home = () => {
             <div>
               <WhiteA />
             </div>
+            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003-1.png"
+                alt="img"
+              />
+              <p className="text-center font-[CamptonSemiBold] pt-1">Sarah</p>
+              <p className="text-center font-[CamptonBook]">@client</p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="flex items-center gap-3 px-[6.5rem]">
-        <div>
-          <img src="" alt="" />
-          <p>Stephen</p>
-          <p>@client</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Alen Max</p>
-          <p>@client</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Sarah</p>
-          <p>@client</p>
         </div>
       </div>
     </>
