@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import HomeSecBg from "../HomeSecBg/HomeSecBg";
 import WhiteA from "../HomeSecBg/WhiteA";
 import PurpleA from "../HomeSecBg/PurpleA";
+import DoubleP from "../HomeSecBg/DoubleP";
+import DoubleW from "../HomeSecBg/DoubleW";
 
 const Home = () => {
   return (
@@ -365,37 +367,77 @@ const Home = () => {
         <p className="text-center font-[CamptonBook] text-[1.25rem]">
           Insights from satisfied customers
         </p>
-        <div className="flex">
-          <div className="flex flex-col text-center items-center">
-            <div>
-              Managed IT services by Ahyliz Technologies ensured our systems ran
-              smoothly, allowing us to focus on core business operations.
+        {/* parent */}
+        <div className="flex gap-3 px-[6.5rem] mt-4">
+          {/* child 1 */}
+          <div className="flex flex-col text-center items-center mt-8">
+            <div
+              className="flex flex-col text-center items-center p-6  rounded-2xl"
+              style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
+            >
+              <div className="py-3">
+                <DoubleP />
+              </div>
+              <div className="px-8 font-[CamptonBook] mb-6 ">
+                Managed IT services by Ahyliz Technologies ensured our systems
+                ran smoothly, allowing us to focus on core business operations.
+              </div>
             </div>
             <div>
-              {" "}
-              <WhiteA />{" "}
-            </div>
-          </div>
-          <div className="flex flex-col gap text-center items-center mt-8">
-            <div className="bg-[#4f45e2] text-center p-6 rounded-2xl">
-              Impressive cloud consulting services from Ahyliz Technologies.
-              Seamless transition and improved efficiency!
-            </div>
-            <div>
-              {" "}
-              <PurpleA />{" "}
-            </div>
-          </div>
-          <div className="flex flex-col text-center items-center">
-            <div className="text-center">
-              Ahyliz Technologies transformed our outdated systems into
-              efficient digital solutions. Highly recommend their expertise!
-            </div>
-            <div className="translate-y-8 z-10">
-              {" "}
               <WhiteA />
             </div>
           </div>
+          {/* child 2 */}
+          <div className="flex flex-col text-center items-center mt-8">
+            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-6 rounded-2xl">
+              <div className="py-3">
+                <DoubleW />
+              </div>
+              <div className=" px-8 text-white font-[CamptonBook] mb-6 ">
+                Impressive cloud consulting <br /> services from Ahyliz
+                Technologies. Seamless transition and improved <br />{" "}
+                efficiency!
+              </div>
+            </div>
+            <div>
+              <PurpleA />
+            </div>
+          </div>
+          {/* child 3 */}
+          <div className="flex flex-col text-center items-center mt-8">
+            <div
+              className="flex flex-col text-center items-center p-6  rounded-2xl"
+              style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
+            >
+              <div className="py-3">
+                <DoubleP />
+              </div>
+              <div className="px-8 font-[CamptonBook] mb-6 ">
+                Ahyliz Technologies transformed our outdated systems into
+                efficient digital solutions. Highly recommend their expertise!
+              </div>
+            </div>
+            <div>
+              <WhiteA />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center gap-3 px-[6.5rem]">
+        <div>
+          <img src="" alt="" />
+          <p>Stephen</p>
+          <p>@client</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p>Alen Max</p>
+          <p>@client</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p>Sarah</p>
+          <p>@client</p>
         </div>
       </div>
     </>
