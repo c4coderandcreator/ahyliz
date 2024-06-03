@@ -4,7 +4,7 @@ import Accordion from "../Accordion/Accordion";
 const Faq = () => {
   return (
     <>
-      <div className="flex bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-20 pb-14">
+      <div className="flex bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-20 pb-[12rem]">
         {/* 1st */}
         <div className="pt-48">
           <div

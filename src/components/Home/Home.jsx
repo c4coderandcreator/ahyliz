@@ -6,6 +6,7 @@ import PurpleA from "../HomeSecBg/PurpleA";
 import DoubleP from "../HomeSecBg/DoubleP";
 import DoubleW from "../HomeSecBg/DoubleW";
 import Faq from "./Faq";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -448,6 +449,7 @@ const Home = () => {
         </div>
       </div>
       <Faq />
+      <Contact />
     </>
   );
 };
