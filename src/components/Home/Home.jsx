@@ -5,6 +5,7 @@ import WhiteA from "../HomeSecBg/WhiteA";
 import PurpleA from "../HomeSecBg/PurpleA";
 import DoubleP from "../HomeSecBg/DoubleP";
 import DoubleW from "../HomeSecBg/DoubleW";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -351,10 +352,7 @@ const Home = () => {
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
-              <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Icons/star.svg"
-                alt="img"
-              />
+              <img src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/55ea6f2e9103d76a7d626d2f12df297e89be99e9/Resources/Home/Icons/heart.svg" />
             </div>
             <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
               <p>People Love Us</p>
@@ -449,6 +447,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Faq />
     </>
   );
 };
