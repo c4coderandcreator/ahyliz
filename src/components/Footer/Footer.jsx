@@ -13,14 +13,34 @@ const Footer = () => {
             <p className="text-[1rem]">
               Empowering Your Digital <br /> Future
             </p>
-            <div className="flex gap-5">
-              <div>A</div>
-              <div>B</div>
-              <div>D</div>
-              <div>C</div>
+            <div className="flex gap-5 items-center py-3">
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/instagram.png"
+                  alt="insta"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/linkedin.png"
+                  alt="linkedin"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/twitter.png"
+                  alt="twitter"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/facebook.png"
+                  alt="facebook"
+                />
+              </div>
             </div>
           </div>
-          <div className="border-r border-custom-rgba pr-14 leading-[2.1rem]">
+          <div className="border-r border-custom-rgba pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">Home</p>
             <p>Explore more</p>
             <p>Services we offer</p>
@@ -28,7 +48,7 @@ const Footer = () => {
             <p>FAQs</p>
             <p>Contact us</p>
           </div>
-          <div className="border-r border-custom-rgba pr-14 leading-[2.1rem]">
+          <div className="border-r border-custom-rgba pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">About us</p>
             <p>How it Works?</p>
             <p>Our Team</p>
@@ -36,13 +56,13 @@ const Footer = () => {
             <p>Terms of use</p>
             <p>Accessibility</p>
           </div>
-          <div className="border-r border-custom-rgba h-full pr-14 leading-[2.1rem]">
+          <div className="border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">Address</p>
             <p>
               34 Minowan Miikan <br /> Lane, Toronto, ON <br /> M6J 0G3
             </p>
           </div>
-          <div className="border-r border-custom-rgba h-full pr-14 leading-[2.1rem]">
+          <div className="border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">Contact us</p>
             <p>Tel: +1 (844) 400-7222</p>
             <p>Fax: +1 (844) 709-7333</p>
