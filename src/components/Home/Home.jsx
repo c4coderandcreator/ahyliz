@@ -7,6 +7,7 @@ import DoubleP from "../HomeSecBg/DoubleP";
 import DoubleW from "../HomeSecBg/DoubleW";
 import Faq from "./Faq";
 import Contact from "./Contact";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -450,6 +451,7 @@ const Home = () => {
       </div>
       <Faq />
       <Contact />
+      <Footer />
     </>
   );
 };
