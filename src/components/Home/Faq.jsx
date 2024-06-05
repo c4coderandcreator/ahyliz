@@ -4,9 +4,9 @@ import Accordion from "../Accordion/Accordion";
 const Faq = () => {
   return (
     <>
-      <div className="flex bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-20 pb-[12rem]">
+      <div className="flex flex-wrap bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-20 sm:pb-[12rem] px-2 sm:px-0">
         {/* 1st */}
-        <div className="pt-48">
+        <div className="pt-8 sm:pt-48">
           <div
             className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -25,8 +25,8 @@ const Faq = () => {
             Frequently Asked Questions
           </p>
           <p className="font-[CamptonBook] text-[1.25rem] pb-[2rem]">
-            Learn more about the range of services provided by <br /> Ahyliz
-            Technologies, including;
+            Learn more about the range of services provided by{" "}
+            <br className="hidden sm:block" /> Ahyliz Technologies, including;
           </p>
           <p className="font-[CamptonBook] text-[1.25rem] pb-[1rem]">
             1. Enterprise Digital Transformation
@@ -45,8 +45,8 @@ const Faq = () => {
           </p>
         </div>
         {/* 2nd */}
-        <div className="pt-48">
-          <div className="p-4">
+        <div className="sm:pt-48 ">
+          <div className="p-6 ">
             <Accordion
               title="What is Ahyliz Technologies?"
               answer="Ahyliz Technologies is a leading IT service provider specializing in innovative technology solutions tailored to meet the diverse needs of businesses."

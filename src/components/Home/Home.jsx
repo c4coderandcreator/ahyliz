@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Navbar />
       {/* section 1 */}
-      <div className="flex p-20 mx-10 justify-between">
+      <div className="flex p-8 sm:p-20 sm:mx-10 justify-between">
         <div className="text-[1.25rem] mr-20 al">
           <div className="flex">
             <div>
@@ -27,7 +27,7 @@ const Home = () => {
               <p>Welcome To Ahyliz Technologies</p>
             </div>
           </div>
-          <p className="text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
+          <p className="text-[4.1rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
             Leading the <br /> Way in Digital <br /> Innovation.
           </p>
           <p className="py-2">Empowering Your Digital Future</p>
@@ -70,14 +70,14 @@ const Home = () => {
         </div>
         <div>
           <img
-            className="h-[29.375rem] w-[38.187rem] ml-20"
+            className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Images/Illustration.svg"
             alt="img"
           />
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-[7.5rem] py-20">
+      <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-20">
         <div className="flex items-center justify-center w-full ">
           <div className="flex justify-center w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -98,7 +98,7 @@ const Home = () => {
           Pioneering excellence in technology services
         </p>
 
-        <div className="flex my-[5rem] gap-[3.125rem] justify-center">
+        <div className="flex flex-wrap my-[5rem] gap-[3.125rem] justify-center">
           <div>
             {" "}
             <HomeSecBg />{" "}
@@ -193,7 +193,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-center text-center gap-[6rem] mx-[4rem]">
+        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center text-center gap-[2rem] sm:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0">
           <div className="flex flex-col items-center">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
@@ -240,7 +240,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div className=" px-[7.5rem] py-20">
+      <div className=" sm:px-[7.5rem] py-6 sm:py-20">
         <div className="flex  justify-center w-full items-center ">
           <div
             className="flex justify-center w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -263,12 +263,12 @@ const Home = () => {
         <p className="text-center font-[CamptonBook] text-[1.25rem]">
           Get your self ready for the most comprehensive solutions
         </p>
-        <div className="flex justify-center pt-[5rem] gap-2 w-full font-[CamptonBook]">
-          <div className="text-right w-[22.5rem]">
+        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[CamptonBook]">
+          <div className="text-left sm:text-right w-[22.5rem]">
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
               Enterprise Digital <br /> Transformation
             </p>
-            <p className="pb-[6.5rem]">
+            <p className="pb-4 sm:pb-[6.5rem]">
               Transform your business with Ahyliz <br /> Technologies'
               comprehensive Enterprise Digital <br /> Transformation
             </p>
@@ -280,7 +280,7 @@ const Home = () => {
               Software Development services.
             </p>
           </div>
-          <div className="w-[31.18rem]">
+          <div className="w-[31.18rem] hidden sm:block">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Images/Group%201000004731.svg"
               alt="img"
@@ -290,7 +290,7 @@ const Home = () => {
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
               Cloud Consulting Services
             </p>
-            <p className="pb-[8.7rem]">
+            <p className="pb-4 sm:pb-[8.7rem]">
               Navigate the complexities of cloud <br /> environments with Ahyliz
               Technologies' Cloud <br /> Consulting services.
             </p>
@@ -305,7 +305,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex justify-between items-center mx-[7.5rem] my-24 bg-[#f7f7f7] w-full rounded-lg">
+        <div className="flex justify-between items-center sm:mx-[7.5rem] my-4 sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
           <div className="px-8 py-3 font-[CamptonBold] text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
@@ -316,7 +316,7 @@ const Home = () => {
         </div>
       </div>
       {/* How it works */}
-      <div className=" px-[7.5rem] py-20 bg-[#f4f9ff]">
+      <div className=" sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
         <div className="flex justify-center w-full items-center ">
           <div
             className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -347,10 +347,10 @@ const Home = () => {
         </div>
       </div>
       {/* PLU */}
-      <div className=" px-[7.5rem] pt-20 ">
-        <div className="flex justify-center w-full items-center ">
+      <div className=" sm:px-[7.5rem] sm:pt-20 ">
+        <div className="flex justify-center sm:w-full items-center ">
           <div
-            className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -368,17 +368,17 @@ const Home = () => {
           Insights from satisfied customers
         </p>
         {/* parent */}
-        <div className="flex gap-3 px-[6.5rem] mt-4">
+        <div className="flex flex-wrap sm:flex-nowrap gap-3 sm:px-[6.5rem] mt-4">
           {/* child 1 */}
-          <div className="flex flex-col text-center items-center mt-8">
+          <div className="flex flex-col text-center items-center sm:mt-8">
             <div
-              className="flex flex-col text-center items-center p-6  rounded-2xl"
+              className="flex flex-col text-center items-center sm:p-6  rounded-2xl"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-8 font-[CamptonBook] mb-6 ">
+              <div className="sm:px-8 font-[CamptonBook] text-[1rem] mb-6 ">
                 Managed IT services by Ahyliz Technologies ensured our systems
                 ran smoothly, allowing us to focus on core business operations.
               </div>
@@ -386,7 +386,7 @@ const Home = () => {
             <div>
               <WhiteA />
             </div>
-            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+            <div className="mt-4 flex flex-col items-center sm:pb-[5rem]">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003.png"
                 alt="img"
@@ -396,21 +396,21 @@ const Home = () => {
             </div>
           </div>
           {/* child 2 */}
-          <div className="flex flex-col text-center items-center mt-8">
-            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-6 rounded-2xl">
+          <div className="flex flex-col text-center items-center sm:mt-8">
+            <div className="flex flex-col items-center bg-[#4f45e2] text-center sm:p-6 rounded-2xl">
               <div className="py-3">
                 <DoubleW />
               </div>
-              <div className=" px-8 text-white font-[CamptonBook] mb-6 ">
-                Impressive cloud consulting <br /> services from Ahyliz
-                Technologies. Seamless transition and improved <br />{" "}
-                efficiency!
+              <div className=" sm:px-8 text-white font-[CamptonBook] mb-6 ">
+                Impressive cloud consulting <br className="hidden sm:block" />{" "}
+                services from Ahyliz Technologies. Seamless transition and
+                improved <br className="hidden sm:block" /> efficiency!
               </div>
             </div>
             <div>
               <PurpleA />
             </div>
-            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+            <div className="mt-4 flex flex-col items-center sm:pb-[5rem]">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2002.png"
                 alt="img"
@@ -422,15 +422,15 @@ const Home = () => {
             </div>
           </div>
           {/* child 3 */}
-          <div className="flex flex-col text-center items-center mt-8">
+          <div className="flex flex-col text-center items-center sm:mt-8">
             <div
-              className="flex flex-col text-center items-center p-6  rounded-2xl"
+              className="flex flex-col text-center items-center sm:p-6  rounded-2xl"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-8 font-[CamptonBook] mb-6 ">
+              <div className="sm:px-8 font-[CamptonBook] mb-6 ">
                 Ahyliz Technologies transformed our outdated systems into
                 efficient digital solutions. Highly recommend their expertise!
               </div>
@@ -438,7 +438,7 @@ const Home = () => {
             <div>
               <WhiteA />
             </div>
-            <div className="mt-4 flex flex-col items-center pb-[5rem]">
+            <div className="mt-4 flex flex-col items-center sm:pb-[5rem]">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003-1.png"
                 alt="img"

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="relative bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgContact%20us.png')] bg-cover h-[48rem]">
-        <div className="flex justify-between gap-40 relative z-10 ml-[10rem] mt-[3rem]">
+        <div className="flex flex-wrap justify-between gap-6 sm:gap-40 relative z-10 sm:ml-[10rem] mt-[3rem]">
           <div>
             <div
               className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-8"
@@ -23,8 +23,8 @@ const Contact = () => {
             <p className="font-[CamptonBold] text-[2rem] text-[#4f45e2]">
               Let’s talk! <br /> Love to hear from you.
             </p>
-            <div className="flex gap-[5rem] mt-[3rem]">
-              <div className="flex gap-[2rem]">
+            <div className="flex flex-wrap sm:flex-nowrap sm:gap-[5rem] mt-[3rem]">
+              <div className="flex gap-2 sm:gap-[2rem]">
                 <div>
                   <img
                     src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/e9e8d354842ffc4a2777223061de82f54f46bacc/Resources/Home/Icons/location.svg"
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex">
-                <div className="flex gap-[2rem]">
+                <div className="flex gap-2 sm:gap-[2rem]">
                   <div>
                     <img
                       src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/e9e8d354842ffc4a2777223061de82f54f46bacc/Resources/Home/Icons/sms.svg"
@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="rounded-2xl mr-[10rem] w-[32rem] h-[42rem] p-[5rem] bg-white relative z-20"
+            className="rounded-2xl mx-2  sm:mr-[10rem] w-full sm:w-[32rem] sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
             style={{ boxShadow: "0px 4px 30px 0px rgba(0, 0, 0, 0.10)" }}
           >
             <p className="font-[CamptonSemiBold] text-[1.75rem] pb-8">
