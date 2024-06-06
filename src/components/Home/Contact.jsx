@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="flex flex-wrap justify-between gap-6 sm:gap-40 relative z-10 sm:ml-[10rem] mt-[3rem]">
           <div>
             <div
-              className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
+              className="flex justify-center w-full sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
             >
               <div className=" ">

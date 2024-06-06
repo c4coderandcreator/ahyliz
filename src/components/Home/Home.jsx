@@ -14,8 +14,8 @@ const Home = () => {
     <>
       <Navbar />
       {/* section 1 */}
-      <div className="flex p-8 sm:p-20 sm:mx-10 justify-between">
-        <div className="text-[1.25rem] mr-20 al">
+      <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
+        <div className="sm:text-[1.25rem] sm:mr-20 al">
           <div className="flex">
             <div>
               <img
@@ -23,11 +23,11 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="mx-2 font-[CamptonMedium] pb-4">
+            <div className="sm:mx-2 font-[CamptonMedium] pb-4">
               <p>Welcome To Ahyliz Technologies</p>
             </div>
           </div>
-          <p className="text-[4.1rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
+          <p className="text-[3.5rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
             Leading the <br /> Way in Digital <br /> Innovation.
           </p>
           <p className="py-2">Empowering Your Digital Future</p>
@@ -79,7 +79,7 @@ const Home = () => {
       {/* section 2 */}
       <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-20">
         <div className="flex items-center justify-center w-full ">
-          <div className="flex justify-center w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+          <div className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
@@ -243,7 +243,7 @@ const Home = () => {
       <div className=" sm:px-[7.5rem] py-6 sm:py-20">
         <div className="flex  justify-center w-full items-center ">
           <div
-            className="flex justify-center w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center mx-4 sm:mx-0 w-full sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -305,11 +305,11 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+        <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
           <div className="px-2 sm:px-8 py-3 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
-          <div className="px-1 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold]">
+          <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold]">
             {" "}
             See How It Works?
           </div>
@@ -317,9 +317,9 @@ const Home = () => {
       </div>
       {/* How it works */}
       <div className=" sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
-        <div className="flex justify-center w-full items-center ">
+        <div className="flex justify-center w-auto items-center ">
           <div
-            className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center mx-6 sm:mx-0 w-full sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -350,7 +350,7 @@ const Home = () => {
       <div className="px-4 sm:px-[7.5rem] sm:pt-20 pt-10">
         <div className="flex justify-center w-full items-center">
           <div
-            className="flex justify-center w-[14rem] sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div>
