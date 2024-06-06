@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="flex flex-wrap justify-between gap-6 sm:gap-40 relative z-10 sm:ml-[10rem] mt-[3rem]">
           <div>
             <div
-              className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-8"
+              className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
             >
               <div className=" ">
@@ -20,10 +20,10 @@ const Contact = () => {
                 <p>Contact us</p>
               </div>
             </div>
-            <p className="font-[CamptonBold] text-[2rem] text-[#4f45e2]">
+            <p className="font-[CamptonBold] leading-8 sm:leading-none text-[2rem] text-[#4f45e2] mb-4 sm:mb-0">
               Let’s talk! <br /> Love to hear from you.
             </p>
-            <div className="flex flex-wrap sm:flex-nowrap sm:gap-[5rem] mt-[3rem]">
+            <div className="flex flex-wrap sm:flex-nowrap sm:gap-[5rem] sm:mt-[3rem]">
               <div className="flex gap-2 sm:gap-[2rem]">
                 <div>
                   <img
@@ -45,12 +45,13 @@ const Contact = () => {
                 <div className="flex gap-2 sm:gap-[2rem]">
                   <div>
                     <img
+                      className="mt-4 sm:mt-0"
                       src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/e9e8d354842ffc4a2777223061de82f54f46bacc/Resources/Home/Icons/sms.svg"
                       alt="img"
                     />
                   </div>
                   <div>
-                    <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4">
+                    <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4 mt-4 sm:mt-0">
                       How Can We Help?
                     </p>
                     <p className="text-[#888888] font-[CamptonBook]">

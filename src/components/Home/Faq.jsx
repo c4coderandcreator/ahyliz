@@ -4,14 +4,30 @@ import Accordion from "../Accordion/Accordion";
 const Faq = () => {
   return (
     <>
-      <div className="flex flex-wrap bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-20 sm:pb-[12rem] px-2 sm:px-0">
+      {/* <div className="flex sm:hidden bg-[#F4F9FF] bg-cover">
+        <div
+          className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+        >
+          <div className=" ">
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/55ea6f2e9103d76a7d626d2f12df297e89be99e9/Resources/Home/Icons/message-question.svg"
+              alt="img"
+            />
+          </div>
+          <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+            <p>Got Question?</p>
+          </div>
+        </div>
+      </div> */}
+      <div className="flex w-full flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
         {/* 1st */}
-        <div className="pt-8 sm:pt-48">
+        <div className="w-full sm:w-auto sm:pt-48">
           <div
-            className="flex justify-center w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center w-full sm:w-[14rem] gap-2 px-1 my-4 sm:my-0 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
-            <div className=" ">
+            <div>
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/55ea6f2e9103d76a7d626d2f12df297e89be99e9/Resources/Home/Icons/message-question.svg"
                 alt="img"
@@ -21,7 +37,7 @@ const Faq = () => {
               <p>Got Question?</p>
             </div>
           </div>
-          <p className="font-[CamptonBold] text-[2rem] py-[2rem]">
+          <p className="font-[CamptonBold] text-[2rem] py-4 sm:py-[2rem]">
             Frequently Asked Questions
           </p>
           <p className="font-[CamptonBook] text-[1.25rem] pb-[2rem]">
@@ -40,15 +56,16 @@ const Faq = () => {
           <p className="font-[CamptonBook] text-[1.25rem] pb-[3rem]">
             4. Software Development.
           </p>
-          <p className="w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[CamptonMedium]">
+          <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[CamptonMedium]">
             Ask Question
           </p>
         </div>
         {/* 2nd */}
-        <div className="sm:pt-48 ">
-          <div className="p-6 ">
+        <div className="w-full sm:w-auto sm:pt-48">
+          <div className="p-0 sm:p-6 w-full">
             <Accordion
-              title="What is Ahyliz Technologies?"
+              className="w-full"
+              title="What is Ahyliz Technologies?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
               answer="Ahyliz Technologies is a leading IT service provider specializing in innovative technology solutions tailored to meet the diverse needs of businesses."
             />
             <Accordion
@@ -64,7 +81,7 @@ const Faq = () => {
               answer="Ahyliz Technologies serves a diverse range of industries, including healthcare, finance, retail, manufacturing, and education. Our expertise in these sectors allows us to provide tailored technology solutions that meet the specific needs and regulatory requirements of each industry. By leveraging our deep industry knowledge, we help our clients achieve their business objectives and stay ahead of the competition."
             />
             <Accordion
-              title="How to contact Ahyliz Technologies?"
+              title="How to contact Ahyliz Technologies? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
               answer="You can easily get in touch with Ahyliz Technologies through various channels. Visit our website and fill out the contact form, or send us an email at contact@ahyliz.com. For more immediate inquiries, you can also call our customer service hotline at (123) 456-7890. Additionally, we are active on social media platforms like LinkedIn, Twitter, and Facebook, where you can follow us for updates and reach out with any questions. We look forward to connecting with you!"
             />
           </div>

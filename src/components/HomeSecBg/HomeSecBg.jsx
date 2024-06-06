@@ -210,9 +210,9 @@ const HomeSecBg = () => {
       </svg>
       {/* // 2nd for small screen */}
       <svg
-        className=" sm:hidden"
-        width="400"
-        height="420"
+        className=" overflow-hidden sm:hidden"
+        width="390"
+        height="410"
         viewBox="0 0 549 584"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

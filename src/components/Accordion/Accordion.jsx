@@ -4,12 +4,12 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2">
+    <div className="py-1 sm:py-2 w-full">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between text-left sm:w-[37.5rem]"
+        className="flex justify-evenly sm:justify-between text-left sm:w-[37.5rem]"
       >
-        <span className=" font-[CamptonMedium] text-[1.25rem] mb-[2rem]">
+        <span className=" font-[CamptonMedium] sm:text-[1.25rem] sm:mb-[2rem] w-full">
           {title}
         </span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}

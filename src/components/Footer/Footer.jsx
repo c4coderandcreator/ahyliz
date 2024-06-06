@@ -11,7 +11,7 @@ const Footer = () => {
               alt="img"
             />
             <p className="text-[1rem]">
-              Empowering Your Digital <br /> Future
+              Empowering Your Digital <br className="hidden sm:block" /> Future
             </p>
             <div className="flex gap-5 items-center py-3">
               <div>
@@ -66,8 +66,8 @@ const Footer = () => {
             <p className="font-[CamptonSemiBold]">Contact us</p>
             <p>Tel: +1 (844) 400-7222</p>
             <p>Fax: +1 (844) 709-7333</p>
-            <p>info@ahyliz.ca</p>
-            <p>contact@ahyliz.ca</p>
+            <p>Email: info@ahyliz.ca</p>
+            <p>Email: contact@ahyliz.ca</p>
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
