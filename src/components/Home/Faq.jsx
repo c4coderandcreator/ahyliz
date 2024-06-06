@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "../Accordion/Accordion";
+import { Link } from "react-router-dom";
 
 const Faq = () => {
   return (
@@ -56,9 +57,11 @@ const Faq = () => {
           <p className="font-[CamptonBook] text-[1.25rem] pb-[3rem]">
             4. Software Development.
           </p>
-          <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[CamptonMedium]">
-            Ask Question
-          </p>
+          <Link to="/contact">
+            <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[CamptonMedium] hover:opacity-40">
+              Ask Question
+            </p>
+          </Link>
         </div>
         {/* 2nd */}
         <div className="w-full sm:w-auto sm:pt-48">

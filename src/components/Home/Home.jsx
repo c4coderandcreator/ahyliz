@@ -1,18 +1,13 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import HomeSecBg from "../HomeSecBg/HomeSecBg";
-import WhiteA from "../HomeSecBg/WhiteA";
-import PurpleA from "../HomeSecBg/PurpleA";
-import DoubleP from "../HomeSecBg/DoubleP";
-import DoubleW from "../HomeSecBg/DoubleW";
 import Faq from "./Faq";
 import Contact from "./Contact";
-import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
+import Plu from "./Plu";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       {/* section 1 */}
       <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
         <div className="sm:text-[1.25rem] sm:mr-20 al">
@@ -32,10 +27,16 @@ const Home = () => {
           </p>
           <p className="py-2">Empowering Your Digital Future</p>
           <div className="flex items-center mt-8 font-[CamptonBook]">
-            <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white">
-              Explore more
-            </p>
-            <p className="ml-14 text-[#4f45e2]">contact us</p>
+            <Link to="/about">
+              <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
+                Explore more
+              </p>
+            </Link>
+            <Link to="/contact">
+              <p className="ml-14 text-[#4f45e2] hover:text-black">
+                contact us
+              </p>
+            </Link>
           </div>
 
           <div className="flex text-[#4f45e2] text-[1rem] py-6">
@@ -45,26 +46,36 @@ const Home = () => {
               </p>
             </div>
             <div className="flex">
-              <img
-                className="pl-6 pr-2"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20171.svg"
-                alt="insta"
-              />
-              <img
-                className="px-2"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20170.svg"
-                alt="linkedin"
-              />
-              <img
-                className="px-2"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Path%208.svg"
-                alt="x.com"
-              />
-              <img
-                className="px-2"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/facebook.svg"
-                alt="facebook"
-              />
+              <Link to="https://www.instagram.com/">
+                <img
+                  className="pl-6 pr-2 hover:opacity-40"
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20171.svg"
+                  alt="insta"
+                />
+              </Link>
+              <Link to="https://www.linkedin.com/">
+                <img
+                  className="px-2 hover:opacity-40"
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20170.svg"
+                  alt="linkedin"
+                />
+              </Link>
+
+              <Link to="https://www.x.com/">
+                <img
+                  className="px-2 hover:opacity-40"
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Path%208.svg"
+                  alt="x.com"
+                />
+              </Link>
+
+              <Link to="https://www.facebook.com/">
+                <img
+                  className="px-2 hover:opacity-40"
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/facebook.svg"
+                  alt="facebook"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -188,9 +199,11 @@ const Home = () => {
                 <p>Cloud Computing</p>
               </div>
             </div>
-            <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[CamptonBook]">
-              Read More
-            </p>
+            <Link to="/about">
+              <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[CamptonBook] hover:opacity-40">
+                Read More
+              </p>
+            </Link>
           </div>
         </div>
         <div className="flex flex-wrap sm:flex-nowrap justify-center items-center text-center gap-[2rem] sm:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0">
@@ -309,10 +322,12 @@ const Home = () => {
           <div className="px-2 sm:px-8 py-3 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
-          <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold]">
-            {" "}
-            See How It Works?
-          </div>
+          <Link to="/services">
+            <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+              {" "}
+              See How It Works?
+            </div>
+          </Link>
         </div>
       </div>
       {/* How it works */}
@@ -347,112 +362,9 @@ const Home = () => {
         </div>
       </div>
       {/* PLU */}
-      <div className="px-4 sm:px-[7.5rem] sm:pt-20 pt-10">
-        <div className="flex justify-center w-full items-center">
-          <div
-            className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
-            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
-          >
-            <div>
-              <img src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/55ea6f2e9103d76a7d626d2f12df297e89be99e9/Resources/Home/Icons/heart.svg" />
-            </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
-              <p>People Love Us</p>
-            </div>
-          </div>
-        </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
-          Discover Our Clients' Experiences
-        </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
-          Insights from satisfied customers
-        </p>
-        {/* parent */}
-        <div className="flex flex-wrap sm:flex-nowrap gap-3 sm:px-[6.5rem] mt-4">
-          {/* child 1 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
-            <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto"
-              style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
-            >
-              <div className="py-3">
-                <DoubleP />
-              </div>
-              <div className="px-4 sm:px-8 font-[CamptonBook] text-[1rem] mb-6">
-                Managed IT services by Ahyliz Technologies ensured our systems
-                ran smoothly, allowing us to focus on core business operations.
-              </div>
-            </div>
-            <div>
-              <WhiteA />
-            </div>
-            <div className="mt-4 flex flex-col items-center pb-10 sm:pb-[5rem]">
-              <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003.png"
-                alt="img"
-              />
-              <p className="text-center font-[CamptonSemiBold] pt-1">Stephen</p>
-              <p className="text-center font-[CamptonBook]">@client</p>
-            </div>
-          </div>
-          {/* child 2 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
-            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto">
-              <div className="py-3">
-                <DoubleW />
-              </div>
-              <div className="px-4 sm:px-8 text-white font-[CamptonBook] mb-6">
-                Impressive cloud consulting <br className="hidden sm:block" />{" "}
-                services from Ahyliz Technologies. Seamless transition and
-                improved <br className="hidden sm:block" /> efficiency!
-              </div>
-            </div>
-            <div>
-              <PurpleA />
-            </div>
-            <div className="mt-4 flex flex-col items-center pb-10 sm:pb-[5rem]">
-              <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2002.png"
-                alt="img"
-              />
-              <p className="text-center font-[CamptonSemiBold] pt-1">
-                Alen Max
-              </p>
-              <p className="text-center font-[CamptonBook]">@client</p>
-            </div>
-          </div>
-          {/* child 3 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
-            <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto"
-              style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
-            >
-              <div className="py-3">
-                <DoubleP />
-              </div>
-              <div className="px-4 sm:px-8 font-[CamptonBook] mb-6">
-                Ahyliz Technologies transformed our outdated systems into
-                efficient digital solutions. Highly recommend their expertise!
-              </div>
-            </div>
-            <div>
-              <WhiteA />
-            </div>
-            <div className="mt-4 flex flex-col items-center pb-[2rem] sm:pb-[5rem]">
-              <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003-1.png"
-                alt="img"
-              />
-              <p className="text-center font-[CamptonSemiBold] pt-1">Sarah</p>
-              <p className="text-center font-[CamptonBook]">@client</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Plu />
       <Faq />
       <Contact />
-      <Footer />
     </>
   );
 };

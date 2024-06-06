@@ -55,8 +55,8 @@ const Contact = () => {
                       How Can We Help?
                     </p>
                     <p className="text-[#888888] font-[CamptonBook]">
-                      info@ahyliz.ca,
-                      <br /> contact@ahyliz.ca
+                      Email: info@ahyliz.ca,
+                      <br /> Email: contact@ahyliz.ca
                     </p>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                 placeholder="type your message here"
               />
               <input
-                className="bg-[#4f45e2] text-white font-[CamptonBook] font-medium text-xs md:text-base border-2 border-webbut-400 bg-webbut-400 hover:bg-black hover:text-webbut-400 cursor-pointer w-[8rem] items-center py-4 sm:py-2 md:py-3 my-4 rounded-lg mt-6"
+                className="bg-[#4f45e2] text-white font-[CamptonBook] font-medium text-xs md:text-base border-2 border-webbut-400 bg-webbut-400 hover:opacity-40 cursor-pointer w-[8rem] items-center py-4 sm:py-2 md:py-3 my-4 rounded-lg mt-6"
                 type="submit"
                 value="Send"
               />

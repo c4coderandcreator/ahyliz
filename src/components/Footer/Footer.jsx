@@ -16,24 +16,28 @@ const Footer = () => {
             <div className="flex gap-5 items-center py-3">
               <div>
                 <img
+                  className="hover:opacity-40"
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/instagram.png"
                   alt="insta"
                 />
               </div>
               <div>
                 <img
+                  className="hover:opacity-40"
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/linkedin.png"
                   alt="linkedin"
                 />
               </div>
               <div>
                 <img
+                  className="hover:opacity-40"
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/twitter.png"
                   alt="twitter"
                 />
               </div>
               <div>
                 <img
+                  className="hover:opacity-40"
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/facebook.png"
                   alt="facebook"
                 />
@@ -42,19 +46,19 @@ const Footer = () => {
           </div>
           <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">Home</p>
-            <p>Explore more</p>
-            <p>Services we offer</p>
-            <p>Careers</p>
-            <p>FAQs</p>
-            <p>Contact us</p>
+            <p className="hover:opacity-40">Explore more</p>
+            <p className="hover:opacity-40">Services we offer</p>
+            <p className="hover:opacity-40">Careers</p>
+            <p className="hover:opacity-40">FAQs</p>
+            <p className="hover:opacity-40">Contact us</p>
           </div>
           <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">About us</p>
-            <p>How it Works?</p>
-            <p>Our Team</p>
-            <p>Privacy Policy</p>
-            <p>Terms of use</p>
-            <p>Accessibility</p>
+            <p className="hover:opacity-40">How it Works?</p>
+            <p className="hover:opacity-40">Our Team</p>
+            <p className="hover:opacity-40">Privacy Policy</p>
+            <p className="hover:opacity-40">Terms of use</p>
+            <p className="hover:opacity-40">Accessibility</p>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
             <p className="font-[CamptonSemiBold]">Address</p>
@@ -64,10 +68,10 @@ const Footer = () => {
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
             <p className="font-[CamptonSemiBold]">Contact us</p>
-            <p>Tel: +1 (844) 400-7222</p>
-            <p>Fax: +1 (844) 709-7333</p>
-            <p>Email: info@ahyliz.ca</p>
-            <p>Email: contact@ahyliz.ca</p>
+            <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>
+            <p className="hover:opacity-40">Fax: +1 (844) 709-7333</p>
+            <p className="hover:opacity-40">Email: info@ahyliz.ca</p>
+            <p className="hover:opacity-40">Email: contact@ahyliz.ca</p>
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
