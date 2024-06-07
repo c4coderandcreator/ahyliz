@@ -104,83 +104,67 @@ const Careers = () => {
         Take your skills and passion to the next level
       </p>
 
-      <div className="flex justify-evenly my-[5rem]">
+      <div className="flex items-center justify-center gap-12 my-[5rem]">
         {/* 1st */}
         <div
-          className="p-[2rem]"
+          className="p-[2rem] font-[CamptonBook] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
-          <div className="flex flex-col justify-between">
-            <div className="flex">
+          <div className="flex flex-col justify-between ">
+            <div className="flex ">
               <div>
-                <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    x="0.5"
-                    y="0.5"
-                    width="47"
-                    height="47"
-                    rx="23.5"
-                    fill="#F4F9FF"
-                  />
-                  <rect
-                    x="0.5"
-                    y="0.5"
-                    width="47"
-                    height="47"
-                    rx="23.5"
-                    stroke="#E8ECF4"
-                  />
-                  <path
-                    d="M26.5 23.4H21.5C21.09 23.4 20.75 23.06 20.75 22.65C20.75 22.24 21.09 21.9 21.5 21.9H26.5C26.91 21.9 27.25 22.24 27.25 22.65C27.25 23.06 26.91 23.4 26.5 23.4Z"
-                    fill="#4F45E2"
-                  />
-                  <path
-                    d="M24 25.96C23.59 25.96 23.25 25.62 23.25 25.21V20.21C23.25 19.8 23.59 19.46 24 19.46C24.41 19.46 24.75 19.8 24.75 20.21V25.21C24.75 25.62 24.41 25.96 24 25.96Z"
-                    fill="#4F45E2"
-                  />
-                  <path
-                    d="M31.0701 34.75C30.5601 34.75 30.0001 34.6 29.4601 34.29L24.5801 31.58C24.2901 31.42 23.7201 31.42 23.4301 31.58L18.5501 34.29C17.5601 34.84 16.5501 34.9 15.7801 34.44C15.0101 33.99 14.5701 33.08 14.5701 31.95V17.86C14.5701 15.32 16.6401 13.25 19.1801 13.25H28.8301C31.3701 13.25 33.4401 15.32 33.4401 17.86V31.95C33.4401 33.08 33.0001 33.99 32.2301 34.44C31.8801 34.65 31.4801 34.75 31.0701 34.75ZM24.0001 29.96C24.4701 29.96 24.9301 30.06 25.3001 30.27L30.1801 32.98C30.6901 33.27 31.1601 33.33 31.4601 33.15C31.7601 32.97 31.9301 32.54 31.9301 31.95V17.86C31.9301 16.15 30.5301 14.75 28.8201 14.75H19.1801C17.4701 14.75 16.0701 16.15 16.0701 17.86V31.95C16.0701 32.54 16.2401 32.98 16.5401 33.15C16.8401 33.32 17.3101 33.27 17.8201 32.98L22.7001 30.27C23.0701 30.06 23.5301 29.96 24.0001 29.96Z"
-                    fill="#4F45E2"
-                  />
-                </svg>
-              </div>
-              <div></div>
-              <div>
-                <p className="font-[CamptonSemiBold] text-[2rem]">
+                <p className="font-[CamptonSemiBold] text-[2rem] mr-24">
                   Full Stack Developer
                 </p>
-                <p>
+                <p className="pt-[1rem]">
                   {" "}
-                  <span>Full Time</span> <span> 1-3 Years</span>
+                  <span className="mr-3 p-[12px] rounded-3xl bg-[#f4f9ff]">
+                    Full Time
+                  </span>{" "}
+                  <span className="p-[12px] rounded-3xl bg-[#f4f9ff]">
+                    {" "}
+                    1-3 Years
+                  </span>
                 </p>
               </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
+                  alt="img"
+                />
+              </div>
             </div>
-            <div>
-              <div className="flex">
-                <img src="" alt="" />
+            <div className="py-[2rem]">
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/bold/money.png"
+                  alt="img"
+                />
                 <p>USD $100k - $120k</p>
               </div>
-              <div className="flex">
-                <img src="" alt="" />
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/44b267cc0bf569453970bc0a4cef5c795363d77a/Resources/Careers/vuesax/bold/location.svg"
+                  alt="img"
+                />
                 <p>Toronto, Canada</p>
               </div>
-              <div className="flex">
-                <img src="" alt="" />
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/bold/calendar.png"
+                  alt="img"
+                />
                 <p>June 15, 2024</p>
               </div>
             </div>
             <div className="flex justify-between">
               <div>
-                <p>Posted 15 days ago</p>
+                <p className="font-[CamptonSemiBold] p-3">Posted 15 days ago</p>
               </div>
               <div>
-                <p>Apply Now</p>
+                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
+                  Apply Now
+                </p>
               </div>
             </div>
           </div>
@@ -188,77 +172,64 @@ const Careers = () => {
 
         {/* 2nd */}
         <div
-          className="p-[2rem]"
+          className="p-[2rem] font-[CamptonBook] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
-          <div className="flex flex-col justify-between">
-            <div>
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="0.5"
-                  y="0.5"
-                  width="47"
-                  height="47"
-                  rx="23.5"
-                  fill="#F4F9FF"
+          <div className="flex flex-col justify-between ">
+            <div className="flex ">
+              <div>
+                <p className="font-[CamptonSemiBold] text-[2rem] mr-24">
+                  DevOps Engineer
+                </p>
+                <p className="pt-[1rem]">
+                  {" "}
+                  <span className="mr-3 p-[12px] rounded-3xl bg-[#f4f9ff]">
+                    Full Time
+                  </span>{" "}
+                  <span className="p-[12px] rounded-3xl bg-[#f4f9ff]">
+                    {" "}
+                    1-3 Years
+                  </span>
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
+                  alt="img"
                 />
-                <rect
-                  x="0.5"
-                  y="0.5"
-                  width="47"
-                  height="47"
-                  rx="23.5"
-                  stroke="#E8ECF4"
-                />
-                <path
-                  d="M26.5 23.4H21.5C21.09 23.4 20.75 23.06 20.75 22.65C20.75 22.24 21.09 21.9 21.5 21.9H26.5C26.91 21.9 27.25 22.24 27.25 22.65C27.25 23.06 26.91 23.4 26.5 23.4Z"
-                  fill="#4F45E2"
-                />
-                <path
-                  d="M24 25.96C23.59 25.96 23.25 25.62 23.25 25.21V20.21C23.25 19.8 23.59 19.46 24 19.46C24.41 19.46 24.75 19.8 24.75 20.21V25.21C24.75 25.62 24.41 25.96 24 25.96Z"
-                  fill="#4F45E2"
-                />
-                <path
-                  d="M31.0701 34.75C30.5601 34.75 30.0001 34.6 29.4601 34.29L24.5801 31.58C24.2901 31.42 23.7201 31.42 23.4301 31.58L18.5501 34.29C17.5601 34.84 16.5501 34.9 15.7801 34.44C15.0101 33.99 14.5701 33.08 14.5701 31.95V17.86C14.5701 15.32 16.6401 13.25 19.1801 13.25H28.8301C31.3701 13.25 33.4401 15.32 33.4401 17.86V31.95C33.4401 33.08 33.0001 33.99 32.2301 34.44C31.8801 34.65 31.4801 34.75 31.0701 34.75ZM24.0001 29.96C24.4701 29.96 24.9301 30.06 25.3001 30.27L30.1801 32.98C30.6901 33.27 31.1601 33.33 31.4601 33.15C31.7601 32.97 31.9301 32.54 31.9301 31.95V17.86C31.9301 16.15 30.5301 14.75 28.8201 14.75H19.1801C17.4701 14.75 16.0701 16.15 16.0701 17.86V31.95C16.0701 32.54 16.2401 32.98 16.5401 33.15C16.8401 33.32 17.3101 33.27 17.8201 32.98L22.7001 30.27C23.0701 30.06 23.5301 29.96 24.0001 29.96Z"
-                  fill="#4F45E2"
-                />
-              </svg>
+              </div>
             </div>
-            <div>
-              <p className="font-[CamptonSemiBold] text-[2rem]">
-                Full Stack Developer
-              </p>
-              <p>
-                {" "}
-                <span>Full Time</span> <span> 1-3 Years</span>
-              </p>
-            </div>
-            <div>
-              <div className="flex">
-                <img src="" alt="" />
+            <div className="py-[2rem]">
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/bold/money.png"
+                  alt="img"
+                />
                 <p>USD $100k - $120k</p>
               </div>
-              <div className="flex">
-                <img src="" alt="" />
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/44b267cc0bf569453970bc0a4cef5c795363d77a/Resources/Careers/vuesax/bold/location.svg"
+                  alt="img"
+                />
                 <p>Toronto, Canada</p>
               </div>
-              <div className="flex">
-                <img src="" alt="" />
+              <div className="flex gap-4">
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/bold/calendar.png"
+                  alt="img"
+                />
                 <p>June 15, 2024</p>
               </div>
             </div>
             <div className="flex justify-between">
               <div>
-                <p>Posted 15 days ago</p>
+                <p className="font-[CamptonSemiBold] p-3">Posted 15 days ago</p>
               </div>
               <div>
-                <p>Apply Now</p>
+                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
+                  Apply Now
+                </p>
               </div>
             </div>
           </div>
@@ -277,6 +248,138 @@ const Careers = () => {
               See How It Works?
             </div>
           </Link>
+        </div>
+      </div>
+
+      {/* next section */}
+      <div className="flex items-center justify-center w-full ">
+        <div
+          className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+        >
+          <div className=" ">
+            <img
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+              alt="img"
+            />
+          </div>
+          <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <p>Contact us</p>
+          </div>
+        </div>
+      </div>
+      <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+        Get in Touch With Us Now
+      </p>
+      <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+        Contact us without any hesitation
+      </p>
+
+      <div className="flex items-center justify-center gap-12 my-[5rem]">
+        {/* 1st */}
+        <div
+          className="p-[2rem] font-[CamptonBook] rounded-xl"
+          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+        >
+          <div className="flex flex-col justify-between ">
+            <div className="flex justify-between ">
+              <div>
+                <p className="font-[CamptonSemiBold] text-[2rem] ">Call Us</p>
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+            <div className="py-[2rem]">
+              <div className="flex">
+                <p>
+                  Keen to chat with one of our Expert? Go <br /> on, we don’t
+                  bite. Give us a call on the number below.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-start">
+              <div>
+                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
+                  12345 246189
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 2nd */}
+        <div
+          className="p-[2rem] font-[CamptonBook] rounded-xl bg-[#4f45e2]"
+          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+        >
+          <div className="flex flex-col justify-between">
+            <div className="flex justify-between ">
+              <div>
+                <p className="font-[CamptonSemiBold] text-[2rem] text-white ">
+                  Email Us
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+            <div className="py-[2rem]">
+              <div className="flex text-white">
+                <p>
+                  Keen to chat with one of our Expert? Go <br /> on, we don’t
+                  bite. Give us a call on the number below.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-start">
+              <div>
+                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl bg-white border-[#4f45e2]">
+                  @ Email us Now
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* 3rd */}
+        <div
+          className="p-[2rem] font-[CamptonBook] rounded-xl"
+          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+        >
+          <div className="flex flex-col justify-between ">
+            <div className="flex justify-between ">
+              <div>
+                <p className="font-[CamptonSemiBold] text-[2rem]">Support</p>
+              </div>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
+                  alt="img"
+                />
+              </div>
+            </div>
+            <div className="py-[2rem]">
+              <div className="flex">
+                <p>
+                  Keen to chat with one of our Expert? Go <br /> on, we don’t
+                  bite. Give us a call on the number below.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-start">
+              <div>
+                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
+                  Open Chat Bot
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
