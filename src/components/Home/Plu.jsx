@@ -8,7 +8,7 @@ const Plu = () => {
   return (
     <>
       {/* PLU */}
-      <div className="px-4 sm:px-[7.5rem] sm:pt-20 pt-10">
+      <div className="px-4 sm:px-[7.5rem] sm:pt-o pt-10">
         <div className="flex justify-center w-full items-center">
           <div
             className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
