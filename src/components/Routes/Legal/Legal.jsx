@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Legal = () => {
   return (
     <>
-      <div className="bg-[#4f45e2]">
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/d61df2fc5f24d552268b46a9ea3bf0dd09530661/Resources/Legal/Hero.svg')] bg-cover">
         <div className="flex items-center justify-center w-full pt-[5rem]  ">
           <div
             className=" flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -36,43 +36,41 @@ const Legal = () => {
           </Link>
         </div>
 
-        <div className="flex items-center justify-center text-white text-[1rem] py-6">
+        <div className="flex items-center justify-center text-white text-[1rem] py-6 pb-[4.5rem]">
           <div>
-            <p className="tracking-[0.3rem] font-[CamptonSemiBold]">
+            <p className="tracking-[0.3rem] font-[CamptonSemiBold] mr-6">
               FOLLOW US
             </p>
           </div>
-          <div className="flex">
-            <Link to="https://www.instagram.com/">
+          <div className="flex gap-5 items-center py-3">
+            <div>
               <img
-                className="pl-6 pr-2 hover:opacity-40"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20171.svg"
+                className="hover:opacity-40"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/instagram.png"
                 alt="insta"
               />
-            </Link>
-            <Link to="https://www.linkedin.com/">
+            </div>
+            <div>
               <img
-                className="px-2 hover:opacity-40"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Group%20170.svg"
+                className="hover:opacity-40"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/linkedin.png"
                 alt="linkedin"
               />
-            </Link>
-
-            <Link to="https://www.x.com/">
+            </div>
+            <div>
               <img
-                className="px-2 hover:opacity-40"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/Path%208.svg"
-                alt="x.com"
+                className="hover:opacity-40"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/twitter.png"
+                alt="twitter"
               />
-            </Link>
-
-            <Link to="https://www.facebook.com/">
+            </div>
+            <div>
               <img
-                className="px-2 hover:opacity-40"
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/facebook.svg"
+                className="hover:opacity-40"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/facebook.png"
                 alt="facebook"
               />
-            </Link>
+            </div>
           </div>
         </div>
       </div>
