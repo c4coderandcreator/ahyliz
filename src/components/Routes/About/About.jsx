@@ -279,22 +279,38 @@ const About = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="flex mx-[6.25rem] my-[5rem] gap-[1.875rem]">
+        <div className="grid grid-cols-4 mx-[6.25rem] my-[5rem] gap-[1.875rem]">
           <div>
             {" "}
-            <img src="" alt="img" />
+            <img
+              className="w-[16.875rem] h-[20.625rem] "
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338.svg"
+              alt="img"
+            />
           </div>
           <div>
             {" "}
-            <img src="" alt="img" />
+            <img
+              className="w-[16.875rem] h-[20.625rem] "
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-1.jpg"
+              alt="img"
+            />
           </div>
           <div>
             {" "}
-            <img src="" alt="img" />
+            <img
+              className="w-[16.875rem] h-[20.625rem] "
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-2.jpg"
+              alt="img"
+            />
           </div>
           <div>
             {" "}
-            <img src="" alt="img" />
+            <img
+              className="w-[16.875rem] h-[20.625rem] "
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-3.jpg"
+              alt="img"
+            />
           </div>
         </div>
       </div>
