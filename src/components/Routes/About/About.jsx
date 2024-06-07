@@ -258,9 +258,12 @@ const About = () => {
       </div>
 
       {/* section 5 */}
-      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[6.25rem] my-[5rem] rounded-3xl">
+      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[6.25rem] mt-[5rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
-          <div className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+          <div
+            className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
             <div className=" ">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
@@ -279,12 +282,12 @@ const About = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="grid grid-cols-4 mx-[6.25rem] my-[5rem] gap-[1.875rem]">
+        <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem] gap-[1.875rem]">
           <div>
             {" "}
             <img
               className="w-[16.875rem] h-[20.625rem] "
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Group%201160444282.svg"
               alt="img"
             />
           </div>
@@ -292,7 +295,7 @@ const About = () => {
             {" "}
             <img
               className="w-[16.875rem] h-[20.625rem] "
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-1.jpg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/AboutUs/Single%20Team%202.png"
               alt="img"
             />
           </div>
@@ -300,7 +303,7 @@ const About = () => {
             {" "}
             <img
               className="w-[16.875rem] h-[20.625rem] "
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-2.jpg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/AboutUs/Group%201160444286.png"
               alt="img"
             />
           </div>
@@ -308,10 +311,278 @@ const About = () => {
             {" "}
             <img
               className="w-[16.875rem] h-[20.625rem] "
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1ac8c211d623c3cd12a93097dabd9b27b65621a1/Resources/AboutUs/Rectangle%204338-3.jpg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Single%20Team.svg"
               alt="img"
             />
           </div>
+        </div>
+      </div>
+
+      {/* section 6 */}
+      <div className=" py-4 sm:py-10 px-[6.25rem] rounded-3xl">
+        <div className="flex items-center justify-center w-full ">
+          <div
+            className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>Why Choose us</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+          Why Ahyliz Technologies?
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+          Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
+        </p>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem]">
+          <div className="border-b border-r h-[22.375]">
+            {" "}
+            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+              Expertise
+            </p>
+            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+              Our team comprises industry-leading professionals with extensive
+              experience across various IT disciplines, from software
+              engineering to cloud computing to cybersecurity.
+            </p>
+          </div>
+          <div className="border-b border-r h-[22.375]">
+            {" "}
+            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+              Innovation
+            </p>
+            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3 pb-10">
+              We're pioneers of technological innovation, constantly exploring
+              new ideas and solutions to drive business growth. Dedicated to
+              staying ahead of the curve, we leverage cutting-edge technologies
+              and strategies to deliver optimal outcomes for our clients.
+            </p>
+          </div>
+          <div className="border-b border-r h-[22.375] bg-[#4f45e2] text-white">
+            {" "}
+            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+              Customer Focus
+            </p>
+            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+              At Ahyliz Technologies, customer satisfaction is our top priority.
+              We provide personalized service and support, ensuring your needs
+              are addressed promptly and effectively.
+            </p>
+          </div>
+          <div className="border-b h-[22.375]">
+            {" "}
+            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+              Value
+            </p>
+            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+              We provide competitive pricing and flexible solutions to meet your
+              budget and timeline. Expect maximum value and a solid return on
+              your technology investment with Ahyliz Technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* section 7 */}
+
+      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[10rem] rounded-3xl">
+        <div className="flex items-center justify-center w-full ">
+          <div
+            className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>Our Achievements & Work </p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+          Leading the Way in Tailored IT Solutions
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+          At Ahyliz Technologies, our commitment to excellence and innovation is
+          reflected in the success stories and <br /> achievements we have
+          amassed over the years. We pride ourselves on our ability to deliver
+          transformative IT <br /> solutions across various sectors. Here are
+          some highlights of our work and the milestones we have achieved:
+        </p>
+
+        <div className="flex justify-center items-center gap-[4rem] mx-[6.25rem]">
+          <div className="flex flex-col  items-center">
+            <img
+              className="w-[10rem] h-[7.5rem] my-6"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Layer.svg"
+              alt="img"
+            />
+            <p className="text-[1.5rem] font-[CamptonBold] mb-6">
+              Industry Recognition
+            </p>
+            <p className="text-center">
+              Ahyliz Technologies has been recognized by industry leaders and{" "}
+              <br />
+              publications for our pioneering work in digital transformation and{" "}
+              <br />
+              IT services. Our accolades include awards for 'Best IT Services{" "}
+              <br />
+              Provider' and 'Innovator in Cloud Solutions.'
+            </p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              className="w-[10rem] h-[7.5rem] my-6"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Layer-1.svg"
+              alt="img"
+            />
+            <p className="text-[1.5rem] font-[CamptonBold] mb-6">
+              Global Clientele
+            </p>
+            <p className="text-center">
+              We have successfully partnered with over 500 companies <br />{" "}
+              worldwide, including Fortune 500 firms, providing them with <br />{" "}
+              tailored IT solutions that have revolutionized their operations
+              and <br /> enhanced their competitiveness in the market.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* section 8 */}
+      <div className=" py-4 sm:py-10 px-[10rem] rounded-3xl">
+        <div className="flex items-center justify-center w-full ">
+          <div
+            className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>Significant Projects </p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+          Innovating Every Field of Work
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem] text-center mb-[2rem]">
+          Through our relentless pursuit of excellence and a client-centric
+          approach, Ahyliz Technologies continues to set <br /> new standards in
+          the IT industry, ensuring our clients are well-equipped to meet the
+          challenges of <br /> the digital age.
+        </p>
+      </div>
+      <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
+        <div className="w-[29.625rem] h-[32.25rem]">
+          <img
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Illustration.svg"
+            alt="img"
+          />
+        </div>
+        <div>
+          <p className="py-4 text-[2rem] font-[CamptonBold]">
+            Digital Transformation for a Major Retailer
+          </p>
+          <p className="font-[CamptonBook] text-[1.25rem] pb-[0.8rem] ">
+            Led a complete digital overhaul for a leading retail chain,
+            integrating <br /> advanced AI and IoT technologies that resulted in
+            a 40% increase in <br /> operational efficiency and significantly
+            improved customer experiences.
+          </p>
+          <p className="font-[CamptonBook] text-[1.25rem] py-[0.8rem] ">
+            Cloud Migration for a Financial Institution: Executed a seamless{" "}
+            <br />
+            transition of critical data and operations to a secure cloud
+            environment <br /> for a multinational bank, enhancing their data
+            security and operational <br /> scalability.
+          </p>
+          <p className="font-[CamptonBook] text-[1.25rem] py-[0.8rem] ">
+            Innovative Software Solutions: Developed a suite of proprietary
+            software <br /> tools that have become benchmarks in the industry.
+          </p>
+        </div>
+      </div>
+      <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
+        <div className="w-[30rem] h-[20em]">
+          <img
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame.svg"
+            alt="img"
+          />
+        </div>
+        <div>
+          <p className="py-4 text-[2rem] font-[CamptonBold]">
+            Community Engagement and CSR
+          </p>
+          <p className="font-[CamptonBook] text-[1.25rem] pb-[0.8rem] ">
+            Ahyliz Technologies' commitment to giving back to the community{" "}
+            <br />
+            extends beyond mere words, as evidenced by its proactive engagement
+            in <br />
+            various Corporate Social Responsibility (CSR) projects.
+          </p>
+          <p className="font-[CamptonBook] text-[1.25rem] py-[0.8rem] ">
+            These initiatives are carefully designed to make a tangible impact,{" "}
+            <br />
+            particularly in underprivileged areas where access to education and{" "}
+            <br />
+            technology is limited.
+          </p>
+        </div>
+      </div>
+
+      {/* section 9 */}
+      <div className="flex flex-col  justify-center items-center bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
+        <div className="flex items-center justify-center w-full ">
+          <div
+            className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>Our Achievements & Work </p>
+            </div>
+          </div>
+        </div>
+        <div className=" flex flex-col items-center justify-center">
+          <img
+            className="w-[32rem] h-[21rem]"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame-1.svg"
+            alt="img"
+          />
+          <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem] pt-[2rem] px-[10rem]">
+            Over the past decade, we have maintained a double-digit growth rate,
+            expanding our services, customer base, and global reach. This growth
+            is a testament to our robust business model and our team’s
+            dedication to pushing the boundaries of what is possible in IT
+            services.
+          </p>
+          <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem] px-[10rem]">
+            Through our relentless pursuit of excellence and a client-centric
+            approach, Ahyliz Technologies continues to set new standards in the
+            IT industry, ensuring our clients are well-equipped to meet the
+            challenges of the digital age.
+          </p>
         </div>
       </div>
 
