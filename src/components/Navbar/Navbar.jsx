@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex mx-4 sm:mx-20 justify-between h-[6.25rem] items-center">
+    <div className="sticky top-0 bg-white z-50 flex px-4 sm:px-20 justify-between h-[6.25rem] items-center">
       <div className="sm:px-6 py-4">
         <Link to="/">
           <img
