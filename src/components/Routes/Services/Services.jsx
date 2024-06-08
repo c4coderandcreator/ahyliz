@@ -85,14 +85,14 @@ const Services = () => {
       {/* section 2 */}
       <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-10">
         <div className="flex items-center justify-center w-full ">
-          <div className="flex justify-center w-full sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+          <div className="flex justify-center w-full sm:w-[18rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
               <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Services/star.png"
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[CamptonBold] text-[2rem]">
               <p>Our Services</p>
             </div>
           </div>
@@ -192,15 +192,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-1.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            IT Support & Maintenance
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            Our dedicated team provides round-the-clock support and performs
+            regular maintenance to ensure that your IT systems function
+            smoothly.
           </p>
         </div>
         <div
@@ -208,15 +209,15 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-2.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Security Management
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We implement stringent security protocols to safeguard your data and
+            IT infrastructure from emerging cyber threats.
           </p>
         </div>
         <div
@@ -224,15 +225,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-3.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Backup and Disaster Recovery
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We establish reliable backup solutions and disaster recovery plans
+            to protect your critical data and ensure business continuity in any
+            scenario.
           </p>
         </div>
         <div
@@ -240,15 +242,15 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-4.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Cloud Services Management
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            Whether you're using public, private, or hybrid cloud environments,
+            our team manages and optimizes your cloud resources.
           </p>
         </div>
         <div
@@ -256,15 +258,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-5.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Vendor and Asset Management
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We oversee all your IT vendor relationships and manage your IT asset
+            lifecycle to ensure you get the best service and value from your
+            investments.
           </p>
         </div>
       </div>
@@ -293,40 +296,44 @@ const Services = () => {
         <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[CamptonBook]">
           <div className="text-left sm:text-right w-[22.5rem]">
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
-              Enterprise Digital <br /> Transformation
+              Cloud Architecture Design
             </p>
-            <p className="pb-4 sm:pb-[6.5rem]">
-              Transform your business with Ahyliz <br /> Technologies'
-              comprehensive Enterprise Digital <br /> Transformation
+            <p className="pb-4 sm:pb-[7rem]">
+              Our experts design robust, scalable, and <br /> secure cloud
+              solutions that are cost-effective <br /> and tailored to meet the
+              unique demands of <br />
+              your business
             </p>
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
-              Software Development
+              Vendor Selection & Management
             </p>
             <p>
-              Drive innovation and efficiency with Ahyliz <br /> Technologies'
-              Software Development services.
+              Choosing the right cloud provider is crucial for <br /> your cloud
+              journey. We assist in selecting the <br /> most suitable cloud
+              vendors that align with <br /> your business objective
             </p>
           </div>
-          <div className="w-[31.18rem] hidden sm:block">
+          <div className="w-[31rem] hidden sm:block">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Images/Group%201000004731.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Services/Group%201000004731.png"
               alt="img"
             />
           </div>
           <div className="w-[22.5rem]">
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
-              Cloud Consulting Services
+              Expert Guidance
             </p>
-            <p className="pb-4 sm:pb-[8.7rem]">
-              Navigate the complexities of cloud <br /> environments with Ahyliz
-              Technologies' Cloud <br /> Consulting services.
+            <p className="pb-4 sm:pb-[7rem]">
+              Our Cloud Consulting services at Ahyliz <br /> Technologies are
+              meticulously crafted to guide <br /> you through the complexities
+              of cloud <br /> environments.
             </p>
             <p className="font-[CamptonSemiBold] text-[1.25rem]">
-              Managed IT Services
+              Cloud Readiness Assessment
             </p>
             <p>
-              Ensure uninterrupted business operations with <br /> Ahyliz
-              Technologies' Managed IT Services.
+              We evaluate your existing infrastructure and <br /> applications
+              to determine your readiness for <br /> cloud migration.
             </p>
           </div>
         </div>
@@ -344,15 +351,15 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-6.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Custom Application Development
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            Our team excels in designing and developing bespoke applications
+            across a variety of platforms.
           </p>
         </div>
         <div
@@ -360,15 +367,15 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-7.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            System Integration
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We specialize in seamlessly integrating new software with your
+            existing IT <br /> infrastructure.
           </p>
         </div>
         <div
@@ -376,15 +383,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-8.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Software Modernization
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We modernize outdated systems by migrating them to advanced
+            platforms that significantly improve performance and reduce
+            maintenance costs.
           </p>
         </div>
         <div
@@ -392,15 +400,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-9.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            Agile Development Practices
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            By adopting agile methodologies, we guarantee flexibility, rapid
+            delivery, and continuous enhancement throughout the software
+            development lifecycle.
           </p>
         </div>
         <div
@@ -408,15 +417,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-10.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            User Experience & Interface Design
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            We prioritize user experience (UX) and user interface (UI) design in
+            all our software projects to ensure intuitive and engaging
+            applications design.
           </p>
         </div>
         <div
@@ -424,15 +434,16 @@ const Services = () => {
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-11.svg"
             alt="img"
           />
           <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
-            Continuous Monitoring
+            API Development & Management
           </p>
           <p className="text-left font-[CamptonBook]">
-            We operate 24/7 system monitoring to swiftly identify and resolve
-            potential issues before they disrupt your business operations.{" "}
+            Our developers create powerful, secure, and well-documented APIs
+            that allow your applications to interact seamlessly with other
+            systems.
           </p>
         </div>
       </div>
@@ -444,24 +455,25 @@ const Services = () => {
       <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
         <div className="w-[30rem] h-[20em]">
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b1cc41092a4932cac5572c7eed938cb75f1b3374/Resources/Services/Frame-12.svg"
             alt="img"
           />
         </div>
         <div>
           <p className="font-[CamptonBook] text-[1.25rem] pb-[0.8rem] ">
-            Ahyliz Technologies' commitment to giving back to the community{" "}
-            <br />
-            extends beyond mere words, as evidenced by its proactive engagement
-            in <br />
-            various Corporate Social Responsibility (CSR) projects.
+            Together with Enterprise Digital Transformation, Cloud Consulting,
+            and Managed IT Services,
+            <br /> our Software Development capabilities form a complete suite
+            of solutions that support every <br /> aspect of your digital and IT
+            strategy.
           </p>
           <p className="font-[CamptonBook] text-[1.25rem] py-[0.8rem] ">
-            These initiatives are carefully designed to make a tangible impact,{" "}
-            <br />
-            particularly in underprivileged areas where access to education and{" "}
-            <br />
-            technology is limited.
+            This holistic approach ensures that cutting-edge technology not only
+            propels your business <br /> forward but also integrates smoothly to
+            create a cohesive and efficient IT ecosystem. <br /> Through our
+            comprehensive services, Ahyliz Technologies empowers your business
+            to <br /> navigate the complexities of the digital world with
+            confidence and strategic advantage.
           </p>
         </div>
       </div>

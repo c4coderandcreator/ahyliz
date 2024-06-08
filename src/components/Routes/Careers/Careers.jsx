@@ -252,131 +252,133 @@ const Careers = () => {
       </div>
 
       {/* next section */}
-      <div className="flex items-center justify-center w-full ">
-        <div
-          className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
-          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
-        >
-          <div className=" ">
-            <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
-              alt="img"
-            />
-          </div>
-          <div className="text-center font-[CamptonMedium] text-[1.25rem]">
-            <p>Contact us</p>
+      <div className="bg-[#f4f9ff] my-[5rem] mx-[7.5rem] py-[3.75rem] px-[5rem] rounded-2xl">
+        <div className="flex items-center justify-center w-full ">
+          <div
+            className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className=" ">
+              <img
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
+                alt="img"
+              />
+            </div>
+            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+              <p>Contact us</p>
+            </div>
           </div>
         </div>
-      </div>
-      <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
-        Get in Touch With Us Now
-      </p>
-      <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
-        Contact us without any hesitation
-      </p>
+        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+          Get in Touch With Us Now
+        </p>
+        <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+          Contact us without any hesitation
+        </p>
 
-      <div className="flex items-center justify-center gap-12 my-[5rem]">
-        {/* 1st */}
-        <div
-          className="p-[2rem] font-[CamptonBook] rounded-xl"
-          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
-        >
-          <div className="flex flex-col justify-between ">
-            <div className="flex justify-between ">
-              <div>
-                <p className="font-[CamptonSemiBold] text-[2rem] ">Call Us</p>
+        <div className="flex flex-wrap items-center justify-center gap-12 my-[5rem]">
+          {/* 1st */}
+          <div
+            className="p-[2rem] font-[CamptonBook] rounded-xl w-[21rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className="flex flex-col justify-between ">
+              <div className="flex justify-between ">
+                <div>
+                  <p className="font-[CamptonSemiBold] text-[1rem] ">Call Us</p>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/Icon.png"
+                    alt="img"
+                  />
+                </div>
               </div>
-              <div>
-                <img
-                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
-                  alt="img"
-                />
+              <div className="py-[0.5rem]">
+                <div className="flex">
+                  <p className="text-[0.75rem]">
+                    Keen to chat with one of our Expert? Go <br /> on, we don’t
+                    bite. Give us a call on the number below.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="py-[2rem]">
-              <div className="flex">
-                <p>
-                  Keen to chat with one of our Expert? Go <br /> on, we don’t
-                  bite. Give us a call on the number below.
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start">
-              <div>
-                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
-                  12345 246189
-                </p>
+              <div className="flex justify-start">
+                <div>
+                  <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2] text-[0.75rem]">
+                    12345 246189
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* 2nd */}
-        <div
-          className="p-[2rem] font-[CamptonBook] rounded-xl bg-[#4f45e2]"
-          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
-        >
-          <div className="flex flex-col justify-between">
-            <div className="flex justify-between ">
-              <div>
-                <p className="font-[CamptonSemiBold] text-[2rem] text-white ">
-                  Email Us
-                </p>
+          {/* 2nd */}
+          <div
+            className="p-[2rem] font-[CamptonBook] rounded-xl bg-[#4f45e2] w-[21rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between ">
+                <div>
+                  <p className="font-[CamptonSemiBold] text-[1rem] text-white ">
+                    Email Us
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/Icon-1.png"
+                    alt="img"
+                  />
+                </div>
               </div>
-              <div>
-                <img
-                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
-                  alt="img"
-                />
+              <div className="py-[0.5rem]">
+                <div className="flex text-white">
+                  <p className="text-[0.75rem]">
+                    Email us now about any problem you face <br /> with your
+                    business. Do share your concern with us
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="py-[2rem]">
-              <div className="flex text-white">
-                <p>
-                  Keen to chat with one of our Expert? Go <br /> on, we don’t
-                  bite. Give us a call on the number below.
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start">
-              <div>
-                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl bg-white border-[#4f45e2]">
-                  @ Email us Now
-                </p>
+              <div className="flex justify-start">
+                <div>
+                  <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl bg-white border-[#4f45e2] text-[0.75rem]">
+                    @ Email us Now
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        {/* 3rd */}
-        <div
-          className="p-[2rem] font-[CamptonBook] rounded-xl"
-          style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
-        >
-          <div className="flex flex-col justify-between ">
-            <div className="flex justify-between ">
-              <div>
-                <p className="font-[CamptonSemiBold] text-[2rem]">Support</p>
+          {/* 3rd */}
+          <div
+            className="p-[2rem] font-[CamptonBook] rounded-xl w-[21rem]"
+            style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <div className="flex flex-col justify-between ">
+              <div className="flex justify-between ">
+                <div>
+                  <p className="font-[CamptonSemiBold] text-[1rem]">Support</p>
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/Icon-2.png"
+                    alt="img"
+                  />
+                </div>
               </div>
-              <div>
-                <img
-                  src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/vuesax/outline/archive-add.png"
-                  alt="img"
-                />
+              <div className="py-[0.5rem]">
+                <div className="flex">
+                  <p className="text-[0.75rem]">
+                    If you are an existing Ahyliz Technologies <br /> customer
+                    looking for any support please <br /> open chat bot
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="py-[2rem]">
-              <div className="flex">
-                <p>
-                  Keen to chat with one of our Expert? Go <br /> on, we don’t
-                  bite. Give us a call on the number below.
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start">
-              <div>
-                <p className="py-3 px-5 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2]">
-                  Open Chat Bot
-                </p>
+              <div className="flex justify-start">
+                <div>
+                  <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2] text-[0.75rem]">
+                    Open Chat Bot
+                  </p>
+                </div>
               </div>
             </div>
           </div>

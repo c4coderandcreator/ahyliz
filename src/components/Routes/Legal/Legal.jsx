@@ -29,7 +29,7 @@ const Legal = () => {
           Our Commitment to Keeping Your Information Secure
         </p>
         <div className="flex items-center mt-8 font-[CamptonBook] w-full justify-center">
-          <Link to="/about">
+          <Link to="/contact">
             <p className="px-[2rem] py-[0.8rem] bg-white rounded-lg text-[#4f45e2] hover:opacity-40">
               Contact us
             </p>
@@ -73,6 +73,201 @@ const Legal = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* 1st */}
+      <div className=" py-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
+        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">
+          Privacy Policy
+        </p>
+        <p className="pb-[2rem]">
+          1. <span className="font-[CamptonSemiBold]">Introduction</span>
+           Welcome to Ahyliz Technologies. We are committed to protecting <br />{" "}
+          your privacy. This policy details the types of information we collect
+          from our users,
+          <br /> how we use it, and how we keep it secure.
+        </p>
+        <p className="pb-[2rem]">
+          2.{" "}
+          <span className="font-[CamptonSemiBold]">Information Collection</span>
+           We collect information in the following ways:
+        </p>
+
+        <li className="ml-8">
+          Information you provide when you register for an account, such as your
+          name,
+          <br /> email address, and telephone number.
+        </li>
+        <li className="ml-8 pb-[2rem]">
+          Information about your use of our services, including but not
+          limited to, traffic <br /> data and other communication data.
+        </li>
+
+        <p className="pb-[2rem]">
+          3. <span className="font-[CamptonSemiBold]">Use of Information</span>
+           The information we collect is used to:
+        </p>
+
+        <li className="ml-8">Provide, maintain, and improve our services.</li>
+        <li className="ml-8">
+          Send updates, security alerts, and support messages.
+        </li>
+        <li className="ml-8 pb-[2rem]">
+          Monitor and analyze trends and usage.
+        </li>
+        <p className="pb-[2rem]">
+          4. <span className="font-[CamptonSemiBold]">Data Sharing</span>  We do
+          not share personal information with companies,
+          <br />
+          organizations, or individuals outside of Ahyliz Technologies except in
+          the following <br /> cases:
+        </p>
+
+        <li className="ml-8">With your consent.</li>
+        <li className="ml-8 pb-[2rem]">
+          For legal reasons, such as to meet any applicable law, regulation,
+          legal process,
+          <br /> or enforceable governmental request.
+        </li>
+
+        <p className="pb-[2rem]">
+          5. <span className="font-[CamptonSemiBold]">Security</span> We work
+          hard to protect Ahyliz Technologies and our users from <br />{" "}
+          unauthorized access to or unauthorized alteration, disclosure, or
+          destruction of <br /> information we hold.
+        </p>
+
+        <p className="pb-[2rem]">
+          6. <span className="font-[CamptonSemiBold]">Changes</span> Our Privacy
+          Policy may change from time to time. We will post any <br /> privacy
+          policy changes on this page.
+        </p>
+
+        <p className="pb-[2rem]">
+          7. <span className="font-[CamptonSemiBold]">Contact Us</span> If you
+          have any questions about this Privacy Policy, please contact <br />{" "}
+          us at contact@ahyliz.com
+        </p>
+      </div>
+
+      {/* 2nd */}
+      <div className=" pb-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
+        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">Terms of Use</p>
+
+        <p className="pb-[2rem]">
+          1. <span className="font-[CamptonSemiBold]">Introduction</span> By
+          using our website (the "Service") operated by Ahyliz <br />{" "}
+          Technologies, you agree to be bound by these terms of use. Please read
+          them <br /> carefully.
+        </p>
+
+        <p className="pb-[2rem]">
+          2. <span className="font-[CamptonSemiBold]">Using Our Services</span>
+           You must follow any policies made available to you within the <br />{" "}
+          Service. Do not misuse our Services, for example, do not interfere
+          with our Services <br /> or try to access them using a method other
+          than the interface and the instructions <br /> that we provide.
+        </p>
+
+        <p className="pb-[2rem]">
+          3.{" "}
+          <span className="font-[CamptonSemiBold]">
+            Your Content in Our Services
+          </span>
+           You retain ownership of any intellectual property <br /> rights that
+          you hold in that content. When you upload or otherwise submit content{" "}
+          <br /> to our Services, you give Ahyliz Technologies a worldwide
+          license to use, host, store, <br /> reproduce, modify, create
+          derivative works, communicate, publish, publicly perform, <br />{" "}
+          publicly display and distribute such content.
+        </p>
+
+        <p className="pb-[2rem]">
+          4.{" "}
+          <span className="font-[CamptonSemiBold]">
+            About Software in Our Services
+          </span>
+           When a Service requires or includes <br />
+          downloadable software, this software may update automatically on your
+          device <br /> once a new version or feature is available.
+        </p>
+
+        <p className="pb-[2rem]">
+          5.{" "}
+          <span className="font-[CamptonSemiBold]">
+            Modifying and Terminating Our Services
+          </span>
+           We are constantly changing and <br /> improving our Services. We may
+          add or remove functionalities or features, and we <br /> may suspend
+          or stop a Service altogether.
+        </p>
+        <br />
+        <p className="pb-[2rem]">
+          6.{" "}
+          <span className="font-[CamptonSemiBold]">
+            Liability for Our Services
+          </span>
+           When permitted by law, Ahyliz Technologies will not be <br />{" "}
+          responsible for lost profits, revenues, or data.
+        </p>
+
+        <p className="pb-[2rem]">
+          7. <span className="font-[CamptonSemiBold]">About these Terms</span>
+           We may modify these terms or any additional terms that <br /> apply
+          to a Service. You should look at the terms regularly.
+          <span className="font-[CamptonSemiBold]"></span>
+        </p>
+      </div>
+
+      {/* 3rd */}
+      <div className=" pb-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
+        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">
+          Accessibility Statement
+        </p>
+
+        <p className="pb-[2rem]">
+          1. <span className="font-[CamptonSemiBold]">Commitment</span>
+           &nbsp;Ahyliz Technologies is committed to ensuring digital
+          accessibility <br /> for people with disabilities. We are continually
+          improving the user experience for <br /> everyone and applying the
+          relevant accessibility standards.
+        </p>
+
+        <p className="pb-[2rem]">
+          2. <span className="font-[CamptonSemiBold]">Feedback</span> We welcome
+          your feedback on the accessibility of our website. Please <br /> let
+          us know if you encounter accessibility barriers on Ahyliz
+          Technologies: <br /> contact@ahyliz.com
+        </p>
+
+        <p className="pb-[2rem]">
+          3.{" "}
+          <span className="font-[CamptonSemiBold]">
+            Measures to Support Accessibility
+          </span>
+          &nbsp;Ahyliz Technologies takes the following <br /> measures to
+          ensure accessibility:
+        </p>
+        <li className="ml-[2rem]">
+          Including accessibility as part of &nbsp;&nbsp;&nbsp;&nbsp; our
+          mission statement.
+        </li>
+        <li className="ml-[2rem]">
+          Integrating accessibility into our &nbsp;&nbsp;&nbsp;&nbsp;
+          procurement practices.
+        </li>
+        <li className="pb-[2rem] ml-[2rem]">
+          Providing continual accessibility &nbsp;&nbsp;&nbsp;&nbsp; training
+          for our staff.
+        </li>
+
+        <p className="pb-[2rem]">
+          4.{" "}
+          <span className="font-[CamptonSemiBold]">
+            Compatibility with Browsers and Assistive Technology &nbsp;
+          </span>
+          Our goal is to ensure <br /> compatibility with the latest version of
+          major browsers and assistive technologies.
+        </p>
       </div>
       <Contact />
     </>
