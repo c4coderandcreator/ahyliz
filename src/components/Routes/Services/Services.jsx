@@ -12,7 +12,7 @@ const Services = () => {
           <div className="flex">
             <div>
               <img
-                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/like.svg"
+                src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/4e8b9bda46087a17218b635695c2d11df82eff3b/Resources/Services/call-calling.svg"
                 alt="img"
               />
             </div>

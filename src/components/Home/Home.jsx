@@ -320,11 +320,11 @@ const Home = () => {
       {/* How it works */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
         <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-3 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
+          <div className="px-2 sm:px-8 py-4 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
-            <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+            <div className="px-2 mx-1 sm:px-4 py-4 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
               {" "}
               See How It Works?
             </div>

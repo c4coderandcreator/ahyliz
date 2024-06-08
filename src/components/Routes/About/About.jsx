@@ -139,23 +139,23 @@ const About = () => {
               <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  py-6 items-center">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg.svg"
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/4e8b9bda46087a17218b635695c2d11df82eff3b/Resources/AboutUs/Software%20Engg.svg"
                     alt="img"
                   />
                 </div>
                 <div>
-                  <p>Software Development</p>
+                  <p>Enterprise DIgital Transformation</p>
                 </div>
               </div>
               <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/4e8b9bda46087a17218b635695c2d11df82eff3b/Resources/AboutUs/Software%20Engg-1.svg"
                     alt="img"
                   />
                 </div>
                 <div>
-                  <p>Cybersecurity</p>
+                  <p>Managed IT Services</p>
                 </div>
               </div>
             </div>
@@ -163,23 +163,23 @@ const About = () => {
               <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  py-6  items-center">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-2.svg"
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/4e8b9bda46087a17218b635695c2d11df82eff3b/Resources/AboutUs/Software%20Engg-2.svg"
                     alt="img"
                   />
                 </div>
                 <div>
-                  <p>Cloud Computing</p>
+                  <p>Cloud Consulting</p>
                 </div>
               </div>
               <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
+                    src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/4e8b9bda46087a17218b635695c2d11df82eff3b/Resources/AboutUs/Software%20Engg-3.svg"
                     alt="img"
                   />
                 </div>
                 <div>
-                  <p>Cybersecurity</p>
+                  <p>Software Development</p>
                 </div>
               </div>
             </div>
@@ -548,7 +548,7 @@ const About = () => {
 
       {/* section 9 */}
       <div className="flex flex-col  justify-center items-center bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
-        <div className="flex items-center justify-center w-full ">
+        <div className="flex items-center justify-center w-full pb-10 ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -560,7 +560,7 @@ const About = () => {
               />
             </div>
             <div className="text-center font-[CamptonMedium] text-[1.25rem]">
-              <p>Our Achievements & Work </p>
+              <p>Sustained Growth </p>
             </div>
           </div>
         </div>
