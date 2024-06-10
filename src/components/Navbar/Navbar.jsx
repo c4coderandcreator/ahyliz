@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="sm:px-6 py-4">
         <Link to="/">
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Images/Logo.svg"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Logo.png"
             alt="logo"
           />
         </Link>
