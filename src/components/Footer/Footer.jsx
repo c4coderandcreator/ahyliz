@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[26rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[Lufga-Light-2] text-[1.25rem]">
+      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[26rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[Lufga-Light-2] text-[1rem]">
         <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
           <div className="h-full mt-8 sm:mt-0">
             <img
