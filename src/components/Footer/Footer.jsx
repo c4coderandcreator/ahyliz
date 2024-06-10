@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
-          © © 2024 Ahyliz Technologies | All rights reserved
+          © 2024 Ahyliz Technologies | All rights reserved
         </div>
       </div>
     </>

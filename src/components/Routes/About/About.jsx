@@ -195,7 +195,7 @@ const About = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="flex my-[6.5rem] mx-[6.25rem] gap-[2.5rem]">
+      {/* <div className="flex my-[6.5rem] mx-[6.25rem] gap-[2.5rem]">
         <div className="w-[29.625rem] h-[32.25rem]">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/738cb4fcab00b6efb7039bab2c429056b73e89be/Resources/AboutUs/Rectangle%2022731.svg"
@@ -241,7 +241,7 @@ const About = () => {
             positive impact remains unwavering.
           </p>
         </div>
-      </div>
+      </div> */}
       {/* section 4 */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
         <div className="flex flex-wrap justify-between items-center sm:mx-[6.25rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
@@ -258,7 +258,7 @@ const About = () => {
       </div>
 
       {/* section 5 */}
-      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[6.25rem] mt-[5rem] rounded-3xl">
+      {/* <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[6.25rem] mt-[5rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -316,7 +316,7 @@ const About = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* section 6 */}
       <div className=" py-4 sm:py-10 px-[6.25rem] rounded-3xl">
