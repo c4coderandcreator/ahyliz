@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
           <div className="h-full mt-8 sm:mt-0">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/9e38a1525ab1632548ca85384952b0b9d8bd9dd2/Resources/Home/Images/Logo-1.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b2f528cfdd314c09d5f4d7256ac69296706a32b3/Resources/Home/LogoF.svg"
               alt="img"
             />
             <p className="text-[1rem]">Empowering Your Digital Future</p>
