@@ -305,7 +305,7 @@ const Careers = () => {
               <div className="flex justify-start">
                 <div>
                   <Link to="tel:+1(844)4007222">
-                    <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2] text-[0.75rem]">
+                    <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl border-[#4f45e2] text-[0.75rem] hover:opacity-40">
                       +1 (844) 400 7222
                     </p>
                   </Link>
@@ -344,7 +344,7 @@ const Careers = () => {
               <div className="flex justify-start">
                 <div>
                   <Link to="mailto:info@ahyliz.ca">
-                    <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl bg-white border-[#4f45e2] text-[0.75rem]">
+                    <p className="py-3 px-5 my-2 border-2 text-[#4f45e2] rounded-3xl bg-white border-[#4f45e2] text-[0.75rem] hover:opacity-40">
                       @ Email us Now
                     </p>
                   </Link>
