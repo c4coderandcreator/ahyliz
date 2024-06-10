@@ -76,7 +76,8 @@ const Footer = () => {
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
             <p className="font-[Lufga-Bold-2]">Address</p>
             <p>
-              34 Minowan Miikan <br /> Lane, Toronto, ON <br /> M6J 0G3
+              34 Minowan Miikan Ln,
+              <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
             </p>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
@@ -90,9 +91,9 @@ const Footer = () => {
               <p className="hover:opacity-40">Email: info@ahyliz.ca</p>
             </Link>
 
-            <Link to="mailto:contact@ahyliz.ca">
+            {/* <Link to="mailto:contact@ahyliz.ca">
               <p className="hover:opacity-40">Email: contact@ahyliz.ca</p>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
