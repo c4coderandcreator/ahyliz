@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[26rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[Lufga-Light-2] text-[1rem]">
+      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[Lufga-Light-2] text-[1rem]">
         <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
           <div className="h-full mt-8 sm:mt-0">
             <img
@@ -72,11 +72,17 @@ const Footer = () => {
             <p className="hover:opacity-40">Accessibility</p>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Address</p>
-            <p>
-              34 Minowan Miikan Ln,
-              <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
-            </p>
+            <p className="font-[Lufga-Bold-2] text-[1.5rem] ">Address</p>
+            <Link
+              to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p className="hover:opacity-40">
+                34 Minowan Miikan Ln,
+                <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
+              </p>
+            </Link>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
             <p className="font-[Lufga-Bold-2] text-[1.5rem]">Contact us</p>
@@ -94,7 +100,7 @@ const Footer = () => {
             </Link> */}
           </div>
         </div>
-        <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
+        <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-7 text-[0.875rem]">
           © 2024 Ahyliz Technologies | All rights reserved
         </div>
       </div>

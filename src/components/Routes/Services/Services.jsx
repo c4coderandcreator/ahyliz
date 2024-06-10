@@ -518,7 +518,7 @@ const Services = () => {
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem]">
-          <div className="border-b border-r h-[22.375]">
+          <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
               Expertise
@@ -529,7 +529,7 @@ const Services = () => {
               engineering to cloud computing to cybersecurity.
             </p>
           </div>
-          <div className="border-b border-r h-[22.375]">
+          <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
               Innovation
@@ -541,7 +541,7 @@ const Services = () => {
               and strategies to deliver optimal outcomes for our clients.
             </p>
           </div>
-          <div className="border-b border-r h-[22.375] bg-[#4f45e2] text-white">
+          <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
               Customer Focus
@@ -552,7 +552,7 @@ const Services = () => {
               are addressed promptly and effectively.
             </p>
           </div>
-          <div className="border-b h-[22.375]">
+          <div className="border-b h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
               Value

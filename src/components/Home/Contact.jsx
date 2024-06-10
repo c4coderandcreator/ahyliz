@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
@@ -32,13 +32,19 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4">
-                    Our Location
-                  </p>
-                  <p className="text-[#888888] font-[CamptonBook]">
-                    34 Minowan Miikan Lane,
-                    <br /> Toronto, ON M6J 0G3
-                  </p>
+                  <Link
+                    to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4 hover:opacity-40">
+                      Our Location
+                    </p>
+                    <p className="text-[#888888] font-[CamptonBook] hover:opacity-40">
+                      34 Minowan Miikan Ln,
+                      <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className="flex">
@@ -51,13 +57,14 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4 mt-4 sm:mt-0">
-                      How Can We Help?
-                    </p>
-                    <p className="text-[#888888] font-[CamptonBook]">
-                      Email: info@ahyliz.ca,
-                      <br /> Email: contact@ahyliz.ca
-                    </p>
+                    <Link to="mailto:info@ahyliz.ca">
+                      <p className="text-[1.125rem] font-[CamptonSemiBold] mb-4 mt-4 sm:mt-0 hover:opacity-40">
+                        How Can We Help?
+                      </p>
+                      <p className="text-[#888888] font-[CamptonBook] hover:opacity-40">
+                        Email: info@ahyliz.ca
+                      </p>
+                    </Link>
                   </div>
                 </div>
               </div>

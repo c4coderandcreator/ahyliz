@@ -295,7 +295,7 @@ const Home = () => {
           </div>
           <div className="w-[31.18rem] hidden sm:block">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Images/Group%201000004731.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/22e806982d4b0c9fbeabc17e594b603f932dec3a/Resources/Home/Images/Group%201000004731.svg"
               alt="img"
             />
           </div>
