@@ -11,9 +11,7 @@ const Footer = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/9e38a1525ab1632548ca85384952b0b9d8bd9dd2/Resources/Home/Images/Logo-1.svg"
               alt="img"
             />
-            <p className="text-[1rem]">
-              Empowering Your Digital <br className="hidden sm:block" /> Future
-            </p>
+            <p className="text-[1rem]">Empowering Your Digital Future</p>
             <div className="flex gap-5 items-center py-3">
               <div>
                 <img
@@ -45,8 +43,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2]">Home</p>
+          <div className="sm:border-r sm:border-l border-custom-rgba px-14 leading-[2.2rem]">
+            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>
             </Link>
@@ -62,7 +60,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2]">About us</p>
+            <p className="font-[Lufga-Bold-2] text-[1.5rem]">About us</p>
             <p className="hover:opacity-40">How it Works?</p>
             <p className="hover:opacity-40">Our Team</p>
             <Link to="/legal">
@@ -74,14 +72,14 @@ const Footer = () => {
             <p className="hover:opacity-40">Accessibility</p>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2]">Address</p>
+            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Address</p>
             <p>
               34 Minowan Miikan Ln,
               <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
             </p>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
-            <p className="font-[Lufga-Bold-2]">Contact us</p>
+            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Contact us</p>
             <Link to="tel:+1 (844) 400-7222">
               <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>
             </Link>
@@ -97,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-3 text-[0.875rem]">
-          © 2024 Rights Reserved By Ahyliz Technologies
+          © © 2024 Ahyliz Technologies | All rights reserved
         </div>
       </div>
     </>
