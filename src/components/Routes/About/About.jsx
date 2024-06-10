@@ -392,7 +392,9 @@ const About = () => {
         </div>
       </div>
       {/* section 7 */}
-
+      <div id="ot" className="text-white">
+        .
+      </div>
       <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[10rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div

@@ -67,6 +67,7 @@ const ContactUs = () => {
 
               <Link to="https://www.facebook.com/">
                 <img
+                  id="acc"
                   className="px-2 hover:opacity-40"
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Icons/facebook.svg"
                   alt="facebook"
@@ -235,7 +236,10 @@ const ContactUs = () => {
           </Link>
         </div>
       </div>
-      <Faq />
+      <div id="faq">
+        <Faq />
+      </div>
+
       <Contact />
     </>
   );

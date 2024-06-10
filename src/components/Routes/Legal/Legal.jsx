@@ -66,6 +66,7 @@ const Legal = () => {
             </div>
             <div>
               <img
+                id="pp"
                 className="hover:opacity-40"
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/facebook.png"
                 alt="facebook"
@@ -76,7 +77,7 @@ const Legal = () => {
       </div>
       {/* 1st */}
       <div className=" py-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
-        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">
+        <p className="font-[CamptonBold] text-[2rem] pt-2 pb-[2rem]">
           Privacy Policy
         </p>
         <p className="pb-[2rem]">
@@ -142,7 +143,7 @@ const Legal = () => {
           policy changes on this page.
         </p>
 
-        <p className="pb-[2rem]">
+        <p id="tou" className="pb-[2rem]">
           7. <span className="font-[CamptonSemiBold]">Contact Us</span> If you
           have any questions about this Privacy Policy, please contact <br />{" "}
           us at contact@ahyliz.com

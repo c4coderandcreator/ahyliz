@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -54,22 +55,31 @@ const Footer = () => {
             <Link to="/careers">
               <p className="hover:opacity-40">Careers</p>
             </Link>{" "}
-            <p className="hover:opacity-40">FAQs</p>
+            <HashLink to="/contact#faq">
+              <p className="hover:opacity-40">FAQs</p>
+            </HashLink>
             <Link to="/contact">
               <p className="hover:opacity-40">Contact us</p>
             </Link>
           </div>
           <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
             <p className="font-[Lufga-Bold-2] text-[1.5rem]">About us</p>
-            <p className="hover:opacity-40">How it Works?</p>
-            <p className="hover:opacity-40">Our Team</p>
-            <Link to="/legal">
+            <Link to="/services">
+              <p className="hover:opacity-40">How it Works?</p>
+            </Link>
+            <HashLink to="/about#ot">
+              <p className="hover:opacity-40">Our Team</p>
+            </HashLink>
+
+            <HashLink to="/legal#pp">
               <p className="hover:opacity-40">Privacy Policy</p>
-            </Link>
-            <Link to="/legal">
+            </HashLink>
+            <HashLink to="/legal#tou">
               <p className="hover:opacity-40">Terms of use</p>
-            </Link>
-            <p className="hover:opacity-40">Accessibility</p>
+            </HashLink>
+            <HashLink to="/contact#acc">
+              <p className="hover:opacity-40">Accessibility</p>
+            </HashLink>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
             <p className="font-[Lufga-Bold-2] text-[1.5rem] ">Address</p>
