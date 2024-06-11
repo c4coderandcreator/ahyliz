@@ -47,15 +47,6 @@
 }
 
 /* Lufag */
-
-@font-face {
-  font-family: "Lufga-Regular-2";
-  src: url(../Lufag/Lufag/Lufga-Regular-2.ttf);
-}
-.Lufga-Regular-2 {
-  font-family: "Lufag-Regular-2";
-}
-
 @font-face {
   font-family: "Lufga-Light-2";
   src: url(../Lufag/Lufag/Lufga-Light-2.ttf);
@@ -65,11 +56,35 @@
 }
 
 @font-face {
+  font-family: "Lufga-Regular-2";
+  src: url(../Lufag/Lufag/Lufga-Regular-2.ttf);
+}
+.Lufga-Regular-2 {
+  font-family: "Lufga-Regular-2";
+}
+
+@font-face {
+  font-family: "Lufga-Medium-2";
+  src: url(../Lufag/Lufag/Lufga-Medium-2.ttf);
+}
+.Lufga-Medium-2 {
+  font-family: "Lufga-Medium-2";
+}
+
+@font-face {
+  font-family: "Lufga-SemiBold-2";
+  src: url(../Lufag/Lufag/Lufga-SemiBold-2.ttf);
+}
+.Lufga-SemiBold-2 {
+  font-family: "Lufga-SemiBold-2";
+}
+
+@font-face {
   font-family: "Lufga-Bold-2";
   src: url(../Lufag/Lufag/Lufga-Bold-2.ttf);
 }
 .Lufga-Bold-2 {
-  font-family: "Lufag-Bold-2";
+  font-family: "Lufga-Bold-2";
 }
 
 @font-face {

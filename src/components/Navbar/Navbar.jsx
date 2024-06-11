@@ -21,7 +21,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="hidden sm:flex items-center font-[CamptonBook]">
+      <div className="hidden sm:flex items-center font-[Lufga-Regular-2]">
         <Link to="/" onClick={() => setActiveTab("/")}>
           <p
             className="px-7 py-2 text-[1.25rem] hover:opacity-40"
@@ -113,7 +113,7 @@ const Navbar = () => {
             : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <div className="flex flex-col items-center font-[CamptonBook] py-4">
+        <div className="flex flex-col items-center font-[Lufga-Regular-2] py-4">
           <Link to="/" onClick={() => setActiveTab("/")}>
             <p
               className="py-2 text-[1.25rem] hover:opacity-40"
