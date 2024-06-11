@@ -41,20 +41,20 @@ const Faq = () => {
           <p className="font-[LufgaBold] text-[2rem] py-4 sm:py-[2rem]">
             Frequently Asked Questions
           </p>
-          <p className="font-[LufgaBook] text-[1.25rem] pb-[2rem]">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[2rem]">
             Learn more about the range of services provided by{" "}
             <br className="hidden sm:block" /> Ahyliz Technologies, including;
           </p>
-          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[1rem]">
             1. Enterprise Digital Transformation
           </p>
-          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[1rem]">
             2. Cloud Consulting
           </p>
-          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[1rem]">
             3. Managed IT Services
           </p>
-          <p className="font-[LufgaBook] text-[1.25rem] pb-[3rem]">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[3rem]">
             4. Software Development.
           </p>
           <Link to="/contact">

@@ -82,7 +82,7 @@ const Footer = () => {
             </HashLink>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2] text-[1.5rem] ">Address</p>
+            <p className="font-[LufgaBold] text-[1.5rem] ">Address</p>
             <Link
               to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
               rel="noopener noreferrer"

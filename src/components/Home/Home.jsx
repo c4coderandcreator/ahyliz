@@ -1,9 +1,10 @@
 import React from "react";
-import HomeSecBg from "../HomeSecBg/HomeSecBg";
+import HomeSecBg2 from "../HomeSecBg/HomeSecBg2";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
 import Plu from "./Plu";
+import HomeSecBg from "../HomeSecBg/HomeSecBg";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
               <p>Welcome To Ahyliz Technologies</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
+          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[5.25rem]">
             Leading the <br /> Way in Digital <br /> Innovation.
           </p>
           <p className="py-2 font-[LufgaBook]">
@@ -158,7 +159,7 @@ const Home = () => {
             <p className="font-[LufgaBold] text-[1.5rem] leading-8">
               Welcome to Ahyliz Technologies - Pioneers of Digital Innovation.{" "}
             </p>
-            <p className="font-[LufgaBook] text-[1rem] py-4">
+            <p className="font-[LufgaLight] text-[1rem] py-4">
               As leaders in Enterprise Digital Transformation, Cloud Consulting,
               Managed IT Services, and Software Development, we provide
               businesses with the sophisticated technology frameworks essential
@@ -202,7 +203,7 @@ const Home = () => {
               </div>
             </div>
             <Link to="/about">
-              <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[LufgaBook] hover:opacity-40">
+              <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.5rem] rounded-lg font-[LufgaBook] hover:opacity-40">
                 Read More
               </p>
             </Link>
@@ -218,7 +219,7 @@ const Home = () => {
               Leading IT Service <br />
               Provider
             </p>
-            <p className="font-[LufgaBook]">
+            <p className="font-[LufgaLight]">
               Ahyliz Technologies stands at the forefront of the industry,
               providing innovative IT solutions tailored to meet the evolving
               needs of businesses.
@@ -232,7 +233,7 @@ const Home = () => {
             <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Exceeding Client <br /> Expectations
             </p>
-            <p className="font-[LufgaBook]">
+            <p className="font-[LufgaLight]">
               Our commitment to excellence ensures that we go above and beyond
               to deliver solutions that surpass the expectations of our clients,
               driving tangible business results.
@@ -246,7 +247,7 @@ const Home = () => {
             <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Driving Business <br /> Growth
             </p>
-            <p className="font-[LufgaBook]">
+            <p className="font-[LufgaLight]">
               By leveraging cutting-edge technology and strategic expertise, we
               empower businesses to achieve substantial growth and operational
               efficiency.
@@ -283,14 +284,14 @@ const Home = () => {
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Enterprise Digital <br /> Transformation
             </p>
-            <p className="pb-4 sm:pb-[6.5rem]">
+            <p className="pb-4 sm:pb-[6.5rem] font-[LufgaLight]">
               Transform your business with Ahyliz <br /> Technologies'
               comprehensive Enterprise Digital <br /> Transformation
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Software Development
             </p>
-            <p>
+            <p className="font-[LufgaLight]">
               Drive innovation and efficiency with Ahyliz <br /> Technologies'
               Software Development services.
             </p>
@@ -305,14 +306,14 @@ const Home = () => {
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Consulting Services
             </p>
-            <p className="pb-4 sm:pb-[8.7rem]">
+            <p className="pb-4 sm:pb-[8.7rem] font-[LufgaLight]">
               Navigate the complexities of cloud <br /> environments with Ahyliz
               Technologies' Cloud <br /> Consulting services.
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Managed IT Services
             </p>
-            <p>
+            <p className="font-[LufgaLight]">
               Ensure uninterrupted business operations with <br /> Ahyliz
               Technologies' Managed IT Services.
             </p>

@@ -39,7 +39,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[LufgaBook] text-[1rem] mb-6">
+              <div className="px-4 sm:px-8 font-[LufgaLight] text-[1rem] mb-6">
                 Managed IT services by Ahyliz Technologies ensured our systems
                 ran smoothly, allowing us to focus on core business operations.
               </div>
@@ -62,7 +62,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleW />
               </div>
-              <div className="px-4 sm:px-8 text-white font-[LufgaBook] mb-6">
+              <div className="px-4 sm:px-8 text-white font-[LufgaLight] mb-6">
                 Impressive cloud consulting <br className="hidden sm:block" />{" "}
                 services from Ahyliz Technologies. Seamless transition and
                 improved <br className="hidden sm:block" /> efficiency!
@@ -89,7 +89,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[LufgaBook] mb-6">
+              <div className="px-4 sm:px-8 font-[LufgaLight] mb-6">
                 Ahyliz Technologies transformed our outdated systems into
                 efficient digital solutions. Highly recommend their expertise!
               </div>

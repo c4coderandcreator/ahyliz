@@ -16,17 +16,17 @@ const Services = () => {
                 alt="img"
               />
             </div>
-            <div className="sm:mx-2 font-[CamptonMedium] pb-4">
+            <div className="sm:mx-2 font-[LufgaMedium] pb-4">
               <p>Comprehensive IT Solutions</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
+          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
             Explore Range of <br /> Tailored <br /> Solutions
           </p>
-          <p className="py-2">
+          <p className="py-2 font-[LufgaBook]">
             Empowering Your Business with Advanced Technology <br /> Services
           </p>
-          <div className="flex items-center mt-8 font-[CamptonBook]">
+          <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/contact">
               <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
                 Get Started
@@ -36,7 +36,7 @@ const Services = () => {
 
           <div className="flex text-[#4f45e2] text-[1rem] py-6">
             <div>
-              <p className="tracking-[0.3rem] font-[CamptonSemiBold]">
+              <p className="tracking-[0.3rem] font-[LufgaSemiBold]">
                 FOLLOW US
               </p>
             </div>
@@ -92,15 +92,15 @@ const Services = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonBold] text-[2rem]">
+            <div className="text-center font-[LufgaBold] text-[2rem]">
               <p>Our Services</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Enterprise Digital Transformation
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Redefine your business for the digital age with us.
         </p>
 
@@ -114,10 +114,10 @@ const Services = () => {
           </div>
 
           <div className="w-[44.56rem] h-[25.5rem]">
-            <p className="font-[CamptonBold] text-[1.5rem] leading-8">
+            <p className="font-[LufgaBold] text-[1.5rem] leading-8">
               Empower Your Business with a Strategic Overhaul
             </p>
-            <p className="font-[CamptonBook] text-[1rem] py-4">
+            <p className="font-[LufgaLight] text-[1rem] py-4">
               At Ahyliz Technologies, Enterprise Digital Transformation is about
               thoroughly redefining your business to thrive in the digital era.
               We harness a variety of enterprise architecture platforms, such as
@@ -127,7 +127,7 @@ const Services = () => {
               Our comprehensive services are designed to drive operational
               excellence and spark innovation across your business.
             </p>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  py-6 items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  py-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg.svg"
@@ -138,7 +138,7 @@ const Services = () => {
                 <p>Digital Strategy Development</p>
               </div>
             </div>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  pb-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
@@ -149,7 +149,7 @@ const Services = () => {
                 <p>Technology Implementation</p>
               </div>
             </div>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem] items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem] items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-2.svg"
@@ -164,10 +164,10 @@ const Services = () => {
         </div>
       </div>
       {/* section 3 */}
-      <p className="text-center font-[CamptonBold] text-[2rem] mt-14 my-4">
+      <p className="text-center font-[LufgaBold] text-[2rem] mt-14 my-4">
         Managed IT Services
       </p>
-      <p className="text-center font-[CamptonBook] text-[1.25rem]">
+      <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Proactive IT Management for Uninterrupted Business Operations
       </p>
       <div className="grid grid-cols-3 gap-[3.25rem] mx-[7.5rem] my-[5rem]">
@@ -179,10 +179,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Continuous Monitoring
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We operate 24/7 system monitoring to swiftly identify and resolve
             potential issues before they disrupt your business operations.{" "}
           </p>
@@ -195,10 +195,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-1.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             IT Support & Maintenance
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             Our dedicated team provides round-the-clock support and performs
             regular maintenance to ensure that your IT systems function
             smoothly.
@@ -212,10 +212,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-2.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Security Management
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We implement stringent security protocols to safeguard your data and
             IT infrastructure from emerging cyber threats.
           </p>
@@ -228,10 +228,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-3.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Backup and Disaster Recovery
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We establish reliable backup solutions and disaster recovery plans
             to protect your critical data and ensure business continuity in any
             scenario.
@@ -245,10 +245,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-4.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Cloud Services Management
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             Whether you're using public, private, or hybrid cloud environments,
             our team manages and optimizes your cloud resources.
           </p>
@@ -261,10 +261,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-5.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Vendor and Asset Management
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We oversee all your IT vendor relationships and manage your IT asset
             lifecycle to ensure you get the best service and value from your
             investments.
@@ -273,7 +273,7 @@ const Services = () => {
       </div>
 
       {/* section 3.5 */}
-      <p className="font-[CamptonMedium] text-[1.25rem] pb-[5rem] text-center">
+      <p className="font-[LufgaMedium] text-[1.25rem] pb-[5rem] text-center">
         Navigating your path to seamless integration
       </p>
       <div className=" sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
@@ -287,27 +287,27 @@ const Services = () => {
 
       {/* section 4 */}
       <div className=" sm:px-[7.5rem] py-6 sm:py-20">
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Cloud Consulting
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Expert Guidance Through Your Cloud Journey
         </p>
-        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[CamptonBook]">
-          <div className="text-left sm:text-right w-[22.5rem]">
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
+          <div className="text-left sm:text-right w-[23.5rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Architecture Design
             </p>
-            <p className="pb-4 sm:pb-[7rem]">
+            <p className="pb-4 sm:pb-[7rem] font-[LufgaLight]">
               Our experts design robust, scalable, and <br /> secure cloud
               solutions that are cost-effective <br /> and tailored to meet the
               unique demands of <br />
               your business
             </p>
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Vendor Selection & Management
             </p>
-            <p>
+            <p className="font-[LufgaLight]">
               Choosing the right cloud provider is crucial for <br /> your cloud
               journey. We assist in selecting the <br /> most suitable cloud
               vendors that align with <br /> your business objective
@@ -319,19 +319,19 @@ const Services = () => {
               alt="img"
             />
           </div>
-          <div className="w-[22.5rem]">
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+          <div className="w-[23.5rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Expert Guidance
             </p>
-            <p className="pb-4 sm:pb-[7rem]">
+            <p className="pb-4 sm:pb-[7rem] font-[LufgaLight]">
               Our Cloud Consulting services at Ahyliz <br /> Technologies are
               meticulously crafted to guide <br /> you through the complexities
               of cloud <br /> environments.
             </p>
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Readiness Assessment
             </p>
-            <p>
+            <p className="font-[LufgaLight]">
               We evaluate your existing infrastructure and <br /> applications
               to determine your readiness for <br /> cloud migration.
             </p>
@@ -339,10 +339,10 @@ const Services = () => {
         </div>
       </div>
       {/* section 5 */}
-      <p className="text-center font-[CamptonBold] text-[2rem] mt-14 my-4">
+      <p className="text-center font-[LufgaBold] text-[2rem] mt-14 my-4">
         Software Development
       </p>
-      <p className="text-center font-[CamptonBook] text-[1.25rem]">
+      <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Tailored Software Solutions to Drive Business Innovation
       </p>
       <div className="grid grid-cols-3 gap-[3.25rem] mx-[7.5rem] my-[5rem]">
@@ -354,10 +354,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-6.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Custom Application Development
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             Our team excels in designing and developing bespoke applications
             across a variety of platforms.
           </p>
@@ -370,10 +370,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-7.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             System Integration
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We specialize in seamlessly integrating new software with your
             existing IT <br /> infrastructure.
           </p>
@@ -386,10 +386,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-8.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Software Modernization
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We modernize outdated systems by migrating them to advanced
             platforms that significantly improve performance and reduce
             maintenance costs.
@@ -403,10 +403,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-9.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Agile Development Practices
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             By adopting agile methodologies, we guarantee flexibility, rapid
             delivery, and continuous enhancement throughout the software
             development lifecycle.
@@ -420,10 +420,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-10.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             User Experience & Interface Design
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             We prioritize user experience (UX) and user interface (UI) design in
             all our software projects to ensure intuitive and engaging
             applications design.
@@ -437,10 +437,10 @@ const Services = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-11.svg"
             alt="img"
           />
-          <p className="text-center font-[CamptonSemiBold] text-[1.25rem] py-8">
+          <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             API Development & Management
           </p>
-          <p className="text-left font-[CamptonBook]">
+          <p className="text-left font-[LufgaLight]">
             Our developers create powerful, secure, and well-documented APIs
             that allow your applications to interact seamlessly with other
             systems.
@@ -448,7 +448,7 @@ const Services = () => {
         </div>
       </div>
       {/* section 6 */}
-      <p className="font-[CamptonMedium] text-[1.25rem] pb-[5rem] text-center">
+      <p className="font-[LufgaMedium] text-[1.25rem] pb-[5rem] text-center">
         Comprehensive IT and Software Solutions
       </p>
 
@@ -460,14 +460,14 @@ const Services = () => {
           />
         </div>
         <div>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[0.8rem] ">
+          <p className="font-[LufgaLight] text-[1.25rem] pb-[0.8rem] ">
             Together with Enterprise Digital Transformation, Cloud Consulting,
             and Managed IT Services,
             <br /> our Software Development capabilities form a complete suite
             of solutions that support every <br /> aspect of your digital and IT
             strategy.
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] py-[0.8rem] ">
+          <p className="font-[LufgaLight] text-[1.25rem] py-[0.8rem] ">
             This holistic approach ensures that cutting-edge technology not only
             propels your business <br /> forward but also integrates smoothly to
             create a cohesive and efficient IT ecosystem. <br /> Through our
@@ -480,7 +480,7 @@ const Services = () => {
       {/* section 7 */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
         <div className="flex flex-wrap justify-between items-center sm:mx-[6.25rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-3 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
+          <div className="px-2 sm:px-8 py-3 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
@@ -505,25 +505,25 @@ const Services = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
               <p>Why Choose us</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-[1rem]">
           Why Ahyliz Technologies?
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem] mb-[2rem]">
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem]">
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
-            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+            <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
               Expertise
             </p>
-            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+            <p className="font-[LufgaLight] text-[0.875] pl-6 pr-14 py-3">
               Our team comprises industry-leading professionals with extensive
               experience across various IT disciplines, from software
               engineering to cloud computing to cybersecurity.
@@ -531,10 +531,10 @@ const Services = () => {
           </div>
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
-            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+            <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
               Innovation
             </p>
-            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3 pb-10">
+            <p className="font-[LufgaLight] text-[0.875] pl-6 pr-14 py-3 pb-10">
               We're pioneers of technological innovation, constantly exploring
               new ideas and solutions to drive business growth. Dedicated to
               staying ahead of the curve, we leverage cutting-edge technologies
@@ -543,10 +543,10 @@ const Services = () => {
           </div>
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
-            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+            <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
               Customer Focus
             </p>
-            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+            <p className="font-[LufgaLight] text-[0.875] pl-6 pr-14 py-3">
               At Ahyliz Technologies, customer satisfaction is our top priority.
               We provide personalized service and support, ensuring your needs
               are addressed promptly and effectively.
@@ -554,10 +554,10 @@ const Services = () => {
           </div>
           <div className="border-b h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
-            <p className="py-[2.7rem] font-[CamptonSemiBold] text-[1.25rem] pl-6">
+            <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
               Value
             </p>
-            <p className="font-[CamptonBook] text-[0.875] pl-6 pr-14 py-3">
+            <p className="font-[LufgaLight] text-[0.875] pl-6 pr-14 py-3">
               We provide competitive pricing and flexible solutions to meet your
               budget and timeline. Expect maximum value and a solid return on
               your technology investment with Ahyliz Technologies.

@@ -16,18 +16,18 @@ const ContactUs = () => {
                 alt="img"
               />
             </div>
-            <div className="sm:mx-2 font-[CamptonMedium] pb-4">
+            <div className="sm:mx-2 font-[LufgaMedium] pb-4">
               <p>Let’s Start a Conversation</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
+          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
             Reach Out to Us <br /> Today
           </p>
-          <p className="py-2">
+          <p className="py-2 font-[LufgaBook]">
             Our experts are available to answer any questions you <br /> might
             have. We’ve got the answers.
           </p>
-          <div className="flex items-center mt-8 font-[CamptonBook]">
+          <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/contact">
               <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
                 Get Started
@@ -37,7 +37,7 @@ const ContactUs = () => {
 
           <div className="flex text-[#4f45e2] text-[1rem] py-6">
             <div>
-              <p className="tracking-[0.3rem] font-[CamptonSemiBold]">
+              <p className="tracking-[0.3rem] font-[LufgaSemiBold]">
                 FOLLOW US
               </p>
             </div>
@@ -97,28 +97,28 @@ const ContactUs = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
               <p>Contact us</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-[1rem]">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-[1rem]">
           Get in Touch With Us Now
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem] mb-[2rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem] mb-[2rem]">
           Contact us without any hesitation
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-12 my-[5rem]">
           {/* 1st */}
           <div
-            className="p-[2rem] font-[CamptonBook] rounded-xl w-[21rem]"
+            className="p-[2rem] font-[LufgaBook] rounded-xl w-[21rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className="flex flex-col justify-between ">
               <div className="flex justify-between ">
                 <div>
-                  <p className="font-[CamptonSemiBold] text-[1rem] ">Call Us</p>
+                  <p className="font-[LufgaSemiBold] text-[1rem] ">Call Us</p>
                 </div>
                 <div>
                   <img
@@ -149,13 +149,13 @@ const ContactUs = () => {
 
           {/* 2nd */}
           <div
-            className="p-[2rem] font-[CamptonBook] rounded-xl bg-[#4f45e2] w-[21rem]"
+            className="p-[2rem] font-[LufgaBook] rounded-xl bg-[#4f45e2] w-[21rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className="flex flex-col justify-between">
               <div className="flex justify-between ">
                 <div>
-                  <p className="font-[CamptonSemiBold] text-[1rem] text-white ">
+                  <p className="font-[LufgaSemiBold] text-[1rem] text-white ">
                     Email Us
                   </p>
                 </div>
@@ -187,13 +187,13 @@ const ContactUs = () => {
           </div>
           {/* 3rd */}
           <div
-            className="p-[2rem] font-[CamptonBook] rounded-xl w-[21rem]"
+            className="p-[2rem] font-[LufgaBook] rounded-xl w-[21rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className="flex flex-col justify-between ">
               <div className="flex justify-between ">
                 <div>
-                  <p className="font-[CamptonSemiBold] text-[1rem]">Support</p>
+                  <p className="font-[LufgaSemiBold] text-[1rem]">Support</p>
                 </div>
                 <div>
                   <img
@@ -225,11 +225,11 @@ const ContactUs = () => {
       {/* section 3 */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
         <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-3 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
+          <div className="px-2 sm:px-8 py-3 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
-            <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+            <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[LufgaMedium] sm:font-[LufgaBold] hover:opacity-40">
               {" "}
               See How It Works?
             </div>

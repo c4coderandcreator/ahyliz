@@ -20,7 +20,7 @@ const Contact = () => {
                 <p>Contact us</p>
               </div>
             </div>
-            <p className="font-[LufgaBold] leading-8 sm:leading-none text-[2rem] text-[#4f45e2] mb-4 sm:mb-0">
+            <p className="font-[LufgaBold] leading-8 sm:leading-10 text-[2rem] text-[#4f45e2] mb-4 sm:mb-0">
               Let’s talk! <br /> Love to hear from you.
             </p>
             <div className="flex flex-wrap sm:flex-nowrap sm:gap-[5rem] sm:mt-[3rem]">

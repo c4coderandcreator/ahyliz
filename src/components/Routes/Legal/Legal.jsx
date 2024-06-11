@@ -17,18 +17,18 @@ const Legal = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
               <p>Legal</p>
             </div>
           </div>
         </div>
-        <p className="text-center text-white font-[CamptonBold] text-[4.5rem] my-4">
+        <p className="text-center text-white font-[LufgaBold] text-[4.5rem] my-4">
           Learn How We Safeguard Your Data
         </p>
-        <p className="text-center text-white font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center text-white font-[LufgaBook] text-[1.25rem]">
           Our Commitment to Keeping Your Information Secure
         </p>
-        <div className="flex items-center mt-8 font-[CamptonBook] w-full justify-center">
+        <div className="flex items-center mt-8 font-[LufgaBook] w-full justify-center">
           <Link to="/contact">
             <p className="px-[2rem] py-[0.8rem] bg-white rounded-lg text-[#4f45e2] hover:opacity-40">
               Contact us
@@ -38,7 +38,7 @@ const Legal = () => {
 
         <div className="flex items-center justify-center text-white text-[1rem] py-6 pb-[4.5rem]">
           <div>
-            <p className="tracking-[0.3rem] font-[CamptonSemiBold] mr-6">
+            <p className="tracking-[0.3rem] font-[LufgaSemiBold] mr-6">
               FOLLOW US
             </p>
           </div>
@@ -76,12 +76,12 @@ const Legal = () => {
         </div>
       </div>
       {/* 1st */}
-      <div className=" py-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
-        <p className="font-[CamptonBold] text-[2rem] pt-2 pb-[2rem]">
+      <div className=" py-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
+        <p className="font-[LufgaBold] text-[2rem] pt-2 pb-[2rem]">
           Privacy Policy
         </p>
         <p className="pb-[2rem]">
-          1. <span className="font-[CamptonSemiBold]">Introduction</span>
+          1. <span className="font-[LufgaSemiBold]">Introduction</span>
            Welcome to Ahyliz Technologies. We are committed to protecting <br />{" "}
           your privacy. This policy details the types of information we collect
           from our users,
@@ -89,7 +89,7 @@ const Legal = () => {
         </p>
         <p className="pb-[2rem]">
           2.{" "}
-          <span className="font-[CamptonSemiBold]">Information Collection</span>
+          <span className="font-[LufgaSemiBold]">Information Collection</span>
            We collect information in the following ways:
         </p>
 
@@ -104,7 +104,7 @@ const Legal = () => {
         </li>
 
         <p className="pb-[2rem]">
-          3. <span className="font-[CamptonSemiBold]">Use of Information</span>
+          3. <span className="font-[LufgaSemiBold]">Use of Information</span>
            The information we collect is used to:
         </p>
 
@@ -116,7 +116,7 @@ const Legal = () => {
           Monitor and analyze trends and usage.
         </li>
         <p className="pb-[2rem]">
-          4. <span className="font-[CamptonSemiBold]">Data Sharing</span>  We do
+          4. <span className="font-[LufgaSemiBold]">Data Sharing</span>  We do
           not share personal information with companies,
           <br />
           organizations, or individuals outside of Ahyliz Technologies except in
@@ -131,38 +131,38 @@ const Legal = () => {
         </li>
 
         <p className="pb-[2rem]">
-          5. <span className="font-[CamptonSemiBold]">Security</span> We work
-          hard to protect Ahyliz Technologies and our users from <br />{" "}
-          unauthorized access to or unauthorized alteration, disclosure, or
-          destruction of <br /> information we hold.
+          5. <span className="font-[LufgaSemiBold]">Security</span> We work hard
+          to protect Ahyliz Technologies and our users from <br /> unauthorized
+          access to or unauthorized alteration, disclosure, or destruction of{" "}
+          <br /> information we hold.
         </p>
 
         <p className="pb-[2rem]">
-          6. <span className="font-[CamptonSemiBold]">Changes</span> Our Privacy
+          6. <span className="font-[LufgaSemiBold]">Changes</span> Our Privacy
           Policy may change from time to time. We will post any <br /> privacy
           policy changes on this page.
         </p>
 
         <p id="tou" className="pb-[2rem]">
-          7. <span className="font-[CamptonSemiBold]">Contact Us</span> If you
+          7. <span className="font-[LufgaSemiBold]">Contact Us</span> If you
           have any questions about this Privacy Policy, please contact <br />{" "}
           us at contact@ahyliz.com
         </p>
       </div>
 
       {/* 2nd */}
-      <div className=" pb-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
-        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">Terms of Use</p>
+      <div className=" pb-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
+        <p className="font-[LufgaBold] text-[2rem] pb-[2rem]">Terms of Use</p>
 
         <p className="pb-[2rem]">
-          1. <span className="font-[CamptonSemiBold]">Introduction</span> By
-          using our website (the "Service") operated by Ahyliz <br />{" "}
-          Technologies, you agree to be bound by these terms of use. Please read
-          them <br /> carefully.
+          1. <span className="font-[LufgaSemiBold]">Introduction</span> By using
+          our website (the "Service") operated by Ahyliz <br /> Technologies,
+          you agree to be bound by these terms of use. Please read them <br />{" "}
+          carefully.
         </p>
 
         <p className="pb-[2rem]">
-          2. <span className="font-[CamptonSemiBold]">Using Our Services</span>
+          2. <span className="font-[LufgaSemiBold]">Using Our Services</span>
            You must follow any policies made available to you within the <br />{" "}
           Service. Do not misuse our Services, for example, do not interfere
           with our Services <br /> or try to access them using a method other
@@ -171,7 +171,7 @@ const Legal = () => {
 
         <p className="pb-[2rem]">
           3.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             Your Content in Our Services
           </span>
            You retain ownership of any intellectual property <br /> rights that
@@ -184,7 +184,7 @@ const Legal = () => {
 
         <p className="pb-[2rem]">
           4.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             About Software in Our Services
           </span>
            When a Service requires or includes <br />
@@ -194,7 +194,7 @@ const Legal = () => {
 
         <p className="pb-[2rem]">
           5.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             Modifying and Terminating Our Services
           </span>
            We are constantly changing and <br /> improving our Services. We may
@@ -204,7 +204,7 @@ const Legal = () => {
         <br />
         <p className="pb-[2rem]">
           6.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             Liability for Our Services
           </span>
            When permitted by law, Ahyliz Technologies will not be <br />{" "}
@@ -212,21 +212,21 @@ const Legal = () => {
         </p>
 
         <p className="pb-[2rem]">
-          7. <span className="font-[CamptonSemiBold]">About these Terms</span>
+          7. <span className="font-[LufgaSemiBold]">About these Terms</span>
            We may modify these terms or any additional terms that <br /> apply
           to a Service. You should look at the terms regularly.
-          <span className="font-[CamptonSemiBold]"></span>
+          <span className="font-[LufgaSemiBold]"></span>
         </p>
       </div>
 
       {/* 3rd */}
-      <div className=" pb-[5rem] px-[7.5rem] font-[CamptonBook] text-[1.5rem]">
-        <p className="font-[CamptonBold] text-[2rem] pb-[2rem]">
+      <div className=" pb-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
+        <p className="font-[LufgaBold] text-[2rem] pb-[2rem]">
           Accessibility Statement
         </p>
 
         <p className="pb-[2rem]">
-          1. <span className="font-[CamptonSemiBold]">Commitment</span>
+          1. <span className="font-[LufgaSemiBold]">Commitment</span>
            &nbsp;Ahyliz Technologies is committed to ensuring digital
           accessibility <br /> for people with disabilities. We are continually
           improving the user experience for <br /> everyone and applying the
@@ -234,7 +234,7 @@ const Legal = () => {
         </p>
 
         <p className="pb-[2rem]">
-          2. <span className="font-[CamptonSemiBold]">Feedback</span> We welcome
+          2. <span className="font-[LufgaSemiBold]">Feedback</span> We welcome
           your feedback on the accessibility of our website. Please <br /> let
           us know if you encounter accessibility barriers on Ahyliz
           Technologies: <br /> contact@ahyliz.com
@@ -242,7 +242,7 @@ const Legal = () => {
 
         <p className="pb-[2rem]">
           3.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             Measures to Support Accessibility
           </span>
           &nbsp;Ahyliz Technologies takes the following <br /> measures to
@@ -263,7 +263,7 @@ const Legal = () => {
 
         <p className="pb-[2rem]">
           4.{" "}
-          <span className="font-[CamptonSemiBold]">
+          <span className="font-[LufgaSemiBold]">
             Compatibility with Browsers and Assistive Technology &nbsp;
           </span>
           Our goal is to ensure <br /> compatibility with the latest version of
