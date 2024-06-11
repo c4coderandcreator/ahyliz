@@ -16,7 +16,8 @@ const Navbar = () => {
       <div className="sm:px-6 py-4">
         <Link to="/" onClick={() => setActiveTab("/")}>
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Logo.svg"
+            className="h-[4.2rem] w-[10rem]"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO.png"
             alt="logo"
           />
         </Link>
