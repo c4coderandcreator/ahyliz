@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     <>
-      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[Lufga-Light-2] text-[1rem]">
+      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[LufgaLight] text-[1rem]">
         <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
           <div className="h-full mt-8 sm:mt-0">
             <img
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="sm:border-r sm:border-l border-custom-rgba px-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Home</p>
+            <p className="font-[LufgaBold] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>
             </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
-            <p className="font-[Lufga-Bold-2] text-[1.5rem]">About us</p>
+            <p className="font-[LufgaBold] text-[1.5rem]">About us</p>
             <Link to="/services">
               <p className="hover:opacity-40">How it Works?</p>
             </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
-            <p className="font-[Lufga-Bold-2] text-[1.5rem]">Contact us</p>
+            <p className="font-[LufgaBold] text-[1.5rem]">Contact us</p>
             <Link to="tel:+1 (844) 400-7222">
               <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>
             </Link>

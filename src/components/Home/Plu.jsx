@@ -17,15 +17,15 @@ const Plu = () => {
             <div>
               <img src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/55ea6f2e9103d76a7d626d2f12df297e89be99e9/Resources/Home/Icons/heart.svg" />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
               <p>People Love Us</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Discover Our Clients' Experiences
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Insights from satisfied customers
         </p>
         {/* parent */}
@@ -39,7 +39,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[CamptonBook] text-[1rem] mb-6">
+              <div className="px-4 sm:px-8 font-[LufgaBook] text-[1rem] mb-6">
                 Managed IT services by Ahyliz Technologies ensured our systems
                 ran smoothly, allowing us to focus on core business operations.
               </div>
@@ -52,8 +52,8 @@ const Plu = () => {
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003.png"
                 alt="img"
               />
-              <p className="text-center font-[CamptonSemiBold] pt-1">Stephen</p>
-              <p className="text-center font-[CamptonBook]">@client</p>
+              <p className="text-center font-[LufgaSemiBold] pt-1">Stephen</p>
+              <p className="text-center font-[LufgaBook]">@client</p>
             </div>
           </div>
           {/* child 2 */}
@@ -62,7 +62,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleW />
               </div>
-              <div className="px-4 sm:px-8 text-white font-[CamptonBook] mb-6">
+              <div className="px-4 sm:px-8 text-white font-[LufgaBook] mb-6">
                 Impressive cloud consulting <br className="hidden sm:block" />{" "}
                 services from Ahyliz Technologies. Seamless transition and
                 improved <br className="hidden sm:block" /> efficiency!
@@ -76,10 +76,8 @@ const Plu = () => {
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2002.png"
                 alt="img"
               />
-              <p className="text-center font-[CamptonSemiBold] pt-1">
-                Alen Max
-              </p>
-              <p className="text-center font-[CamptonBook]">@client</p>
+              <p className="text-center font-[LufgaSemiBold] pt-1">Alen Max</p>
+              <p className="text-center font-[LufgaBook]">@client</p>
             </div>
           </div>
           {/* child 3 */}
@@ -91,7 +89,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[CamptonBook] mb-6">
+              <div className="px-4 sm:px-8 font-[LufgaBook] mb-6">
                 Ahyliz Technologies transformed our outdated systems into
                 efficient digital solutions. Highly recommend their expertise!
               </div>
@@ -104,8 +102,8 @@ const Plu = () => {
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Icons/User%20Image%2003-1.png"
                 alt="img"
               />
-              <p className="text-center font-[CamptonSemiBold] pt-1">Sarah</p>
-              <p className="text-center font-[CamptonBook]">@client</p>
+              <p className="text-center font-[LufgaSemiBold] pt-1">Sarah</p>
+              <p className="text-center font-[LufgaBook]">@client</p>
             </div>
           </div>
         </div>

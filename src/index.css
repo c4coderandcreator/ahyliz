@@ -48,49 +48,49 @@
 
 /* Lufag */
 @font-face {
-  font-family: "Lufga-Light-2";
+  font-family: "LufgaLight";
   src: url(../Lufag/Lufag/Lufga-Light-2.ttf);
 }
-.Lufga-Light-2 {
-  font-family: "Lufga-Light-2";
+.LufgaLight {
+  font-family: "LufgaLight";
 }
 
 @font-face {
-  font-family: "Lufga-Regular-2";
+  font-family: "LufgaBook";
   src: url(../Lufag/Lufag/Lufga-Regular-2.ttf);
 }
-.Lufga-Regular-2 {
-  font-family: "Lufga-Regular-2";
+.LufgaBook {
+  font-family: "LufgaBook";
 }
 
 @font-face {
-  font-family: "Lufga-Medium-2";
+  font-family: "LufgaMedium";
   src: url(../Lufag/Lufag/Lufga-Medium-2.ttf);
 }
-.Lufga-Medium-2 {
-  font-family: "Lufga-Medium-2";
+.LufgaMedium {
+  font-family: "LufgaMedium";
 }
 
 @font-face {
-  font-family: "Lufga-SemiBold-2";
+  font-family: "LufgaSemiBold";
   src: url(../Lufag/Lufag/Lufga-SemiBold-2.ttf);
 }
-.Lufga-SemiBold-2 {
-  font-family: "Lufga-SemiBold-2";
+.LufgaSemiBold {
+  font-family: "LufgaSemiBold";
 }
 
 @font-face {
-  font-family: "Lufga-Bold-2";
+  font-family: "LufgaBold";
   src: url(../Lufag/Lufag/Lufga-Bold-2.ttf);
 }
-.Lufga-Bold-2 {
-  font-family: "Lufga-Bold-2";
+.LufgaBold {
+  font-family: "LufgaBold";
 }
 
 @font-face {
-  font-family: "Lufga-ExtraBold-2";
+  font-family: "LufgaExtraBold";
   src: url(../Lufag/Lufag/Lufga-ExtraBold-2.ttf);
 }
-.Lufga-ExtraBold-2 {
-  font-family: "Lufag-ExtraBold-2";
+.LufgaExtraBold {
+  font-family: "LufagExtraBold";
 }

@@ -18,15 +18,17 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="sm:mx-2 font-[CamptonMedium] pb-4">
+            <div className="sm:mx-2 font-[LufgaMedium] pb-4">
               <p>Welcome To Ahyliz Technologies</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[CamptonBold] leading-[4.875rem]">
+          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
             Leading the <br /> Way in Digital <br /> Innovation.
           </p>
-          <p className="py-2">Empowering Your Digital Future</p>
-          <div className="flex items-center mt-8 font-[CamptonBook]">
+          <p className="py-2 font-[LufgaBook]">
+            Empowering Your Digital Future
+          </p>
+          <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/about">
               <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
                 Explore more
@@ -41,7 +43,7 @@ const Home = () => {
 
           <div className="flex text-[#4f45e2] text-[1rem] py-6">
             <div>
-              <p className="tracking-[0.3rem] font-[CamptonSemiBold]">
+              <p className="tracking-[0.3rem] font-[LufgaSemiBold]">
                 FOLLOW US
               </p>
             </div>
@@ -97,15 +99,15 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
               <p>About us</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Leading the Way in Tailored IT Solutions
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Pioneering excellence in technology services
         </p>
 
@@ -153,10 +155,10 @@ const Home = () => {
             </div>
           </div> */}
           <div className="w-[44.56rem] h-[33.5rem]">
-            <p className="font-[CamptonBold] text-[1.5rem] leading-8">
+            <p className="font-[LufgaBold] text-[1.5rem] leading-8">
               Welcome to Ahyliz Technologies - Pioneers of Digital Innovation.{" "}
             </p>
-            <p className="font-[CamptonBook] text-[1rem] py-4">
+            <p className="font-[LufgaBook] text-[1rem] py-4">
               As leaders in Enterprise Digital Transformation, Cloud Consulting,
               Managed IT Services, and Software Development, we provide
               businesses with the sophisticated technology frameworks essential
@@ -166,7 +168,7 @@ const Home = () => {
               revolutionize your business operations, propelling you to a
               substantial competitive edge.
             </p>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  py-6 items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  py-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg.svg"
@@ -177,7 +179,7 @@ const Home = () => {
                 <p>Software Development</p>
               </div>
             </div>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  pb-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-1.svg"
@@ -188,7 +190,7 @@ const Home = () => {
                 <p>Cybersecurity</p>
               </div>
             </div>
-            <div className="flex gap-4 font-[CamptonSemiBold] text-[1.25rem]  pb-6 items-center">
+            <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  pb-6 items-center">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/Software%20Engg-2.svg"
@@ -200,7 +202,7 @@ const Home = () => {
               </div>
             </div>
             <Link to="/about">
-              <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[CamptonBook] hover:opacity-40">
+              <p className="py-4 px-8 bg-[#4f45e2] text-white w-[9.125rem] rounded-lg font-[LufgaBook] hover:opacity-40">
                 Read More
               </p>
             </Link>
@@ -212,11 +214,11 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
+            <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Leading IT Service <br />
               Provider
             </p>
-            <p className="font-[CamptonBook]">
+            <p className="font-[LufgaBook]">
               Ahyliz Technologies stands at the forefront of the industry,
               providing innovative IT solutions tailored to meet the evolving
               needs of businesses.
@@ -227,10 +229,10 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20172.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
+            <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Exceeding Client <br /> Expectations
             </p>
-            <p className="font-[CamptonBook]">
+            <p className="font-[LufgaBook]">
               Our commitment to excellence ensures that we go above and beyond
               to deliver solutions that surpass the expectations of our clients,
               driving tangible business results.
@@ -241,10 +243,10 @@ const Home = () => {
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20173.svg"
               alt="img"
             />{" "}
-            <p className="font-[CamptonBold] text-[1.25rem] pt-3 pb-5">
+            <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Driving Business <br /> Growth
             </p>
-            <p className="font-[CamptonBook]">
+            <p className="font-[LufgaBook]">
               By leveraging cutting-edge technology and strategic expertise, we
               empower businesses to achieve substantial growth and operational
               efficiency.
@@ -265,27 +267,27 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem] ">
               <p>Our Services</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Elevating Your Business with Tailored Solutions
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Get your self ready for the most comprehensive solutions
         </p>
-        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[CamptonBook]">
+        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
           <div className="text-left sm:text-right w-[22.5rem]">
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Enterprise Digital <br /> Transformation
             </p>
             <p className="pb-4 sm:pb-[6.5rem]">
               Transform your business with Ahyliz <br /> Technologies'
               comprehensive Enterprise Digital <br /> Transformation
             </p>
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Software Development
             </p>
             <p>
@@ -300,14 +302,14 @@ const Home = () => {
             />
           </div>
           <div className="w-[22.5rem]">
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Consulting Services
             </p>
             <p className="pb-4 sm:pb-[8.7rem]">
               Navigate the complexities of cloud <br /> environments with Ahyliz
               Technologies' Cloud <br /> Consulting services.
             </p>
-            <p className="font-[CamptonSemiBold] text-[1.25rem]">
+            <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Managed IT Services
             </p>
             <p>
@@ -320,11 +322,11 @@ const Home = () => {
       {/* How it works */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
         <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-4 font-[CamptonMedium] sm:font-[CamptonBold] text-[0.8rem] sm:text-[1.5rem]">
+          <div className="px-2 sm:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
-            <div className="px-2 mx-1 sm:px-4 py-4 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+            <div className="px-2 mx-1 sm:px-4 py-4 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[LufgaMedium] sm:font-[LufgaBold] hover:opacity-40">
               {" "}
               See How It Works?
             </div>
@@ -344,15 +346,15 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem] ">
               <p>How it Works?</p>
             </div>
           </div>
         </div>
-        <p className="text-center font-[CamptonBold] text-[2rem] my-4">
+        <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Streamlining Your Journey to Technological Excellence
         </p>
-        <p className="text-center font-[CamptonBook] text-[1.25rem]">
+        <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Navigating your path to seamless integration
         </p>
         <div className="flex items-center justify-center my-8 rounded-2xl mt-[5rem]">

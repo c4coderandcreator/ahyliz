@@ -34,31 +34,31 @@ const Faq = () => {
                 alt="img"
               />
             </div>
-            <div className="text-center font-[CamptonMedium] text-[1.25rem] ">
+            <div className="text-center font-[LufgaMedium] text-[1.25rem] ">
               <p>Got Question?</p>
             </div>
           </div>
-          <p className="font-[CamptonBold] text-[2rem] py-4 sm:py-[2rem]">
+          <p className="font-[LufgaBold] text-[2rem] py-4 sm:py-[2rem]">
             Frequently Asked Questions
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[2rem]">
+          <p className="font-[LufgaBook] text-[1.25rem] pb-[2rem]">
             Learn more about the range of services provided by{" "}
             <br className="hidden sm:block" /> Ahyliz Technologies, including;
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
             1. Enterprise Digital Transformation
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
             2. Cloud Consulting
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[1rem]">
+          <p className="font-[LufgaBook] text-[1.25rem] pb-[1rem]">
             3. Managed IT Services
           </p>
-          <p className="font-[CamptonBook] text-[1.25rem] pb-[3rem]">
+          <p className="font-[LufgaBook] text-[1.25rem] pb-[3rem]">
             4. Software Development.
           </p>
           <Link to="/contact">
-            <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[CamptonMedium] hover:opacity-40">
+            <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[LufgaMedium] hover:opacity-40">
               Ask Question
             </p>
           </Link>
