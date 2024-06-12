@@ -7,7 +7,7 @@ const Accordion = ({ title, answer }) => {
     <div className="py-1 sm:py-2 w-auto">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-evenly sm:justify-between text-left w-auto sm:w-[37.5rem]"
+        className="flex justify-between sm:justify-between text-left w-full sm:w-[37.5rem]"
       >
         <span className=" font-[LufgaMedium] sm:text-[1.25rem] sm:mb-[2rem] w-auto hover:opacity-40">
           {title}
@@ -36,7 +36,7 @@ const Accordion = ({ title, answer }) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden w-auto sm:w-[33.5rem] font-[LufgaLight] text-[1rem] text-[#888888]">
+        <div className="overflow-hidden w-full sm:w-[33.5rem] font-[LufgaLight] text-[1rem] text-[#888888]">
           {answer}
         </div>
       </div>

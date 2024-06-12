@@ -8,7 +8,7 @@ const Plu = () => {
   return (
     <>
       {/* PLU */}
-      <div className="mx-4 sm:px-[7.5rem] sm:pt-10 pt-10">
+      <div className="mx-4 lg:px-[7.5rem] sm:pt-10 pt-10">
         <div className="flex justify-center w-auto items-center">
           <div
             className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
@@ -29,7 +29,7 @@ const Plu = () => {
           Insights from satisfied customers
         </p>
         {/* parent */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:px-[6.5rem] mt-4">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 sm:px-[6.5rem] mt-4">
           {/* child 1 */}
           <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
             <div

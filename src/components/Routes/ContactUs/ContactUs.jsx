@@ -7,8 +7,8 @@ const ContactUs = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
-        <div className="sm:text-[1.25rem] sm:mr-20 al">
+      <div className="flex p-6 sm:p-20 lg:mx-10 justify-between">
+        <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
               <img
@@ -24,8 +24,9 @@ const ContactUs = () => {
             Reach Out to Us <br /> Today
           </p>
           <p className="py-2 font-[LufgaBook]">
-            Our experts are available to answer any questions you <br /> might
-            have. We’ve got the answers.
+            Our experts are available to answer any questions you{" "}
+            <br className="hidden lg:block" /> might have. We’ve got the
+            answers.
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/contact">
@@ -85,7 +86,7 @@ const ContactUs = () => {
       </div>
 
       {/* next section */}
-      <div className="bg-[#f4f9ff] mb-[5rem] mx-[7.5rem] py-[3.75rem] px-[5rem] rounded-2xl">
+      <div className="bg-[#f4f9ff] mb-[5rem] lg:mx-[7.5rem] py-[3.75rem] lg:px-[5rem] rounded-2xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"

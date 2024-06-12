@@ -7,8 +7,8 @@ const Services = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
-        <div className="sm:text-[1.25rem] sm:mr-20 al">
+      <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">
+        <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
               <img
@@ -20,11 +20,12 @@ const Services = () => {
               <p>Comprehensive IT Solutions</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
+          <p className="text-[2.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[3.875rem] lg:leading-[4.875rem]">
             Explore Range of <br /> Tailored <br /> Solutions
           </p>
           <p className="py-2 font-[LufgaBook]">
-            Empowering Your Business with Advanced Technology <br /> Services
+            Empowering Your Business with Advanced Technology{" "}
+            <br className="hidden lg:block" /> Services
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/contact">
@@ -76,14 +77,14 @@ const Services = () => {
         </div>
         <div>
           <img
-            className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
+            className=" h-auto lg:h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2d20f17dc2478772f51aebff3c065fc1109b5fab/Resources/Services/Illustration%202.svg"
             alt="img"
           />
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-10">
+      <div className="bg-cover bg-[#f4f9ff] px-4 lg:px-[7.5rem] py-4 sm:py-10">
         <div className="flex items-center justify-center w-full ">
           <div className="flex justify-center w-full sm:w-[18rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -113,7 +114,7 @@ const Services = () => {
             />
           </div>
 
-          <div className="w-[44.56rem] h-[25.5rem]">
+          <div className="w-[44.56rem] h-auto lg:h-[25.5rem]">
             <p className="font-[LufgaBold] text-[1.5rem] leading-8">
               Empower Your Business with a Strategic Overhaul
             </p>
@@ -170,7 +171,7 @@ const Services = () => {
       <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Proactive IT Management for Uninterrupted Business Operations
       </p>
-      <div className="grid grid-cols-3 gap-[3.25rem] mx-[7.5rem] my-[5rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
         <div
           className="flex flex-col items-center p-[2rem] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -286,54 +287,61 @@ const Services = () => {
       </div>
 
       {/* section 4 */}
-      <div className=" sm:px-[7.5rem] py-6 sm:py-20">
+      <div className=" lg:px-[7.5rem] py-6 sm:py-20">
         <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Cloud Consulting
         </p>
         <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Expert Guidance Through Your Cloud Journey
         </p>
-        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
-          <div className="text-left sm:text-right w-[23.5rem]">
+        <div className="flex flex-wrap justify-between lg:justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
+          <div className="text-left lg:text-right w-auto lg:w-[23.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Architecture Design
             </p>
-            <p className="pb-4 sm:pb-[7rem] font-[LufgaLight]">
-              Our experts design robust, scalable, and <br /> secure cloud
-              solutions that are cost-effective <br /> and tailored to meet the
-              unique demands of <br />
+            <p className="pb-4 lg:pb-[7rem] font-[LufgaLight]">
+              Our experts design robust, scalable, and{" "}
+              <br className="hidden lg:block" /> secure cloud solutions that are
+              cost-effective <br /> and tailored to meet the unique demands of{" "}
+              <br v />
               your business
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Vendor Selection & Management
             </p>
             <p className="font-[LufgaLight]">
-              Choosing the right cloud provider is crucial for <br /> your cloud
-              journey. We assist in selecting the <br /> most suitable cloud
-              vendors that align with <br /> your business objective
+              Choosing the right cloud provider is crucial for{" "}
+              <br className="hidden lg:block" /> your cloud journey. We assist
+              in selecting the <br className="hidden lg:block" /> most suitable
+              cloud vendors that align with <br className="hidden lg:block" />{" "}
+              your business objective
             </p>
           </div>
-          <div className="w-[31rem] hidden sm:block">
+          <div className="w-auto lg:w-[31rem] hidden sm:block">
             <img
+              className="hidden lg:block"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Services/Group%201000004731.png"
               alt="img"
             />
           </div>
-          <div className="w-[23.5rem]">
+          <div className="w-auto lg:w-[23.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Expert Guidance
             </p>
-            <p className="pb-4 sm:pb-[7rem] font-[LufgaLight]">
-              Our Cloud Consulting services at Ahyliz <br /> Technologies are
-              meticulously crafted to guide <br /> you through the complexities
-              of cloud <br /> environments.
+            <p className="pb-4 lg:pb-[7rem] font-[LufgaLight]">
+              Our Cloud Consulting services at Ahyliz{" "}
+              <br className="hidden lg:block" /> Technologies are meticulously
+              crafted to guide <br className="hidden lg:block" /> you through
+              the complexities of cloud <br className="hidden lg:block" />{" "}
+              environments.
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Readiness Assessment
             </p>
             <p className="font-[LufgaLight]">
-              We evaluate your existing infrastructure and <br /> applications
-              to determine your readiness for <br /> cloud migration.
+              We evaluate your existing infrastructure and{" "}
+              <br className="hidden lg:block" /> applications to determine your
+              readiness for <br className="hidden lg:block" /> cloud migration.
             </p>
           </div>
         </div>
@@ -345,7 +353,7 @@ const Services = () => {
       <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Tailored Software Solutions to Drive Business Innovation
       </p>
-      <div className="grid grid-cols-3 gap-[3.25rem] mx-[7.5rem] my-[5rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
         <div
           className="flex flex-col items-center p-[2rem] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -452,22 +460,22 @@ const Services = () => {
         Comprehensive IT and Software Solutions
       </p>
 
-      <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
-        <div className="w-[30rem] h-[20em]">
+      <div className="flex flex-col sm:flex-row justify-center lg:mx-[6.25rem] gap-[2.5rem]">
+        <div className="lg:w-[30rem] h-[20em]">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b1cc41092a4932cac5572c7eed938cb75f1b3374/Resources/Services/Frame-12.svg"
             alt="img"
           />
         </div>
         <div>
-          <p className="font-[LufgaLight] text-[1.25rem] pb-[0.8rem] ">
+          <p className="font-[LufgaLight] lg:text-[1.25rem] pb-[0.8rem] ">
             Together with Enterprise Digital Transformation, Cloud Consulting,
             and Managed IT Services,
             <br /> our Software Development capabilities form a complete suite
             of solutions that support every <br /> aspect of your digital and IT
             strategy.
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] py-[0.8rem] ">
+          <p className="font-[LufgaLight] lg:text-[1.25rem] py-[0.8rem] ">
             This holistic approach ensures that cutting-edge technology not only
             propels your business <br /> forward but also integrates smoothly to
             create a cohesive and efficient IT ecosystem. <br /> Through our
@@ -493,7 +501,7 @@ const Services = () => {
       </div>
 
       {/* WCU */}
-      <div className="bg-cover bg-[#f4f9ff] py-4 sm:pt-10 px-[6.25rem] rounded-3xl">
+      <div className=" py-4 sm:py-10 lg:px-[6.25rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -517,7 +525,7 @@ const Services = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mx-[6.25rem] my-[5rem]">
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">

@@ -5,9 +5,9 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     <>
-      <div className="mt-[18rem] sm:mt-0 h-auto sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[LufgaLight] text-[1rem]">
-        <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
-          <div className="h-full mt-8 sm:mt-0">
+      <div className="mt-[15rem] sm:mt-0 h-auto lg:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover  text-white font-[LufgaLight] text-[1rem]">
+        <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 pt-[5rem] justify-start sm:justify-between gap-4 lg:gap-16 sm:items-center sm:my-[5rem] lg:mx-[5rem] pl-4 sm:pl-0">
+          <div className="justify-self-auto h-full mt-8 sm:mt-0">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b2f528cfdd314c09d5f4d7256ac69296706a32b3/Resources/Home/LogoF.svg"
               alt="img"
@@ -44,7 +44,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="sm:border-r sm:border-l border-custom-rgba pr-14 sm:px-14 leading-[2.2rem]">
+          <div className="justify-self-auto sm:border-r sm:border-l border-custom-rgba lg:px-14 leading-[2.2rem] lg:pl-4 h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>
@@ -62,7 +62,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Contact us</p>
             </Link>
           </div>
-          <div className="sm:border-r border-custom-rgba pr-20 sm:pr-14 leading-[2.2rem]">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-14 leading-[2.2rem] h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">About us</p>
             <Link to="/services">
               <p className="hover:opacity-40">How it Works?</p>
@@ -81,7 +81,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Accessibility</p>
             </HashLink>
           </div>
-          <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem]">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-6 h-full leading-[2.2rem]">
             <p className="font-[LufgaBold] text-[1.5rem] ">Address</p>
             <Link
               to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
@@ -94,7 +94,7 @@ const Footer = () => {
               </p>
             </Link>
           </div>
-          <div className="sm:border-r border-custom-rgba h-full pr-14 leading-[2.2rem] pb-4 sm:pb-0">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-6 h-full leading-[2.2rem] pb-4 sm:pb-0">
             <p className="font-[LufgaBold] text-[1.5rem]">Contact us</p>
             <Link to="tel:+1 (844) 400-7222">
               <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>

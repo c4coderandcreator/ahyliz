@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="flex items-center justify-center w-full mt-[5rem] ">
+      <div className="flex items-center justify-center w-full mt-[2rem] lg:mt-[5rem] ">
         <div
           className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -21,7 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <p className="text-center font-[LufgaBold] text-[4.5rem] my-4">
+      <p className="text-center font-[LufgaBold] text-[2.5rem] md:text-[4.5rem] my-4">
         Leading the Way in Tailored IT Solutions
       </p>
       <p className="text-center font-[LufgaBook] text-[1.25rem]">
@@ -74,8 +74,8 @@ const About = () => {
       </div>
 
       {/* section 3 */}
-      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center mb-4">
-        <div className="flex flex-wrap justify-center gap-20 items-center sm:my-24 w-full rounded-lg">
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-auto lg:h-[16.81rem] flex  items-center mb-4">
+        <div className="flex flex-wrap justify-center gap-20 items-center my-24 w-full rounded-lg">
           <div className="text-center">
             <p className="font-[LufgaExtraBold] text-[#4f45e2] text-[2rem]">
               200+
@@ -100,7 +100,7 @@ const About = () => {
       </div>
 
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-20 mx-[6.25rem] my-[5rem] rounded-3xl">
+      <div className="bg-cover bg-[#f4f9ff] px-4 lg:px-[7.5rem] py-4 sm:py-20 lg:mx-[6.25rem] my-[5rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -115,25 +115,27 @@ const About = () => {
           </div>
         </div>
         <p className="text-center font-[LufgaBold] text-[2rem] my-[2rem]">
-          Ahyliz Technologies: Leading the Charge in <br /> Customized IT
-          Solutions
+          Ahyliz Technologies: Leading the Charge in{" "}
+          <br className="hidden lg:block" /> Customized IT Solutions
         </p>
-        <p className="text-center font-[LufgaLight] text-[1.25rem] mb-[2rem]">
+        <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem]">
           As a premier IT service provider, we specialize in Enterprise Digital
-          Transformation, Cloud Consulting, Managed <br /> IT Services, and
-          Software Development.
+          Transformation, Cloud Consulting, Managed{" "}
+          <br className="hidden lg:block" /> IT Services, and Software
+          Development.
         </p>
-        <p className="text-center font-[LufgaLight] text-[1.25rem]">
+        <p className="text-center font-[LufgaLight] sm:text-[1.25rem]">
           Our team is composed of elite professionals with extensive expertise
-          in these key areas, ensuring that our <br /> solutions not only meet
-          but exceed the specific needs and expectations of our clients. This
-          comprehensive <br /> approach catalyzes significant business growth
-          and enhances operational efficiency.
+          in these key areas, ensuring that our{" "}
+          <br className="hidden lg:block" /> solutions not only meet but exceed
+          the specific needs and expectations of our clients. This comprehensive{" "}
+          <br className="hidden lg:block" /> approach catalyzes significant
+          business growth and enhances operational efficiency.
         </p>
 
-        <div className="flex flex-col flex-wrap my-[2rem] px-[7.5rem] ">
-          <div className="flex gap-10 items-center justify-between">
-            <div>
+        <div className="flex flex-col flex-wrap my-[2rem] lg:px-[7.5rem] ">
+          <div className="flex flex-col sm:flex-row lg:gap-10 sm:items-center justify-between">
+            <div className="">
               <div className="flex gap-4 font-[LufgaSemiBold] text-[1.25rem]  py-6 items-center">
                 <div>
                   <img
@@ -241,13 +243,13 @@ const About = () => {
         </div>
       </div> */}
       {/* section 4 */}
-      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex flex-wrap justify-between items-center sm:mx-[6.25rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-3 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-auto h-[16.81rem] flex justify-center sm:justify-between items-center">
+        <div className="flex flex-wrap justify-center sm:justify-between items-center lg:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+          <div className="px-2 lg:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
-            <div className="px-2 mx-1 sm:px-4 py-3 sm:py-4 sm:mx-8 my-2 sm:my-6 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+            <div className="px-2 mx-1 sm:px-4 py-4 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[LufgaMedium] sm:font-[LufgaBold] hover:opacity-40">
               {" "}
               See How It Works?
             </div>
@@ -317,7 +319,7 @@ const About = () => {
       </div> */}
 
       {/* section 6 */}
-      <div className=" py-4 sm:py-10 px-[6.25rem] rounded-3xl">
+      <div className=" py-4 sm:py-10 lg:px-[6.25rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -341,7 +343,7 @@ const About = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 mx-[6.25rem] my-[5rem]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mx-[6.25rem] my-[5rem]">
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
@@ -393,7 +395,7 @@ const About = () => {
       <div id="ot" className="text-white">
         .
       </div>
-      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-[10rem] rounded-3xl">
+      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-4 lg:px-[10rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -413,15 +415,17 @@ const About = () => {
         <p className="text-center font-[LufgaBold] text-[2rem] my-[1rem]">
           Leading the Way in Tailored IT Solutions
         </p>
-        <p className="text-center font-[LufgaLight] text-[1.25rem] mb-[2rem]">
+        <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem]">
           At Ahyliz Technologies, our commitment to excellence and innovation is
-          reflected in the success stories and <br /> achievements we have
-          amassed over the years. We pride ourselves on our ability to deliver
-          transformative IT <br /> solutions across various sectors. Here are
-          some highlights of our work and the milestones we have achieved:
+          reflected in the success stories and{" "}
+          <br className="hidden md:block" /> achievements we have amassed over
+          the years. We pride ourselves on our ability to deliver transformative
+          IT <br className="hidden md:block" /> solutions across various
+          sectors. Here are some highlights of our work and the milestones we
+          have achieved:
         </p>
 
-        <div className="flex justify-center items-center gap-[4rem] mx-[6.25rem]">
+        <div className="flex flex-wrap justify-center items-center lg:gap-[4rem] lg:mx-[6.25rem]">
           <div className="flex flex-col  items-center">
             <img
               className="w-[10rem] h-[7.5rem] my-6"
@@ -433,11 +437,11 @@ const About = () => {
             </p>
             <p className="text-center font-[LufgaLight]">
               Ahyliz Technologies has been recognized by industry leaders and{" "}
-              <br />
+              <br className="hidden md:block" />
               publications for our pioneering work in digital transformation and{" "}
-              <br />
+              <br className="hidden md:block" />
               IT services. Our accolades include awards for 'Best IT Services{" "}
-              <br />
+              <br className="hidden md:block" />
               Provider' and 'Innovator in Cloud Solutions.'
             </p>
           </div>
@@ -451,17 +455,19 @@ const About = () => {
               Global Clientele
             </p>
             <p className="text-center font-[LufgaLight] ">
-              We have successfully partnered with over 500 companies <br />{" "}
-              worldwide, including Fortune 500 firms, providing them with <br />{" "}
+              We have successfully partnered with over 500 companies{" "}
+              <br className="hidden md:block" /> worldwide, including Fortune
+              500 firms, providing them with <br className="hidden md:block" />{" "}
               tailored IT solutions that have revolutionized their operations
-              and <br /> enhanced their competitiveness in the market.
+              and <br className="hidden md:block" /> enhanced their
+              competitiveness in the market.
             </p>
           </div>
         </div>
       </div>
 
       {/* section 8 */}
-      <div className=" py-4 sm:py-10 px-[10rem] rounded-3xl">
+      <div className=" py-4 sm:py-10 lg:px-[10rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -481,16 +487,18 @@ const About = () => {
         <p className="text-center font-[LufgaBold] text-[2rem] my-[1rem]">
           Innovating Every Field of Work
         </p>
-        <p className=" font-[LufgaLight] text-[1.25rem] text-center mb-[2rem]">
+        <p className=" font-[LufgaLight] sm:text-[1.25rem] text-center mb-[2rem]">
           Through our relentless pursuit of excellence and a client-centric
-          approach, Ahyliz Technologies continues to set <br /> new standards in
-          the IT industry, ensuring our clients are well-equipped to meet the
-          challenges of <br /> the digital age.
+          approach, Ahyliz Technologies continues to set{" "}
+          <br className="hidden md:block" /> new standards in the IT industry,
+          ensuring our clients are well-equipped to meet the challenges of{" "}
+          <br className="hidden md:block" /> the digital age.
         </p>
       </div>
-      <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
-        <div className="w-[29.625rem] h-[32.25rem]">
+      <div className="flex justify-center lg:mx-[6.25rem] lg:gap-[2.5rem]">
+        <div className="lg:w-[29.625rem] h-[32.25rem]">
           <img
+            className="hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Illustration.svg"
             alt="img"
           />
@@ -499,28 +507,32 @@ const About = () => {
           <p className="py-4 text-[2rem] font-[LufgaBold]">
             Digital Transformation for a Major Retailer
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] pb-[0.8rem] ">
+          <p className="font-[LufgaLight] sm:text-[1.25rem] pb-[0.8rem] ">
             Led a complete digital overhaul for a leading retail chain,
-            integrating <br /> advanced AI and IoT technologies that resulted in
-            a 40% increase in <br /> operational efficiency and significantly
-            improved customer experiences.
+            integrating <br className="hidden md:block" /> advanced AI and IoT
+            technologies that resulted in a 40% increase in{" "}
+            <br className="hidden md:block" /> operational efficiency and
+            significantly improved customer experiences.
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] py-[0.8rem] ">
+          <p className="font-[LufgaLight] sm:text-[1.25rem] py-[0.8rem] ">
             Cloud Migration for a Financial Institution: Executed a seamless{" "}
-            <br />
+            <br className="hidden md:block" />
             transition of critical data and operations to a secure cloud
-            environment <br /> for a multinational bank, enhancing their data
-            security and operational <br /> scalability.
+            environment <br className="hidden md:block" /> for a multinational
+            bank, enhancing their data security and operational{" "}
+            <br className="hidden md:block" /> scalability.
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] py-[0.8rem] ">
+          <p className="font-[LufgaLight] sm:text-[1.25rem] py-[0.8rem] ">
             Innovative Software Solutions: Developed a suite of proprietary
-            software <br /> tools that have become benchmarks in the industry.
+            software <br className="hidden md:block" /> tools that have become
+            benchmarks in the industry.
           </p>
         </div>
       </div>
-      <div className="flex justify-center mx-[6.25rem] gap-[2.5rem]">
-        <div className="w-[30rem] h-[20em]">
+      <div className="flex justify-center lg:mx-[6.25rem] lg:gap-[2.5rem]">
+        <div className="lg:w-[30rem] h-[20em]">
           <img
+            className="hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame.svg"
             alt="img"
           />
@@ -529,18 +541,18 @@ const About = () => {
           <p className="py-4 text-[2rem] font-[LufgaBold]">
             Community Engagement and CSR
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] pb-[0.8rem] ">
+          <p className="font-[LufgaLight] sm:text-[1.25rem] pb-[0.8rem] ">
             Ahyliz Technologies' commitment to giving back to the community{" "}
-            <br />
+            <br className="hidden md:block" />
             extends beyond mere words, as evidenced by its proactive engagement
-            in <br />
+            in <br className="hidden md:block" />
             various Corporate Social Responsibility (CSR) projects.
           </p>
-          <p className="font-[LufgaLight] text-[1.25rem] py-[0.8rem] ">
+          <p className="font-[LufgaLight] sm:text-[1.25rem] py-[0.8rem] ">
             These initiatives are carefully designed to make a tangible impact,{" "}
-            <br />
+            <br className="hidden md:block" />
             particularly in underprivileged areas where access to education and{" "}
-            <br />
+            <br className="hidden md:block" />
             technology is limited.
           </p>
         </div>
@@ -548,7 +560,7 @@ const About = () => {
 
       {/* section 9 */}
       <div className="flex flex-col  justify-center items-center bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
-        <div className="flex items-center justify-center w-full pb-10 ">
+        <div className="flex items-center justify-center w-full lg:pb-10 ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -564,25 +576,29 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col items-center justify-center">
-          <img
-            className="w-[32rem] h-[21rem]"
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame-1.svg"
-            alt="img"
-          />
-          <p className="text-center font-[LufgaLight] text-[1.25rem] mb-[2rem] pt-[2rem] px-[10rem]">
-            Over the past decade, we have maintained a double-digit growth rate,
-            expanding our services, customer base, and global reach. This growth
-            is a testament to our robust business model and our team’s
-            dedication to pushing the boundaries of what is possible in IT
-            services.
-          </p>
-          <p className="text-center font-[LufgaLight] text-[1.25rem] mb-[2rem] px-[10rem]">
-            Through our relentless pursuit of excellence and a client-centric
-            approach, Ahyliz Technologies continues to set new standards in the
-            IT industry, ensuring our clients are well-equipped to meet the
-            challenges of the digital age.
-          </p>
+        <div className=" flex flex-col lg:flex-row items-center  justify-between lg:mx-[6.25rem] lg:gap-[2.5rem]">
+          <div>
+            <img
+              className="lg:w-[32rem] h-[21rem]"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame-1.svg"
+              alt="img"
+            />
+          </div>
+          <div className="lg:w-[55rem]">
+            <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem] pt-[2rem] lg:px-[10rem]">
+              Over the past decade, we have maintained a double-digit growth
+              rate, expanding our services, customer base, and global reach.
+              This growth is a testament to our robust business model and our
+              team’s dedication to pushing the boundaries of what is possible in
+              IT services.
+            </p>
+            <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem] lg:px-[10rem]">
+              Through our relentless pursuit of excellence and a client-centric
+              approach, Ahyliz Technologies continues to set new standards in
+              the IT industry, ensuring our clients are well-equipped to meet
+              the challenges of the digital age.
+            </p>
+          </div>
         </div>
       </div>
 

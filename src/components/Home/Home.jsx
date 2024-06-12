@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-0 mt-10 sm:mt-0 sm:p-20 mx-3 sm:mx-10 justify-between">
-        <div className="sm:text-[1.25rem] sm:mr-20 ">
+      <div className="flex p-0 mt-10 lg:mt-0 lg:p-20 mx-3 sm:mx-10 justify-center lg:justify-between">
+        <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
               <img
@@ -91,7 +91,7 @@ const Home = () => {
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] mt-8 sm:mt-0 px-4 sm:px-[7.5rem] py-4 sm:py-20">
+      <div className="bg-cover bg-[#f4f9ff] mt-8 sm:mt-0 px-4 lg:px-[7.5rem] py-4 sm:py-20">
         <div className="flex items-center justify-center w-auto ">
           <div className="flex justify-center w-auto sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -209,7 +209,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center text-center gap-[2rem] sm:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3  sm:flex-nowrap justify-center items-center text-center gap-[2rem] lg:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0 ">
           <div className="flex flex-col items-center mt-10 sm:mt-0">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
@@ -256,10 +256,10 @@ const Home = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div className=" my-10 sm:my-0 mx-3 sm:mx-0 sm:px-[7.5rem] py-6 sm:py-20">
+      <div className=" my-10 sm:my-0 mx-3 sm:mx-0 lg:px-[7.5rem] py-6 sm:py-20">
         <div className="flex  justify-center w-auto items-center ">
           <div
-            className="flex justify-center mx-4 sm:mx-0 w-auto sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center mx-4 sm:mx-0 w-auto lg:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -279,51 +279,58 @@ const Home = () => {
         <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Get your self ready for the most comprehensive solutions
         </p>
-        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-auto font-[LufgaBook]">
-          <div className="text-left sm:text-right w-[22.5rem]">
+        <div className="flex flex-wrap justify-between lg:justify-center pt-[5rem] gap-4 sm:gap-2 w-auto font-[LufgaBook]">
+          <div className="text-left lg:text-right w-auto lg:w-[22.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
-              Enterprise Digital <br /> Transformation
+              Enterprise Digital <br className="hidden lg:block" />{" "}
+              Transformation
             </p>
-            <p className="pb-4 sm:pb-[6.5rem] font-[LufgaLight]">
-              Transform your business with Ahyliz <br /> Technologies'
-              comprehensive Enterprise Digital <br /> Transformation
+            <p className="pb-4 lg:pb-[6.5rem] font-[LufgaLight]">
+              Transform your business with Ahyliz{" "}
+              <br className="hidden lg:block" /> Technologies' comprehensive
+              Enterprise Digital <br className="hidden lg:block " />{" "}
+              Transformation
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Software Development
             </p>
             <p className="font-[LufgaLight]">
-              Drive innovation and efficiency with Ahyliz <br /> Technologies'
-              Software Development services.
+              Drive innovation and efficiency with Ahyliz{" "}
+              <br className="hidden lg:block" /> Technologies' Software
+              Development services.
             </p>
           </div>
-          <div className="w-[31.18rem] hidden sm:block">
+          <div className="w-auto lg:w-[31.18rem] hidden lg:block">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/22e806982d4b0c9fbeabc17e594b603f932dec3a/Resources/Home/Images/Group%201000004731.svg"
               alt="img"
             />
           </div>
-          <div className="w-[22.5rem]">
+          <div className="w-auto lg:w-[22.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Consulting Services
             </p>
-            <p className="pb-4 sm:pb-[8.7rem] font-[LufgaLight]">
-              Navigate the complexities of cloud <br /> environments with Ahyliz
-              Technologies' Cloud <br /> Consulting services.
+            <p className="pb-4 lg:pb-[8.7rem] font-[LufgaLight]">
+              Navigate the complexities of cloud{" "}
+              <br className="hidden lg:block" /> environments with Ahyliz
+              Technologies' Cloud <br className="hidden lg:block" /> Consulting
+              services.
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Managed IT Services
             </p>
             <p className="font-[LufgaLight]">
-              Ensure uninterrupted business operations with <br /> Ahyliz
-              Technologies' Managed IT Services.
+              Ensure uninterrupted business operations with{" "}
+              <br className="hidden lg:block" /> Ahyliz Technologies' Managed IT
+              Services.
             </p>
           </div>
         </div>
       </div>
       {/* How it works */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-auto h-[16.81rem] flex justify-center sm:justify-between items-center">
-        <div className="flex flex-wrap justify-center sm:justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
+        <div className="flex flex-wrap justify-center sm:justify-between items-center lg:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+          <div className="px-2 lg:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">

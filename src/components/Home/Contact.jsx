@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
-      <div className="relative bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgContact%20us.png')] bg-cover h-[48rem]">
-        <div className="flex flex-wrap justify-between gap-6 sm:gap-40 relative z-10 sm:ml-[10rem] my-[5rem] sm:my-0 sm:mt-[3rem]">
+      <div className="relative bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgContact%20us.png')] bg-cover h-[55rem] sm:h-auto py-6 lg:h-[48rem] pb-[10rem]">
+        <div className="flex flex-wrap md:flex-nowrap  justify-between gap-6 lg:gap-40 relative z-10 lg:ml-[10rem] lg:my-[5rem] sm:my-0 sm:mt-[3rem]">
           <div>
             <div
               className="flex justify-center w-auto sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
@@ -23,7 +23,7 @@ const Contact = () => {
             <p className="font-[LufgaBold] leading-8 sm:leading-10 text-[2rem] text-[#4f45e2] my-10 sm:my-0 sm:mb-0">
               Let’s talk! <br /> Love to hear from you.
             </p>
-            <div className="flex flex-wrap sm:flex-nowrap sm:gap-[5rem] sm:mt-[3rem]">
+            <div className="flex flex-wrap sm:flex-nowrap lg:gap-[5rem] sm:mt-[3rem]">
               <div className="flex gap-2 sm:gap-[2rem]">
                 <div>
                   <img

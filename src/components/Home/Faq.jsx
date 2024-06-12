@@ -21,7 +21,7 @@ const Faq = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex w-auto flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
+      <div className="flex w-auto flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-evenly lg:justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
         {/* 1st */}
         <div className="w-auto sm:w-auto py-10 sm:py-0 sm:pt-48">
           <div
@@ -64,7 +64,7 @@ const Faq = () => {
           </Link>
         </div>
         {/* 2nd */}
-        <div className="w-auto sm:w-auto sm:pt-48">
+        <div className="w-auto sm:w-auto lg:pt-48">
           <div className="p-0 sm:p-6 w-auto">
             <Accordion
               className="w-auto"

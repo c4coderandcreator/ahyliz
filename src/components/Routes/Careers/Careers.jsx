@@ -5,8 +5,8 @@ const Careers = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
-        <div className="sm:text-[1.25rem] sm:mr-20 al">
+      <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">
+        <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
               <img
@@ -18,7 +18,7 @@ const Careers = () => {
               <p>Join Our Team</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
+          <p className="text-[2.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[3.875rem] lg:leading-[4.875rem]">
             Empower Your <br /> Potential
           </p>
           <p className="py-2 font-[LufgaBook]">
@@ -104,7 +104,7 @@ const Careers = () => {
         Take your skills and passion to the next level
       </p>
 
-      <div className="flex items-center justify-center gap-12 my-[5rem]">
+      <div className="flex flex-wrap items-center justify-center gap-12 my-[5rem]">
         {/* 1st */}
         <div
           className="p-[2rem] font-[LufgaBook] rounded-xl"
@@ -237,13 +237,13 @@ const Careers = () => {
       </div>
 
       {/* section 3 */}
-      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
-          <div className="px-2 sm:px-8 py-3 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-auto h-[16.81rem] flex justify-center sm:justify-between items-center">
+        <div className="flex flex-wrap justify-center sm:justify-between items-center lg:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+          <div className="px-2 lg:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
           <Link to="/services">
-            <div className="px-2 mx-1 sm:px-4 py-3 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[CamptonMedium] sm:font-[CamptonBold] hover:opacity-40">
+            <div className="px-2 mx-1 sm:px-4 py-4 sm:mx-8 my-2 sm:my-4 bg-[#4f45e2] rounded-3xl text-white text-[0.7rem] sm:text-[0.875rem] font-[LufgaMedium] sm:font-[LufgaBold] hover:opacity-40">
               {" "}
               See How It Works?
             </div>
@@ -252,7 +252,7 @@ const Careers = () => {
       </div>
 
       {/* next section */}
-      <div className="bg-[#f4f9ff] my-[5rem] mx-[7.5rem] py-[3.75rem] px-[5rem] rounded-2xl">
+      <div className="bg-[#f4f9ff] my-[5rem] lg:mx-[7.5rem] py-[3.75rem] lg:px-[5rem] rounded-2xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"

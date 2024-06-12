@@ -22,7 +22,7 @@ const Legal = () => {
             </div>
           </div>
         </div>
-        <p className="text-center text-white font-[LufgaBold] text-[4.5rem] my-4">
+        <p className="text-center text-white font-[LufgaBold] text-[3.5rem] lg:text-[4.5rem] my-4">
           Learn How We Safeguard Your Data
         </p>
         <p className="text-center text-white font-[LufgaBook] text-[1.25rem]">
@@ -76,8 +76,8 @@ const Legal = () => {
         </div>
       </div>
       {/* 1st */}
-      <div className=" py-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
-        <p className="font-[LufgaBold] text-[2rem] pt-2 pb-[2rem]">
+      <div className=" py-[5rem] lg:px-[7.5rem] font-[LufgaLight] lg:text-[1.25rem]">
+        <p className="font-[LufgaBold] lg:text-[2rem] pt-2 pb-[2rem]">
           Privacy Policy
         </p>
         <p className="pb-[2rem]">
@@ -151,8 +151,10 @@ const Legal = () => {
       </div>
 
       {/* 2nd */}
-      <div className=" pb-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
-        <p className="font-[LufgaBold] text-[2rem] pb-[2rem]">Terms of Use</p>
+      <div className=" pb-[5rem] lg:px-[7.5rem] font-[LufgaLight] lg:text-[1.25rem]">
+        <p className="font-[LufgaBold] lg:text-[2rem] pb-[2rem]">
+          Terms of Use
+        </p>
 
         <p className="pb-[2rem]">
           1. <span className="font-[LufgaSemiBold]">Introduction</span> By using
@@ -220,8 +222,8 @@ const Legal = () => {
       </div>
 
       {/* 3rd */}
-      <div className=" pb-[5rem] px-[7.5rem] font-[LufgaLight] text-[1.5rem]">
-        <p className="font-[LufgaBold] text-[2rem] pb-[2rem]">
+      <div className=" pb-[5rem] lg:px-[7.5rem] font-[LufgaLight] lg:text-[1.25rem]">
+        <p className="font-[LufgaBold] lg:text-[2rem] pb-[2rem]">
           Accessibility Statement
         </p>
 
