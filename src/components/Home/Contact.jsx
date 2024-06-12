@@ -71,7 +71,7 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="my-10 sm:my-0 rounded-2xl mx-2  sm:mr-[10rem] w-auto sm:w-[32rem] sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
+            className="my-8 sm:my-0 rounded-2xl mx-auto sm:mr-[10rem] w-auto sm:w-[32rem] h-auto sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
             style={{ boxShadow: "0px 4px 30px 0px rgba(0, 0, 0, 0.10)" }}
           >
             <p className="font-[LufgaSemiBold] text-[1.75rem] pb-8">
