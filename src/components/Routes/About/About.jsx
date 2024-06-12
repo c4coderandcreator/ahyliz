@@ -560,7 +560,7 @@ const About = () => {
       </div>
 
       {/* section 9 */}
-      <div className="flex flex-col  justify-center items-center bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
+      <div className="flex flex-col  justify-between items-center lg:px-[10rem] bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
         <div className="flex items-center justify-center w-full lg:pb-10 ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -577,27 +577,33 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col lg:flex-row items-center  justify-between lg:mx-[6.25rem] lg:gap-[2.5rem]">
-          <div>
+        <div className="flex justify-center lg:mx-[5.5rem] lg:gap-[2.5rem]">
+          <div className="lg:w-[30rem] h-[20em]">
             <img
-              className="lg:w-[32rem] h-[21rem]"
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame-1.svg"
+              className="hidden lg:block w-[29.687rem]"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/AboutUs/Frame-1.svg"
               alt="img"
             />
           </div>
-          <div className="lg:w-[55rem]">
-            <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem] pt-[2rem] lg:px-[10rem]">
+          <div>
+            <p className="font-[LufgaLight] sm:text-[1.25rem] pb-[0.8rem] ">
+              <br className="hidden lg:block" />
               Over the past decade, we have maintained a double-digit growth
-              rate, expanding our services, customer base, and global reach.
-              This growth is a testament to our robust business model and our
-              team’s dedication to pushing the boundaries of what is possible in
-              IT services.
+              rate, &nbsp;&nbsp;&nbsp;&nbsp; <br className="hidden lg:block" />{" "}
+              expanding our services, customer base, and global reach. This
+              growth <br className="hidden lg:block" /> is a testament to our
+              robust business model and our team’s{" "}
+              <br className="hidden lg:block" /> dedication to pushing the
+              boundaries of what is possible in IT services.
             </p>
-            <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem] lg:px-[10rem]">
-              Through our relentless pursuit of excellence and a client-centric
-              approach, Ahyliz Technologies continues to set new standards in
-              the IT industry, ensuring our clients are well-equipped to meet
-              the challenges of the digital age.
+            <p className="font-[LufgaLight] sm:text-[1.25rem] py-[0.8rem] ">
+              Through our relentless pursuit of excellence and a client-centric{" "}
+              <br className="hidden lg:block" />
+              approach, Ahyliz Technologies continues to set new standards in{" "}
+              <br className="hidden lg:block" />
+              the IT industry, ensuring our clients are well-equipped to meet{" "}
+              <br className="hidden lg:block" />
+              the challenges of the digital age.
             </p>
           </div>
         </div>

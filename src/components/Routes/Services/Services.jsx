@@ -320,7 +320,7 @@ const Services = () => {
           <div className="w-auto lg:w-[31rem] hidden sm:block">
             <img
               className="hidden lg:block"
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Services/Group%201000004731.png"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/Services/Group%201000004731.svg"
               alt="img"
             />
           </div>
