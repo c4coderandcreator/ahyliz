@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-6 sm:p-20 sm:mx-10 justify-between">
-        <div className="sm:text-[1.25rem] sm:mr-20 al">
+      <div className="flex p-0 mt-4 sm:mt-0 sm:p-20 mx-3 sm:mx-10 justify-between">
+        <div className="sm:text-[1.25rem] sm:mr-20 ">
           <div className="flex">
             <div>
               <img
@@ -19,11 +19,11 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div className="sm:mx-2 font-[LufgaMedium] pb-4">
+            <div className="mx-2 font-[LufgaMedium] pb-4">
               <p>Welcome To Ahyliz Technologies</p>
             </div>
           </div>
-          <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[5.25rem]">
+          <p className="text-[2.5rem] sm:text-[4.5rem] font-[LufgaBold] sm:leading-[5.25rem]">
             Leading the <br /> Way in Digital <br /> Innovation.
           </p>
           <p className="py-2 font-[LufgaBook]">
@@ -31,20 +31,20 @@ const Home = () => {
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/about">
-              <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
+              <p className="px-2 ml-1 sm:ml-0 sm:px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
                 Explore more
               </p>
             </Link>
             <Link to="/contact">
-              <p className="ml-14 text-[#4f45e2] hover:text-black">
+              <p className="ml-4 sm:ml-14 text-[#4f45e2] hover:text-black">
                 contact us
               </p>
             </Link>
           </div>
 
-          <div className="flex text-[#4f45e2] text-[1rem] py-6">
+          <div className="flex text-[#4f45e2] text-[1rem] py-6 ">
             <div>
-              <p className="tracking-[0.3rem] font-[LufgaSemiBold]">
+              <p className="ml-2 sm:ml-0 sm:tracking-[0.3rem] font-[LufgaSemiBold]">
                 FOLLOW US
               </p>
             </div>
@@ -209,8 +209,8 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center text-center gap-[2rem] sm:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0">
-          <div className="flex flex-col items-center">
+        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center text-center gap-[2rem] sm:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0 ">
+          <div className="flex flex-col items-center mt-10 sm:mt-0">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
               alt="img"
@@ -256,7 +256,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div className=" sm:px-[7.5rem] py-6 sm:py-20">
+      <div className=" my-10 sm:my-0 mx-3 sm:mx-0 sm:px-[7.5rem] py-6 sm:py-20">
         <div className="flex  justify-center w-full items-center ">
           <div
             className="flex justify-center mx-4 sm:mx-0 w-full sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -335,7 +335,7 @@ const Home = () => {
         </div>
       </div>
       {/* How it works */}
-      <div className=" sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
+      <div className=" hidden sm:block  sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
         <div className="flex justify-center w-auto items-center ">
           <div
             className="flex justify-center mx-6 sm:mx-0 w-full sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -363,6 +363,7 @@ const Home = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
             alt="img"
           />
+          {/* <HomeSecBg2 /> */}
         </div>
       </div>
       {/* PLU */}

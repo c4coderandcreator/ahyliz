@@ -44,7 +44,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="sm:border-r sm:border-l border-custom-rgba px-14 leading-[2.2rem]">
+          <div className="sm:border-r sm:border-l border-custom-rgba pr-14 sm:px-14 leading-[2.2rem]">
             <p className="font-[LufgaBold] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>

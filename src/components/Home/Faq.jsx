@@ -23,7 +23,7 @@ const Faq = () => {
       </div> */}
       <div className="flex w-full flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
         {/* 1st */}
-        <div className="w-full sm:w-auto sm:pt-48">
+        <div className="w-full sm:w-auto py-10 sm:py-0 sm:pt-48">
           <div
             className="flex justify-center w-full sm:w-[14rem] gap-2 px-1 my-4 sm:my-0 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}

@@ -117,7 +117,7 @@ const Navbar = () => {
         <div className="flex flex-col items-center font-[LufgaBook] py-4">
           <Link to="/" onClick={() => setActiveTab("/")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{ color: activeTab === "/" ? "#4f45e2" : "inherit" }}
             >
               Home
@@ -125,7 +125,7 @@ const Navbar = () => {
           </Link>
           <Link to="/about" onClick={() => setActiveTab("/about")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{ color: activeTab === "/about" ? "#4f45e2" : "inherit" }}
             >
               About
@@ -133,7 +133,7 @@ const Navbar = () => {
           </Link>
           <Link to="/services" onClick={() => setActiveTab("/services")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{
                 color: activeTab === "/services" ? "#4f45e2" : "inherit",
               }}
@@ -143,7 +143,7 @@ const Navbar = () => {
           </Link>
           <Link to="careers" onClick={() => setActiveTab("/careers")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{
                 color: activeTab === "/careers" ? "#4f45e2" : "inherit",
               }}
@@ -153,7 +153,7 @@ const Navbar = () => {
           </Link>
           <Link to="/contact" onClick={() => setActiveTab("/contact")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{
                 color: activeTab === "/contact" ? "#4f45e2" : "inherit",
               }}
@@ -163,14 +163,14 @@ const Navbar = () => {
           </Link>
           <Link to="/legal" onClick={() => setActiveTab("/legal")}>
             <p
-              className="py-2 text-[1.25rem] hover:opacity-40"
+              className="py-2 text-[1rem] hover:opacity-40"
               style={{ color: activeTab === "/legal" ? "#4f45e2" : "inherit" }}
             >
               Legal
             </p>
           </Link>
           <Link to="/contact" onClick={() => setActiveTab("/contact")}>
-            <p className="py-4 mx-6 bg-[#4f45E2] rounded-lg text-[#ffffff] w-3/4 text-center hover:opacity-40">
+            <p className="py-3 text-[1rem] my-2 mx-2 bg-[#4f45E2] rounded-lg text-[#ffffff] w-full text-center hover:opacity-40">
               Get Started
             </p>
           </Link>
