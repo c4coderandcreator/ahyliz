@@ -302,7 +302,7 @@ const Home = () => {
           </div>
           <div className="w-auto lg:w-[31.18rem] hidden lg:block">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/22e806982d4b0c9fbeabc17e594b603f932dec3a/Resources/Home/Images/Group%201000004731.svg"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/00de41f919c32de27e72d59fd1cddbc9e70aa923/Resources/Home/Images/Group%201000004731.svg"
               alt="img"
             />
           </div>

@@ -9,7 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 pt-[5rem] justify-start sm:justify-between gap-4 lg:gap-16 sm:items-center sm:my-[5rem] lg:mx-[5rem] pl-4 sm:pl-0">
           <div className="justify-self-auto h-full mt-8 sm:mt-0">
             <img
-              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b2f528cfdd314c09d5f4d7256ac69296706a32b3/Resources/Home/LogoF.svg"
+              className="w-[11.5rem] h-[5rem] mb-4"
+              src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO-W.png"
               alt="img"
             />
             <p className="text-[1rem]">Empowering Your Digital Future</p>
