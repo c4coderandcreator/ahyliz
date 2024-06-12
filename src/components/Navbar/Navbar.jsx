@@ -12,8 +12,8 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <div className="sticky top-0 bg-white z-50 flex px-4 sm:px-20 justify-between h-[6.25rem] items-center">
-      <div className="sm:px-6 py-4">
+    <div className="sticky top-0 bg-white z-50 flex px-4 sm:px-20 justify-between h-auto sm:h-[6.25rem] items-center">
+      <div className="sm:px-6 py-4 sm:py-4">
         <Link to="/" onClick={() => setActiveTab("/")}>
           <img
             className="h-[4.2rem] w-[10rem]"
@@ -114,7 +114,7 @@ const Navbar = () => {
             : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <div className="flex flex-col items-center font-[LufgaBook] py-4">
+        <div className="flex flex-col items-center font-[LufgaBook] py-2">
           <Link to="/" onClick={() => setActiveTab("/")}>
             <p
               className="py-2 text-[1rem] hover:opacity-40"

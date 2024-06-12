@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="flex flex-wrap justify-between gap-6 sm:gap-40 relative z-10 sm:ml-[10rem] my-[5rem] sm:my-0 sm:mt-[3rem]">
           <div>
             <div
-              className="flex justify-center w-full sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
+              className="flex justify-center w-auto sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
             >
               <div className=" ">
@@ -71,7 +71,7 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="my-10 sm:my-0 rounded-2xl mx-2  sm:mr-[10rem] w-full sm:w-[32rem] sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
+            className="my-10 sm:my-0 rounded-2xl mx-2  sm:mr-[10rem] w-auto sm:w-[32rem] sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
             style={{ boxShadow: "0px 4px 30px 0px rgba(0, 0, 0, 0.10)" }}
           >
             <p className="font-[LufgaSemiBold] text-[1.75rem] pb-8">

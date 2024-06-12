@@ -8,8 +8,8 @@ const Plu = () => {
   return (
     <>
       {/* PLU */}
-      <div className="px-4 sm:px-[7.5rem] sm:pt-o pt-10">
-        <div className="flex justify-center w-full items-center">
+      <div className="mx-4 sm:px-[7.5rem] sm:pt-0 pt-10">
+        <div className="flex justify-center w-auto items-center">
           <div
             className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -29,19 +29,21 @@ const Plu = () => {
           Insights from satisfied customers
         </p>
         {/* parent */}
-        <div className="flex flex-wrap sm:flex-nowrap gap-3 sm:px-[6.5rem] mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:px-[6.5rem] mt-4">
           {/* child 1 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
+          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
             <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto"
+              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[LufgaLight] text-[1rem] mb-6">
-                Managed IT services by Ahyliz Technologies ensured our systems
-                ran smoothly, allowing us to focus on core business operations.
+              <div className="px-2 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+                Managed IT services by Ahyliz <br /> Technologies ensured our
+                systems <br />
+                ran smoothly, allowing us to focus <br /> on core business
+                operations.
               </div>
             </div>
             <div>
@@ -57,15 +59,15 @@ const Plu = () => {
             </div>
           </div>
           {/* child 2 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
-            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto">
+          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
+            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-4 sm:p-6 rounded-2xl w-full">
               <div className="py-3">
                 <DoubleW />
               </div>
-              <div className="px-4 sm:px-8 text-white font-[LufgaLight] mb-6">
-                Impressive cloud consulting <br className="hidden sm:block" />{" "}
-                services from Ahyliz Technologies. Seamless transition and
-                improved <br className="hidden sm:block" /> efficiency!
+              <div className="sm:px-8 text-white font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+                Impressive cloud consulting <br className=" sm:block" />{" "}
+                services from Ahyliz Technologies. <br /> Seamless transition
+                and improved <br className=" sm:block" /> efficiency!
               </div>
             </div>
             <div>
@@ -81,17 +83,18 @@ const Plu = () => {
             </div>
           </div>
           {/* child 3 */}
-          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full sm:w-auto">
+          <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
             <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full sm:w-auto"
+              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[LufgaLight] mb-6">
-                Ahyliz Technologies transformed our outdated systems into
-                efficient digital solutions. Highly recommend their expertise!
+              <div className="px-4 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+                Ahyliz Technologies transformed <br /> our outdated systems into
+                efficient <br /> digital solutions. Highly recommend their
+                expertise!
               </div>
             </div>
             <div>

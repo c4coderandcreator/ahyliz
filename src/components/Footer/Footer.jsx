@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     <>
-      <div className="mt-[18rem] sm:mt-0 h-full sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[LufgaLight] text-[1rem]">
+      <div className="mt-[18rem] sm:mt-0 h-auto sm:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover flex flex-col text-white font-[LufgaLight] text-[1rem]">
         <div className="flex flex-wrap justify-start sm:justify-center gap-4 sm:gap-16 sm:items-center sm:my-[5rem] sm:mx-[5rem] pl-4 sm:pl-0">
           <div className="h-full mt-8 sm:mt-0">
             <img
@@ -62,7 +62,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Contact us</p>
             </Link>
           </div>
-          <div className="sm:border-r border-custom-rgba pr-14 leading-[2.2rem]">
+          <div className="sm:border-r border-custom-rgba pr-20 sm:pr-14 leading-[2.2rem]">
             <p className="font-[LufgaBold] text-[1.5rem]">About us</p>
             <Link to="/services">
               <p className="hover:opacity-40">How it Works?</p>

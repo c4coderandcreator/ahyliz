@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       {/* section 1 */}
-      <div className="flex p-0 mt-4 sm:mt-0 sm:p-20 mx-3 sm:mx-10 justify-between">
+      <div className="flex p-0 mt-10 sm:mt-0 sm:p-20 mx-3 sm:mx-10 justify-between">
         <div className="sm:text-[1.25rem] sm:mr-20 ">
           <div className="flex">
             <div>
@@ -91,9 +91,9 @@ const Home = () => {
         </div>
       </div>
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-4 sm:px-[7.5rem] py-4 sm:py-20">
-        <div className="flex items-center justify-center w-full ">
-          <div className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+      <div className="bg-cover bg-[#f4f9ff] mt-8 sm:mt-0 px-4 sm:px-[7.5rem] py-4 sm:py-20">
+        <div className="flex items-center justify-center w-auto ">
+          <div className="flex justify-center w-auto sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
@@ -257,9 +257,9 @@ const Home = () => {
       </div>
       {/* Our Services */}
       <div className=" my-10 sm:my-0 mx-3 sm:mx-0 sm:px-[7.5rem] py-6 sm:py-20">
-        <div className="flex  justify-center w-full items-center ">
+        <div className="flex  justify-center w-auto items-center ">
           <div
-            className="flex justify-center mx-4 sm:mx-0 w-full sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center mx-4 sm:mx-0 w-auto sm:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -279,7 +279,7 @@ const Home = () => {
         <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Get your self ready for the most comprehensive solutions
         </p>
-        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
+        <div className="flex flex-wrap justify-center pt-[5rem] gap-4 sm:gap-2 w-auto font-[LufgaBook]">
           <div className="text-left sm:text-right w-[22.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Enterprise Digital <br /> Transformation
@@ -321,8 +321,8 @@ const Home = () => {
         </div>
       </div>
       {/* How it works */}
-      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+      <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-auto h-[16.81rem] flex  items-center">
+        <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-auto rounded-lg">
           <div className="px-2 sm:px-8 py-4 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>
@@ -338,7 +338,7 @@ const Home = () => {
       <div className=" hidden sm:block  sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
         <div className="flex justify-center w-auto items-center ">
           <div
-            className="flex justify-center mx-6 sm:mx-0 w-full sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center mx-6 sm:mx-0 w-auto sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">

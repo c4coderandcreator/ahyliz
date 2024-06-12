@@ -21,11 +21,11 @@ const Faq = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex w-full flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
+      <div className="flex w-auto flex-wrap bg-[#f4f9ff] sm:bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFAQs.png')] bg-cover justify-center gap-10 sm:gap-20 sm:pb-[12rem] px-2 sm:px-0">
         {/* 1st */}
-        <div className="w-full sm:w-auto py-10 sm:py-0 sm:pt-48">
+        <div className="w-auto sm:w-auto py-10 sm:py-0 sm:pt-48">
           <div
-            className="flex justify-center w-full sm:w-[14rem] gap-2 px-1 my-4 sm:my-0 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center w-auto sm:w-[14rem] gap-2 px-1 my-4 sm:my-0 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div>
@@ -58,16 +58,16 @@ const Faq = () => {
             4. Software Development.
           </p>
           <Link to="/contact">
-            <p className="w-full sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[LufgaMedium] hover:opacity-40">
+            <p className="w-auto sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[LufgaMedium] hover:opacity-40">
               Ask Question
             </p>
           </Link>
         </div>
         {/* 2nd */}
-        <div className="w-full sm:w-auto sm:pt-48">
-          <div className="p-0 sm:p-6 w-full">
+        <div className="w-auto sm:w-auto sm:pt-48">
+          <div className="p-0 sm:p-6 w-auto">
             <Accordion
-              className="w-full"
+              className="w-auto"
               title="What is Ahyliz Technologies?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
               answer="Ahyliz Technologies is a leading IT service provider specializing in innovative technology solutions tailored to meet the diverse needs of businesses."
             />
