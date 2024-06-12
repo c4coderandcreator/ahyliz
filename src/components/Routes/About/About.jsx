@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import Faq from "../../Home/Faq";
 import Plu from "../../Home/Plu";
 import { Link } from "react-router-dom";
@@ -28,11 +29,11 @@ const About = () => {
         Empowering Your Digital Future
       </p>
       <div className="flex items-center mt-8 font-[LufgaBook] w-full justify-center">
-        <Link to="/about">
+        <HashLink to="/contact#cu">
           <p className="px-[2rem] py-[0.8rem] bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
             Hire us
           </p>
-        </Link>
+        </HashLink>
       </div>
 
       <div className="flex items-center justify-center text-[#4f45e2] text-[1rem] py-6">
@@ -185,11 +186,11 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <Link to="/about">
+            <HashLink to="/contact#cu">
               <p className="py-4 px-8 bg-[#4f45e2] text-white text-center  w-[11.5rem] rounded-lg font-[LufgaBook] hover:opacity-40">
                 Join us now
               </p>
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>

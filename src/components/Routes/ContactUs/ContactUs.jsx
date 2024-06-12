@@ -2,6 +2,7 @@ import React from "react";
 import Faq from "../../Home/Faq";
 import Contact from "../../Home/Contact";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const ContactUs = () => {
   return (
@@ -29,11 +30,11 @@ const ContactUs = () => {
             answers.
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
-            <Link to="/contact">
+            <HashLink to="/contact#cu">
               <p className="px-7 py-3 bg-[#4f45e2] rounded-lg text-white hover:opacity-40">
                 Get Started
               </p>
-            </Link>
+            </HashLink>
           </div>
 
           <div className="flex text-[#4f45e2] text-[1rem] py-6">
@@ -86,7 +87,10 @@ const ContactUs = () => {
       </div>
 
       {/* next section */}
-      <div className="bg-[#f4f9ff] mb-[5rem] lg:mx-[7.5rem] py-[3.75rem] lg:px-[5rem] rounded-2xl">
+      <div
+        id="cu"
+        className="bg-[#f4f9ff] mb-[5rem] lg:mx-[7.5rem] py-[3.75rem] lg:px-[5rem] rounded-2xl"
+      >
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"

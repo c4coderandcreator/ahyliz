@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "../Accordion/Accordion";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Faq = () => {
   return (
@@ -57,11 +58,11 @@ const Faq = () => {
           <p className="font-[LufgaLight] sm:text-[1.25rem] pb-[3rem]">
             4. Software Development.
           </p>
-          <Link to="/contact">
+          <HashLink to="/contact#cu">
             <p className="w-auto sm:w-[13.5rem] px-14 py-4 bg-[#0044ea] rounded-lg text-white text-center font-[LufgaMedium] hover:opacity-40">
               Ask Question
             </p>
-          </Link>
+          </HashLink>
         </div>
         {/* 2nd */}
         <div className="w-auto sm:w-auto lg:pt-48">

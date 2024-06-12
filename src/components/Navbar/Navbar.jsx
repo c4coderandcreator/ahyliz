@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/" onClick={() => handleLinkClick("/")}>
           <img
             className="h-[4.2rem] w-[10rem]"
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO.png"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO.svg"
             alt="logo"
           />
         </Link>

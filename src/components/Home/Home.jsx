@@ -112,7 +112,7 @@ const Home = () => {
           Pioneering excellence in technology services
         </p>
 
-        <div className="flex flex-wrap my-[5rem] gap-[3.125rem] justify-center">
+        <div className="flex flex-wrap lg:grid lg:grid-cols-2 my-[5rem] gap-[3.125rem] justify-center">
           <div>
             {" "}
             <HomeSecBg />{" "}
@@ -366,11 +366,11 @@ const Home = () => {
           Navigating your path to seamless integration
         </p>
         <div className="flex items-center justify-center my-8 rounded-2xl mt-[5rem]">
-          {/* <img
+          <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
             alt="img"
-          /> */}
-          <HomeSecBg2 />
+          />
+          {/* <HomeSecBg2 /> */}
         </div>
       </div>
       {/* PLU */}

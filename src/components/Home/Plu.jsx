@@ -33,17 +33,15 @@ const Plu = () => {
           {/* child 1 */}
           <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
             <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full"
+              className="flex flex-col text-center items-center p-2 lg:p-4 rounded-2xl w-full"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
               <div className="px-2 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
-                Managed IT services by Ahyliz <br /> Technologies ensured our
-                systems <br />
-                ran smoothly, allowing us to focus <br /> on core business
-                operations.
+                Managed IT services by Ahyliz Technologies ensured our systems{" "}
+                ran smoothly, allowing us to focus on core business operations.
               </div>
             </div>
             <div>
@@ -60,14 +58,14 @@ const Plu = () => {
           </div>
           {/* child 2 */}
           <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
-            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-4 sm:p-6 rounded-2xl w-full">
+            <div className="flex flex-col items-center bg-[#4f45e2] text-center p-2 lg:p-4 rounded-2xl w-full">
               <div className="py-3">
                 <DoubleW />
               </div>
               <div className="sm:px-8 text-white font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
-                Impressive cloud consulting <br className=" sm:block" />{" "}
-                services from Ahyliz Technologies. <br /> Seamless transition
-                and improved <br className=" sm:block" /> efficiency!
+                Impressive cloud consulting services from Ahyliz Technologies.
+                Seamless transition and improved{" "}
+                <br className="hidden lg:block" /> efficiency!
               </div>
             </div>
             <div>
@@ -85,16 +83,15 @@ const Plu = () => {
           {/* child 3 */}
           <div className="flex flex-col text-center items-center mt-4 sm:mt-8 w-full">
             <div
-              className="flex flex-col text-center items-center p-4 sm:p-6 rounded-2xl w-full"
+              className="flex flex-col text-center items-center p-2 lg:p-4 rounded-2xl w-full"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.10)" }}
             >
               <div className="py-3">
                 <DoubleP />
               </div>
               <div className="px-4 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
-                Ahyliz Technologies transformed <br /> our outdated systems into
-                efficient <br /> digital solutions. Highly recommend their
-                expertise!
+                Ahyliz Technologies transformed our outdated systems into
+                efficient digital solutions. Highly recommend their expertise!
               </div>
             </div>
             <div>
