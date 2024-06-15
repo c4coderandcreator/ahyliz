@@ -5,10 +5,27 @@ import Contact from "./Contact";
 import { Link } from "react-router-dom";
 import Plu from "./Plu";
 import HomeSecBg from "../HomeSecBg/HomeSecBg";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          Ahyliz Technologies: Premier IT Solutions for Digital Transformation &
+          Cloud Consulting
+        </title>
+        <meta
+          name="description"
+          content="Discover Ahyliz Technology: Your premier partner for Enterprise Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
+        />
+        <meta
+          name="keywords"
+          content="IT solutions, digital transformation, cloud consulting, managed IT services, software development, Ahyliz Technology"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/" />
+      </Helmet>
       {/* section 1 */}
       <div className="flex p-0 mt-10 lg:mt-0 lg:p-20 mx-3 sm:mx-10 justify-center lg:justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">

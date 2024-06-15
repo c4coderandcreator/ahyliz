@@ -15,6 +15,7 @@ import Careers from "./components/Routes/Careers/Careers";
 import ContactUs from "./components/Routes/ContactUs/ContactUs";
 import Services from "./components/Routes/Services/Services";
 import Legal from "./components/Routes/Legal/Legal";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +32,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 );

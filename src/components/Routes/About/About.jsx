@@ -2,10 +2,25 @@ import { HashLink } from "react-router-hash-link";
 import Faq from "../../Home/Faq";
 import Plu from "../../Home/Plu";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us - Ahyliz Technology</title>
+        <meta
+          name="description"
+          content="Learn more about Ahyliz Technology, our mission, vision, and the team that drives our success in delivering top-notch IT solutions."
+        />
+        <meta
+          name="keywords"
+          content="Ahyliz Technology, about Ahyliz, IT solutions, IT services, digital transformation, cloud consulting, managed IT services, software development"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/about" />
+      </Helmet>
+      {/* --- */}
       <div className="flex items-center justify-center w-full mt-[2rem] lg:mt-[5rem] ">
         <div
           className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"

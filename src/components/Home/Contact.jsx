@@ -87,7 +87,7 @@ const Contact = () => {
               <input
                 className="border-b py-2 leading-6"
                 type="text"
-                placeholder="Adam Gelius"
+                placeholder="Isaiah Owolabi"
               />
               <label className="py-2 text-[15px] leading-6" htmlFor="">
                 Email*
@@ -103,7 +103,7 @@ const Contact = () => {
               <input
                 className="border-b py-2 leading-6"
                 type="text"
-                placeholder="+1 1254 5211 552"
+                placeholder="+1 215 452 1155"
               />
               <label className="py-2 text-[15px] leading-6" htmlFor="">
                 Message*
