@@ -16,6 +16,9 @@ import ContactUs from "./components/Routes/ContactUs/ContactUs";
 import Services from "./components/Routes/Services/Services";
 import Legal from "./components/Routes/Legal/Legal";
 import { HelmetProvider } from "react-helmet-async";
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-LSLL59HTXK");
+ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
 const router = createBrowserRouter(
   createRoutesFromElements(
