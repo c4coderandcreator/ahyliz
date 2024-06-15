@@ -8,14 +8,14 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Our Services - Ahyliz Technology</title>
+        <title>Our Services - Ahyliz Technologies</title>
         <meta
           name="description"
           content="Explore the wide range of IT services offered by Ahyliz Technology, including digital transformation, cloud consulting, managed IT services, and software development."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technology services, IT services, digital transformation, cloud consulting, managed IT services, software development, IT support, technology solutions"
+          content="Ahyliz Technologies services, IT services, digital transformation, cloud consulting, managed IT services, software development, IT support, technology solutions"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ahyliz.ca/service" />

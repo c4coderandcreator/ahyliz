@@ -8,14 +8,14 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Ahyliz Technology</title>
+        <title>About Us - Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Learn more about Ahyliz Technology, our mission, vision, and the team that drives our success in delivering top-notch IT solutions."
+          content="Learn more about Ahyliz Technologies, our mission, vision, and the team that drives our success in delivering top-notch IT solutions."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technology, about Ahyliz, IT solutions, IT services, digital transformation, cloud consulting, managed IT services, software development"
+          content="Ahyliz Technologies, about Ahyliz, IT solutions, IT services, digital transformation, cloud consulting, managed IT services, software development"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ahyliz.ca/about" />
