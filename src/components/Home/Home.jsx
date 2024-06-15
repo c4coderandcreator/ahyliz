@@ -17,7 +17,7 @@ const Home = () => {
         </title>
         <meta
           name="description"
-          content="Discover Ahyliz Technology: Your premier partner for Enterprise Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
+          content="Discover Ahyliz Technologies: Your premier partner for Enterprise Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
         />
         <meta
           name="keywords"

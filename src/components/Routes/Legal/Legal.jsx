@@ -1,10 +1,25 @@
 import React from "react";
 import Contact from "../../Home/Contact";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Legal = () => {
   return (
     <>
+      <Helmet>
+        <title>Legal Information - Ahyliz Technology</title>
+        <meta
+          name="description"
+          content="Find the legal information for Ahyliz Technology, including our privacy policy, terms of service, and other legal notices."
+        />
+        <meta
+          name="keywords"
+          content="Ahyliz Technology legal information, privacy policy, terms of service, legal notices, legal terms, Ahyliz legal"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/legal" />
+      </Helmet>
+
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/d61df2fc5f24d552268b46a9ea3bf0dd09530661/Resources/Legal/Hero.svg')] bg-cover">
         <div className="flex items-center justify-center w-full pt-[5rem]  ">
           <div

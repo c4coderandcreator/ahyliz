@@ -3,10 +3,25 @@ import Faq from "../../Home/Faq";
 import Contact from "../../Home/Contact";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
   return (
     <>
+      <Helmet>
+        <title>Contact Us - Ahyliz Technologies</title>
+        <meta
+          name="description"
+          content="Get in touch with Ahyliz Technologies. Contact us for inquiries, support, or to learn more about our IT services and solutions."
+        />
+        <meta
+          name="keywords"
+          content="Ahyliz Technologies contact, contact Ahyliz, IT support, customer service, IT inquiries, technology solutions contact, reach Ahyliz"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/contact" />
+      </Helmet>
+
       {/* section 1 */}
       <div className="flex p-6 sm:p-20 lg:mx-10 justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">

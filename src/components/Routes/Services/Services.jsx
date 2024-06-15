@@ -2,10 +2,24 @@ import React from "react";
 import Plu from "../../Home/Plu";
 import { Link } from "react-router-dom";
 import HomeSecBg from "../../HomeSecBg/HomeSecBg";
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
   return (
     <>
+      <Helmet>
+        <title>Our Services - Ahyliz Technology</title>
+        <meta
+          name="description"
+          content="Explore the wide range of IT services offered by Ahyliz Technology, including digital transformation, cloud consulting, managed IT services, and software development."
+        />
+        <meta
+          name="keywords"
+          content="Ahyliz Technology services, IT services, digital transformation, cloud consulting, managed IT services, software development, IT support, technology solutions"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/service" />
+      </Helmet>
       {/* section 1 */}
       <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">

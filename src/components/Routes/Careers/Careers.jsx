@@ -1,9 +1,24 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Careers = () => {
   return (
     <>
+      <Helmet>
+        <title>Careers - Ahyliz Technologies</title>
+        <meta
+          name="description"
+          content="Join Ahyliz Technologies and be a part of a dynamic team. Explore our current job openings and start your career with us today."
+        />
+        <meta
+          name="keywords"
+          content="Ahyliz Technologies careers, job openings, IT jobs, technology careers, work at Ahyliz, tech industry jobs, career opportunities, employment at Ahyliz"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ahyliz.ca/careers" />
+      </Helmet>
+
       {/* section 1 */}
       <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">
