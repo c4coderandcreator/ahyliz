@@ -103,7 +103,7 @@ const Services = () => {
           <img
             className=" h-auto lg:h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2d20f17dc2478772f51aebff3c065fc1109b5fab/Resources/Services/Illustration%202.svg"
-            alt="img"
+            alt="Services"
           />
         </div>
       </div>
@@ -134,7 +134,7 @@ const Services = () => {
             {" "}
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Illustration.svg"
-              alt="img"
+              alt="Our Services"
             />
           </div>
 
@@ -202,7 +202,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame.svg"
-            alt="img"
+            alt="Continuous Monitoring"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Continuous Monitoring
@@ -218,7 +218,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-1.svg"
-            alt="img"
+            alt="IT Support & Maintenance"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             IT Support & Maintenance
@@ -235,7 +235,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-2.svg"
-            alt="img"
+            alt="Security Management"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Security Management
@@ -251,7 +251,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-3.svg"
-            alt="img"
+            alt="Backup and Disaster Recovery"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Backup and Disaster Recovery
@@ -268,7 +268,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-4.svg"
-            alt="img"
+            alt="Cloud Services Management"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Cloud Services Management
@@ -284,7 +284,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-5.svg"
-            alt="img"
+            alt="Vendor and Asset Management"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Vendor and Asset Management
@@ -345,7 +345,7 @@ const Services = () => {
             <img
               className="hidden lg:block"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/Services/Group%201000004731.svg"
-              alt="img"
+              alt="Cloud Consulting"
             />
           </div>
           <div className="w-auto lg:w-[23.5rem]">
@@ -384,7 +384,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-6.svg"
-            alt="img"
+            alt="Custom Application Development"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Custom Application Development
@@ -400,7 +400,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-7.svg"
-            alt="img"
+            alt="System Integration"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             System Integration
@@ -416,7 +416,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-8.svg"
-            alt="img"
+            alt="Software Modernization"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Software Modernization
@@ -433,7 +433,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-9.svg"
-            alt="img"
+            alt="Agile Development Practices"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             Agile Development Practices
@@ -450,7 +450,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-10.svg"
-            alt="img"
+            alt="User Experience & Interface Design"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             User Experience & Interface Design
@@ -467,7 +467,7 @@ const Services = () => {
         >
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b863f58e1651b307e5f2590de8701c6ce55dcf4d/Resources/Services/Frame-11.svg"
-            alt="img"
+            alt="API Development & Management"
           />
           <p className="text-center font-[LufgaSemiBold] text-[1.25rem] py-8">
             API Development & Management
@@ -488,7 +488,7 @@ const Services = () => {
         <div className="lg:w-[30rem] h-[20em]">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b1cc41092a4932cac5572c7eed938cb75f1b3374/Resources/Services/Frame-12.svg"
-            alt="img"
+            alt="Comprehensive IT and Software Solutions"
           />
         </div>
         <div>

@@ -115,7 +115,7 @@ const Careers = () => {
           <img
             className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Careers/Illustration.png"
-            alt="img"
+            alt="Careers"
           />
         </div>
       </div>

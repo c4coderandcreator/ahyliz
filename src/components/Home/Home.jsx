@@ -113,7 +113,7 @@ const Home = () => {
           <img
             className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/42a9b7f29a07ac9f0abf60584a89e918ec8aa762/Resources/Home/Images/Illustration.svg"
-            alt="img"
+            alt="Home Image"
           />
         </div>
       </div>
@@ -240,7 +240,7 @@ const Home = () => {
           <div className="flex flex-col items-center mt-10 sm:mt-0">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
-              alt="img"
+              alt="Leading IT Service"
             />{" "}
             <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Leading IT Service <br />
@@ -255,7 +255,7 @@ const Home = () => {
           <div className="flex flex-col items-center">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20172.svg"
-              alt="img"
+              alt="Exceeding Client Expectations"
             />{" "}
             <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Exceeding Client <br /> Expectations
@@ -269,7 +269,7 @@ const Home = () => {
           <div className="flex flex-col items-center">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20173.svg"
-              alt="img"
+              alt="Driving Business Growth"
             />{" "}
             <p className="font-[LufgaBold] text-[1.25rem] pt-3 pb-5">
               Driving Business <br /> Growth
@@ -292,7 +292,7 @@ const Home = () => {
             <div className=" ">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/7e01a007bc0a98219646723422c92004dcff90de/Resources/Home/Icons/star.svg"
-                alt="img"
+                alt="Our Services"
               />
             </div>
             <div className="text-center font-[LufgaMedium] text-[1.25rem] ">

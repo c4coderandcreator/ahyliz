@@ -454,7 +454,7 @@ const About = () => {
             <img
               className="w-[10rem] h-[7.5rem] my-6"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Layer.svg"
-              alt="img"
+              alt="Industry Recognition"
             />
             <p className="text-[1.5rem] font-[LufgaBold] mb-6">
               Industry Recognition
@@ -473,7 +473,7 @@ const About = () => {
             <img
               className="w-[10rem] h-[7.5rem] my-6"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Layer-1.svg"
-              alt="img"
+              alt="Global Clientele"
             />
             <p className="text-[1.5rem] font-[LufgaBold] mb-6">
               Global Clientele
@@ -524,7 +524,7 @@ const About = () => {
           <img
             className="hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Illustration.svg"
-            alt="img"
+            alt="Digital Transformation"
           />
         </div>
         <div>
@@ -558,7 +558,7 @@ const About = () => {
           <img
             className="hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2dd276b069ec31c66a61541d02d48d501de8de3e/Resources/AboutUs/Frame.svg"
-            alt="img"
+            alt="Community Engagement"
           />
         </div>
         <div>
@@ -605,7 +605,7 @@ const About = () => {
             <img
               className="hidden lg:block w-[29.687rem]"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/AboutUs/Frame-1.svg"
-              alt="img"
+              alt="Sustained Growth"
             />
           </div>
           <div>

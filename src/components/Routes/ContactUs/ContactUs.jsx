@@ -108,7 +108,7 @@ const ContactUs = () => {
         <div className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/ContactUs/Illustration.png"
-            alt="img"
+            alt="Contact Us - Ahyliz Technologies"
           />
         </div>
       </div>

@@ -11,7 +11,7 @@ const Footer = () => {
             <img
               className="w-[11.5rem] h-[5rem] mb-4"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO-W.png"
-              alt="img"
+              alt="Ahyliz Technologies Logo"
             />
             <p className="text-[1rem]">Empowering Your Digital Future</p>
             <div className="flex gap-5 items-center py-3">
