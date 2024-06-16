@@ -12,14 +12,26 @@ const ContactUs = () => {
         <title>Contact Us - Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Get in touch with Ahyliz Technologies. Contact us for inquiries, support, or to learn more about our IT services and solutions."
+          content="Get in touch with Ahyliz Technologies for expert solutions in Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technologies contact, contact Ahyliz, IT support, customer service, IT inquiries, technology solutions contact, reach Ahyliz"
+          content="Contact Ahyliz Technologies, IT Solutions Contact, Digital Transformation Contact, Cloud Consulting Contact"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/contact" />
+        <link rel="canonical" href="https://ahyliz.ca/contact" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "ContactPage",
+            url: "https://ahyliz.ca/contact",
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+1-844-709-7333",
+              contactType: "Customer Service",
+            },
+          })}
+        </script>
       </Helmet>
 
       {/* section 1 */}

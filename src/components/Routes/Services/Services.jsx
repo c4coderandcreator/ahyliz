@@ -11,14 +11,24 @@ const Services = () => {
         <title>Our Services - Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Explore the wide range of IT services offered by Ahyliz Technology, including digital transformation, cloud consulting, managed IT services, and software development."
+          content="Discover the range of IT services offered by Ahyliz Technologies, including Digital Transformation, Cloud Consulting, Managed IT Services, Software Development, and Cybersecurity."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technologies services, IT services, digital transformation, cloud consulting, managed IT services, software development, IT support, technology solutions"
+          content="IT Services, Digital Transformation, Cloud Consulting, Managed IT Services, Software Development, Cybersecurity"
         />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/service" />
+        <link rel="canonical" href="https://ahyliz.ca/services" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Service",
+            serviceType: "IT Services",
+            provider: {
+              "@type": "Organization",
+              name: "Ahyliz Technologies",
+            },
+          })}
+        </script>
       </Helmet>
       {/* section 1 */}
       <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">

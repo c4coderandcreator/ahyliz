@@ -11,14 +11,22 @@ const About = () => {
         <title>About Us - Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Learn more about Ahyliz Technologies, our mission, vision, and the team that drives our success in delivering top-notch IT solutions."
+          content="Learn more about Ahyliz Technologies, our mission, vision, and the expert team leading the way in Enterprise Digital Transformation and IT Services."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technologies, about Ahyliz, IT solutions, IT services, digital transformation, cloud consulting, managed IT services, software development"
+          content="About Ahyliz Technologies, Digital Transformation, IT Services, Cloud Consulting, Software Development"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/about" />
+        <link rel="canonical" href="https://ahyliz.ca/about" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "AboutPage",
+            url: "https://ahyliz.ca/about",
+            name: "About Us - Ahyliz Technologies",
+          })}
+        </script>
       </Helmet>
       {/* --- */}
       <div className="flex items-center justify-center w-full mt-[2rem] lg:mt-[5rem] ">

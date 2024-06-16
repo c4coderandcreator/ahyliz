@@ -6,17 +6,41 @@ const Careers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers - Ahyliz Technologies</title>
+        <title>Careers - Join Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Join Ahyliz Technologies and be a part of a dynamic team. Explore our current job openings and start your career with us today."
+          content="Explore career opportunities at Ahyliz Technologies. Join our team of experts in Enterprise Digital Transformation, Cloud Consulting, and IT Services."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technologies careers, job openings, IT jobs, technology careers, work at Ahyliz, tech industry jobs, career opportunities, employment at Ahyliz"
+          content="Careers, Job Opportunities, Ahyliz Technologies, IT Jobs, Digital Transformation Careers, Cloud Consulting Careers"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/careers" />
+        <link rel="canonical" href="https://ahyliz.ca/careers" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "JobPosting",
+            title: "Careers at Ahyliz Technologies",
+            description:
+              "Explore career opportunities at Ahyliz Technologies. Join our team of experts in Enterprise Digital Transformation, Cloud Consulting, and IT Services.",
+            hiringOrganization: {
+              "@type": "Organization",
+              name: "Ahyliz Technologies",
+              sameAs: "https://ahyliz.ca",
+            },
+            employmentType: "Full-time",
+            jobLocation: {
+              "@type": "Place",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Your City",
+                addressRegion: "Your Region",
+                addressCountry: "Your Country",
+              },
+            },
+          })}
+        </script>
       </Helmet>
 
       {/* section 1 */}

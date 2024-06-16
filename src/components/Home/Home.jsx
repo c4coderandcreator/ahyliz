@@ -11,20 +11,30 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Ahyliz Technologies: Premier IT Solutions for Digital Transformation &
-          Cloud Consulting
-        </title>
+        <title>Ahyliz Technologies - Pioneers of Digital Innovation</title>
         <meta
           name="description"
-          content="Discover Ahyliz Technologies: Your premier partner for Enterprise Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
+          content="Welcome to Ahyliz Technologies. Explore our comprehensive IT solutions in Enterprise Digital Transformation, Cloud Consulting, Managed IT Services, and Software Development."
         />
         <meta
           name="keywords"
-          content="IT solutions, digital transformation, cloud consulting, managed IT services, software development, Ahyliz Technology"
+          content="Digital Transformation, Cloud Consulting, Managed IT Services, Software Development, Cybersecurity, Cloud Computing"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/" />
+        <link rel="canonical" href="https://ahyliz.ca/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            url: "https://ahyliz.ca/",
+            name: "Ahyliz Technologies",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://ahyliz.ca/search?q={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          })}
+        </script>
       </Helmet>
       {/* section 1 */}
       <div className="flex p-0 mt-10 lg:mt-0 lg:p-20 mx-3 sm:mx-10 justify-center lg:justify-between">

@@ -7,17 +7,25 @@ const Legal = () => {
   return (
     <>
       <Helmet>
-        <title>Legal Information - Ahyliz Technology</title>
+        <title>Legal Information - Ahyliz Technologies</title>
         <meta
           name="description"
-          content="Find the legal information for Ahyliz Technology, including our privacy policy, terms of service, and other legal notices."
+          content="Review the legal information for Ahyliz Technologies, including privacy policy, terms of service, and other legal documents."
         />
         <meta
           name="keywords"
-          content="Ahyliz Technology legal information, privacy policy, terms of service, legal notices, legal terms, Ahyliz legal"
+          content="Legal Information, Ahyliz Technologies, Privacy Policy, Terms of Service"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ahyliz.ca/legal" />
+        <link rel="canonical" href="https://ahyliz.ca/legal" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            url: "https://ahyliz.ca/legal",
+            name: "Legal Information - Ahyliz Technologies",
+          })}
+        </script>
       </Helmet>
 
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/d61df2fc5f24d552268b46a9ea3bf0dd09530661/Resources/Legal/Hero.svg')] bg-cover">
