@@ -16,7 +16,7 @@ const Legal = () => {
           name="keywords"
           content="Legal Information, Ahyliz Technologies, Privacy Policy, Terms of Service"
         />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href="https://ahyliz.ca/legal" />
         <script type="application/ld+json">
           {JSON.stringify({
