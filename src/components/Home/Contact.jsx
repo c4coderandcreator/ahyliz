@@ -1,6 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_REACT_SI,
+        import.meta.env.VITE_REACT_TI,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_REACT_PK,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          const successAlert = document.createElement("div");
+          successAlert.className =
+            "bg-green-500 text-white px-4 py-2 rounded-md fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2";
+          successAlert.textContent = "Your message has been sent successfully";
+          document.body.appendChild(successAlert);
+          setTimeout(() => {
+            document.body.removeChild(successAlert);
+          }, 3000);
+          form.current.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          const errorAlert = document.createElement("div");
+          errorAlert.className =
+            "bg-red-500 text-white px-4 py-2 rounded-md fixed top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2";
+          errorAlert.textContent =
+            "There is some server issue , please mail me at : info@teckube.io";
+          document.body.appendChild(errorAlert);
+          setTimeout(() => {
+            document.body.removeChild(errorAlert);
+          }, 30000);
+        }
+      );
+  };
   return (
     <>
       <div className="relative bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgContact%20us.png')] bg-cover h-[55rem] sm:h-auto py-6 lg:h-[48rem] pb-[10rem]">
@@ -79,7 +122,8 @@ const Contact = () => {
             </p>
             <form
               className="flex flex-col font-[LufgaBook] text-[13px]"
-              action=""
+              ref={form}
+              onSubmit={sendEmail}
             >
               <label className="py-2 text-[15px]" htmlFor="">
                 Full Name*
@@ -88,35 +132,43 @@ const Contact = () => {
                 className="border-b py-2 leading-6"
                 type="text"
                 placeholder="Isaiah Owolabi"
+                name="user_name"
+                required
               />
               <label className="py-2 text-[15px] leading-6" htmlFor="">
                 Email*
               </label>
               <input
                 className="border-b py-2 leading-6"
-                type="text"
+                type="email"
                 placeholder="example@yourmail.com"
+                name="user_email"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               />
               <label className="py-2 text-[15px] leading-6" htmlFor="">
                 Phone*
               </label>
               <input
                 className="border-b py-2 leading-6"
-                type="text"
+                type="tel"
+                name="user_phone"
                 placeholder="+1 215 452 1155"
+                required
               />
               <label className="py-2 text-[15px] leading-6" htmlFor="">
                 Message*
               </label>
               <input
                 className="border-b py-2 leading-6"
-                type="text"
+                name="message"
                 placeholder="type your message here"
               />
               <input
                 className="bg-[#4f45e2] text-white font-[LufgaBook] font-medium text-xs md:text-base border-2 border-webbut-400 bg-webbut-400 hover:opacity-40 cursor-pointer w-[8rem] items-center py-4 sm:py-2 md:py-3 my-4 rounded-lg mt-6"
                 type="submit"
                 value="Send"
+                required
               />
             </form>
           </div>

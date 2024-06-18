@@ -1,12 +1,55 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_REACT_SI2,
+        import.meta.env.VITE_REACT_TI2,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_REACT_PK,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          const successAlert = document.createElement("div");
+          successAlert.className =
+            "bg-green-500 text-white px-4 py-2 rounded-md fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2";
+          successAlert.textContent = "Your request has been sent successfully";
+          document.body.appendChild(successAlert);
+          setTimeout(() => {
+            document.body.removeChild(successAlert);
+          }, 3000);
+          form.current.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          const errorAlert = document.createElement("div");
+          errorAlert.className =
+            "bg-red-500 text-white px-4 py-2 rounded-md fixed top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2";
+          errorAlert.textContent =
+            "There is some server issue , please mail me at : info@teckube.io";
+          document.body.appendChild(errorAlert);
+          setTimeout(() => {
+            document.body.removeChild(errorAlert);
+          }, 30000);
+        }
+      );
+  };
   return (
     <>
       <div className="mt-[15rem] sm:mt-0 h-auto lg:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover  text-white font-[LufgaLight] text-[1rem]">
-        <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 pt-[5rem] justify-start sm:justify-between gap-4 lg:gap-16 sm:items-center sm:my-[5rem] lg:mx-[5rem] pl-4 sm:pl-0">
+        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-6 pt-[5rem] justify-start sm:justify-between gap-4 lg:gap-16 sm:items-center sm:my-[5rem] lg:mx-[5rem] pl-4 sm:pl-0">
           <div className="justify-self-auto h-full mt-8 sm:mt-0">
             <img
               className="w-[11.5rem] h-[5rem] mb-4"
@@ -109,6 +152,35 @@ const Footer = () => {
             {/* <Link to="mailto:contact@ahyliz.ca">
               <p className="hover:opacity-40">Email: contact@ahyliz.ca</p>
             </Link> */}
+          </div>
+          <div>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Request a callback</label>
+              <input
+                className="py-2 my-1 rounded-lg text-black"
+                type="text"
+                name="user_name"
+                placeholder="&nbsp; Your Name"
+              />
+              <input
+                className="py-2 my-1 rounded-lg text-black"
+                type="text"
+                name="user_email"
+                placeholder="&nbsp; Your Email"
+              />
+              <input
+                className="py-2 my-1 rounded-lg text-black"
+                type="text"
+                name="user_phone"
+                placeholder=" &nbsp; Your Contact"
+              />
+              <input
+                className="bg-[#4f45e2] text-white font-[LufgaBook] font-medium text-xs md:text-base border-2 border-webbut-400 bg-webbut-400 hover:opacity-40 cursor-pointer w-[8rem] items-center py-4 sm:py-2 md:py-3 my-4 rounded-lg mt-6"
+                type="submit"
+                value="Request"
+                required
+              />
+            </form>
           </div>
         </div>
         <div className="border-t border-custom-rgba flex items-center justify-center text-center py-6 sm:py-7 text-[0.875rem]">
