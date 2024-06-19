@@ -1,5 +1,3 @@
-import React from "react";
-import HomeSecBg2 from "../HomeSecBg/HomeSecBg2";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
@@ -397,7 +395,6 @@ const Home = () => {
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
             alt="img"
           />
-          {/* <HomeSecBg2 /> */}
         </div>
       </div>
       {/* PLU */}

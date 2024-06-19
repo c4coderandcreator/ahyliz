@@ -49,12 +49,11 @@ const ContactUs = () => {
             </div>
           </div>
           <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
-            Reach Out to Us <br /> Today
+            Reach Out to <br /> Us Today
           </p>
           <p className="py-2 font-[LufgaBook]">
-            Our experts are available to answer any questions you{" "}
-            <br className="hidden lg:block" /> might have. We’ve got the
-            answers.
+            Our experts are available to answer any questions <br /> you might
+            have. We’ve got the answers.
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
             <HashLink to="/contact#cu">
@@ -218,7 +217,7 @@ const ContactUs = () => {
             </div>
           </div>
           {/* 3rd */}
-          <div
+          {/* <div
             className="p-[2rem] font-[LufgaBook] rounded-xl w-[21rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
@@ -250,7 +249,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

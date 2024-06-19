@@ -143,9 +143,15 @@ const Careers = () => {
         Take your skills and passion to the next level
       </p>
 
-      <div className="flex flex-wrap items-center justify-center gap-12 my-[5rem]">
-        {/* 1st */}
-        <div
+      <p className="text-center font-[LufgaLight] text-[1.25rem] py-[2rem] sm:px-[5rem] bg-[#f4f9ff] sm:mx-[7.5rem] rounded-xl">
+        Unfortunately, we do not currently have any open positions available
+        within our company. <br />
+        Check Back Later.
+      </p>
+
+      {/* <div className="flex flex-wrap items-center justify-center gap-12 my-[5rem]"> */}
+      {/* 1st */}
+      {/* <div
           className="p-[2rem] font-[LufgaBook] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
@@ -207,10 +213,10 @@ const Careers = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* 2nd */}
-        <div
+      {/* 2nd */}
+      {/* <div
           className="p-[2rem] font-[LufgaBook] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
         >
@@ -273,7 +279,7 @@ const Careers = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* section 3 */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-auto h-[16.81rem] flex justify-center sm:justify-between items-center">

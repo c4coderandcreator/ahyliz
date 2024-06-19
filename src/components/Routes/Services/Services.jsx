@@ -45,7 +45,8 @@ const Services = () => {
             </div>
           </div>
           <p className="text-[2.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[3.875rem] lg:leading-[4.875rem]">
-            Explore Range of <br /> Tailored <br /> Solutions
+            Explore Range <br /> of Tailored <br />
+            Solutions
           </p>
           <p className="py-2 font-[LufgaBook]">
             Empowering Your Business with Advanced Technology{" "}

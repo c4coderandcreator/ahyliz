@@ -48,11 +48,11 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="mt-[15rem] sm:mt-0 h-auto lg:h-[28.2rem] bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover  text-white font-[LufgaLight] text-[1rem]">
-        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-6 pt-[5rem] justify-start sm:justify-between gap-4 lg:gap-16 sm:items-center sm:my-[5rem] lg:mx-[5rem] pl-4 sm:pl-0">
-          <div className="justify-self-auto h-full mt-8 sm:mt-0">
+      <div className="mt-[15rem] sm:mt-0 h-auto lg:h-auto bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover  text-white font-[LufgaLight] text-[1rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 mt-[3rem] pt-[2.5rem] justify-start sm:justify-between gap-4 lg:gap-4 sm:items-center sm:my-[2rem] md:my-[3rem] lg:my[2rem] lg:mx-[4.5rem] pl-4 sm:pl-0">
+          <div className="justify-items-center h-full mt-8 sm:mt-0">
             <img
-              className="w-[11.5rem] h-[5rem] mb-4"
+              className=" h-[3.75rem] w-[10rem] mb-4"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/AT%20LOGO-W.png"
               alt="Ahyliz Technologies Logo"
             />
@@ -88,7 +88,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="justify-self-auto sm:border-r sm:border-l border-custom-rgba lg:px-14 leading-[2.2rem] lg:pl-4 h-full">
+          <div className="justify-self-auto sm:border-r sm:border-l border-custom-rgba lg:px-4 leading-[2.2rem] lg:pl-8 h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>
@@ -106,7 +106,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Contact us</p>
             </Link>
           </div>
-          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-14 leading-[2.2rem] h-full">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-4 leading-[2.2rem] h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">About us</p>
             <Link to="/services">
               <p className="hover:opacity-40">How it Works?</p>
@@ -125,7 +125,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Accessibility</p>
             </HashLink>
           </div>
-          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-6 h-full leading-[2.2rem]">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-4 h-full leading-[2.2rem]">
             <p className="font-[LufgaBold] text-[1.5rem] ">Address</p>
             <Link
               to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
@@ -138,7 +138,7 @@ const Footer = () => {
               </p>
             </Link>
           </div>
-          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-6 h-full leading-[2.2rem] pb-4 sm:pb-0">
+          <div className="justify-self-auto sm:border-r border-custom-rgba lg:px-4 h-full leading-[2.2rem] pb-4 sm:pb-0">
             <p className="font-[LufgaBold] text-[1.5rem]">Contact us</p>
             <Link to="tel:+1 (844) 400-7222">
               <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>
@@ -154,28 +154,37 @@ const Footer = () => {
             </Link> */}
           </div>
           <div>
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Request a callback</label>
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col px-4"
+            >
+              <label className="font-[LufgaBold] text-[1.5rem]">
+                Request a callback
+              </label>
               <input
                 className="py-2 my-1 rounded-lg text-black"
                 type="text"
                 name="user_name"
                 placeholder="&nbsp; Your Name"
+                required
               />
               <input
                 className="py-2 my-1 rounded-lg text-black"
                 type="text"
                 name="user_email"
                 placeholder="&nbsp; Your Email"
+                required
               />
               <input
                 className="py-2 my-1 rounded-lg text-black"
                 type="text"
                 name="user_phone"
                 placeholder=" &nbsp; Your Contact"
+                required
               />
               <input
-                className="bg-[#4f45e2] text-white font-[LufgaBook] font-medium text-xs md:text-base border-2 border-webbut-400 bg-webbut-400 hover:opacity-40 cursor-pointer w-[8rem] items-center py-4 sm:py-2 md:py-3 my-4 rounded-lg mt-6"
+                className="bg-[#4f45e2] text-white font-[LufgaBook] font-medium text-base  md:text-base border-2 border-webbut-400 bg-webbut-400 hover:opacity-40 cursor-pointer w-[8rem] items-center py-3 sm:py-2 md:py-3 my-3 sm:my-2 rounded-lg "
                 type="submit"
                 value="Request"
                 required
