@@ -45,7 +45,7 @@ const Legal = () => {
             </div>
           </div>
         </div>
-        <p className="text-center text-white font-[LufgaBold] text-[3.5rem] lg:text-[4.5rem] my-4">
+        <p className="text-center text-white font-[LufgaBold] text-[2.5rem] lg:text-[4.5rem] my-4">
           Learn How We Safeguard Your Data
         </p>
         <p className="text-center text-white font-[LufgaBook] text-[1.25rem]">
