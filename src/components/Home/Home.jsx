@@ -392,7 +392,7 @@ const Home = () => {
         </p>
         <div className="flex items-center justify-center my-8 rounded-2xl mt-[5rem]">
           <img
-            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288p.png"
+            src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/Group%201000005288.png"
             alt="img"
           />
         </div>
