@@ -398,7 +398,7 @@ const Careers = () => {
             </div>
           </div>
           {/* 3rd */}
-          <div
+          {/* <div
             className="p-[2rem] font-[LufgaBook] rounded-xl w-[21rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
@@ -430,7 +430,7 @@ const Careers = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
