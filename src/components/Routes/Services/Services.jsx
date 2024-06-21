@@ -50,7 +50,7 @@ const Services = () => {
           </p>
           <p className="py-2 font-[LufgaBook]">
             Empowering Your Business with Advanced Technology{" "}
-            <br className="hidden lg:block" /> Services
+            <br className="hidden 2xl:block" /> Services
           </p>
           <div className="flex items-center mt-8 font-[LufgaBook]">
             <Link to="/contact">
@@ -485,8 +485,8 @@ const Services = () => {
         Comprehensive IT and Software Solutions
       </p>
 
-      <div className="flex flex-col sm:flex-row justify-center lg:mx-[6.25rem] gap-[2.5rem]">
-        <div className="lg:w-[30rem] h-[20em]">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center lg:mx-[6.25rem] gap-[0.5rem]">
+        <div className="lg:w-auto h-[20em] hidden md:block">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/b1cc41092a4932cac5572c7eed938cb75f1b3374/Resources/Services/Frame-12.svg"
             alt="Comprehensive IT and Software Solutions"
@@ -495,18 +495,17 @@ const Services = () => {
         <div>
           <p className="font-[LufgaLight] lg:text-[1.25rem] pb-[0.8rem] ">
             Together with Enterprise Digital Transformation, Cloud Consulting,
-            and Managed IT Services,
-            <br /> our Software Development capabilities form a complete suite
-            of solutions that support every <br /> aspect of your digital and IT
-            strategy.
+            and Managed IT Services, our Software Development capabilities form
+            a complete suite of solutions that support every aspect of your
+            digital and IT strategy.
           </p>
           <p className="font-[LufgaLight] lg:text-[1.25rem] py-[0.8rem] ">
             This holistic approach ensures that cutting-edge technology not only
-            propels your business <br /> forward but also integrates smoothly to
-            create a cohesive and efficient IT ecosystem. <br /> Through our
-            comprehensive services, Ahyliz Technologies empowers your business
-            to <br /> navigate the complexities of the digital world with
-            confidence and strategic advantage.
+            propels your business forward but also integrates smoothly to create
+            a cohesive and efficient IT ecosystem. Through our comprehensive
+            services, Ahyliz Technologies empowers your business to navigate the
+            complexities of the digital world with confidence and strategic
+            advantage.
           </p>
         </div>
       </div>

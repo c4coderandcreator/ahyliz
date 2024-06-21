@@ -449,7 +449,7 @@ const About = () => {
           have achieved:
         </p>
 
-        <div className="flex flex-wrap lg:flex-nowrap justify-center items-center xl:gap-[4rem] xl:mx-[4.25rem]">
+        <div className="grid grid-cols-1 lg:grid-cols-2  justify-center items-center xl:gap-[4rem] xl:mx-[4.25rem]">
           <div className="flex flex-col  items-center">
             <img
               className="w-[10rem] h-[7.5rem] my-6"
@@ -461,11 +461,11 @@ const About = () => {
             </p>
             <p className="text-center font-[LufgaLight]">
               Ahyliz Technologies has been recognized by industry leaders and{" "}
-              <br className="hidden xl:block" />
+              <br className="hidden 2xl:block" />
               publications for our pioneering work in digital transformation and{" "}
-              <br className="hidden xl:block" />
+              <br className="hidden 2xl:block" />
               IT services. Our accolades include awards for 'Best IT Services{" "}
-              <br className="hidden xl:block" />
+              <br className="hidden 2xl:block" />
               Provider' and 'Innovator in Cloud Solutions.'
             </p>
           </div>
@@ -480,10 +480,10 @@ const About = () => {
             </p>
             <p className="text-center font-[LufgaLight] ">
               We have successfully partnered with over 500 companies{" "}
-              <br className="hidden xl:block" /> worldwide, including Fortune
+              <br className="hidden 2xl:block" /> worldwide, including Fortune
               500 firms, providing them with <br className="hidden xl:block" />{" "}
               tailored IT solutions that have revolutionized their operations
-              and <br className="hidden xl:block" /> enhanced their
+              and <br className="hidden 2xl:block" /> enhanced their
               competitiveness in the market.
             </p>
           </div>
@@ -600,32 +600,26 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex lg:flex-wrap xl:flex-nowrap justify-center xl:mx-[5.5rem] lg:gap-[2.5rem]">
-          <div className="w-auto xl:w-[30rem] h-[20em]">
+        <div className="grid grid-cols-1 justify-center xl:mx-[1.5rem] lg:gap-[0.5rem] text-center items-center justify-items-center">
+          <div className="w-auto">
             <img
-              className="hidden lg:block w-[29.687rem]"
+              className="hidden lg:block"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/AboutUs/Frame-1.svg"
               alt="Sustained Growth"
             />
           </div>
           <div>
             <p className="font-[LufgaLight] sm:text-[1.25rem] pb-[0.8rem] ">
-              <br className="hidden lg:block" />
               Over the past decade, we have maintained a double-digit growth
-              rate, &nbsp;&nbsp;&nbsp;&nbsp; <br className="hidden lg:block" />{" "}
-              expanding our services, customer base, and global reach. This
-              growth <br className="hidden lg:block" /> is a testament to our
-              robust business model and our team’s{" "}
-              <br className="hidden lg:block" /> dedication to pushing the
-              boundaries of what is possible in IT services.
+              rate, expanding our services, customer base, and global reach.
+              This growth is a testament to our robust business model and our
+              team’s dedication to pushing the boundaries of what is possible in
+              IT services.
             </p>
             <p className="font-[LufgaLight] sm:text-[1.25rem] py-[0.8rem] ">
               Through our relentless pursuit of excellence and a client-centric{" "}
-              <br className="hidden lg:block" />
               approach, Ahyliz Technologies continues to set new standards in{" "}
-              <br className="hidden lg:block" />
               the IT industry, ensuring our clients are well-equipped to meet{" "}
-              <br className="hidden lg:block" />
               the challenges of the digital age.
             </p>
           </div>
