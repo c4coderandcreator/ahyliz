@@ -88,7 +88,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="justify-self-auto xl:border-r xl:border-l border-custom-rgba lg:px-4 leading-[2.2rem] lg:pl-8 h-full">
+          <div className="justify-self-auto xl:border-r xl:border-l border-custom-rgba lg:px-3 leading-[2.2rem] lg:pl-8 h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">Home</p>
             <Link to="/about">
               <p className="hover:opacity-40">Explore more</p>
@@ -106,7 +106,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Contact us</p>
             </Link>
           </div>
-          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-4 leading-[2.2rem] h-full">
+          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-3 leading-[2.2rem] h-full">
             <p className="font-[LufgaBold] text-[1.5rem]">About us</p>
             <Link to="/services">
               <p className="hover:opacity-40">How it Works?</p>
@@ -125,7 +125,7 @@ const Footer = () => {
               <p className="hover:opacity-40">Accessibility</p>
             </HashLink>
           </div>
-          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-4 h-full leading-[2.2rem]">
+          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-3 h-full leading-[2.2rem]">
             <p className="font-[LufgaBold] text-[1.5rem] ">Address</p>
             <Link
               to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
@@ -134,11 +134,12 @@ const Footer = () => {
             >
               <p className="hover:opacity-40">
                 34 Minowan Miikan Ln,
-                <br /> Toronto, ON <br /> Canada <br /> M6J 0G3
+                <br className="xl:hidden 2xl:block " /> Toronto, ON <br />{" "}
+                Canada <br /> M6J 0G3
               </p>
             </Link>
           </div>
-          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-4 h-full leading-[2.2rem] pb-4 sm:pb-0">
+          <div className="justify-self-auto xl:border-r border-custom-rgba lg:px-3 h-full leading-[2.2rem] pb-4 sm:pb-0">
             <p className="font-[LufgaBold] text-[1.5rem]">Contact us</p>
             <Link to="tel:+1 (844) 400-7222">
               <p className="hover:opacity-40">Tel: +1 (844) 400-7222</p>
