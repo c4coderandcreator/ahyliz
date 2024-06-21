@@ -47,10 +47,10 @@ const Contact = () => {
   return (
     <>
       <div className="relative bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgContact%20us.png')] bg-cover h-[55rem] sm:h-auto py-6 lg:h-[48rem] pb-[10rem]">
-        <div className="flex flex-wrap md:flex-nowrap  justify-between gap-6 lg:gap-40 relative z-10 lg:ml-[10rem] lg:my-[5rem] sm:my-0 sm:mt-[3rem]">
+        <div className="flex flex-wrap md:flex-nowrap  justify-between gap-6 lg:gap-10 xl:gap-40 relative z-10 lg:ml-[5rem] xl:ml-[10rem] lg:my-[5rem] sm:my-0 sm:mt-[3rem]">
           <div>
             <div
-              className="flex justify-center w-auto sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
+              className="flex justify-center w-auto sm:w-auto gap-2 px-1 py-4 bg-white rounded-[2rem] mb-4 sm:mb-8"
               style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
             >
               <div className=" ">
@@ -66,7 +66,7 @@ const Contact = () => {
             <p className="font-[LufgaBold] leading-8 sm:leading-10 text-[2rem] text-[#4f45e2] my-10 sm:my-0 sm:mb-0">
               Let’s talk! <br /> Love to hear from you.
             </p>
-            <div className="flex flex-wrap sm:flex-nowrap lg:gap-[5rem] sm:mt-[3rem]">
+            <div className="flex flex-wrap sm:flex-nowrap lg:gap-[2.5rem] xl:gap-[5rem] sm:mt-[3rem]">
               <div className="flex gap-2 sm:gap-[2rem]">
                 <div>
                   <img
@@ -74,7 +74,7 @@ const Contact = () => {
                     alt="img"
                   />
                 </div>
-                <div>
+                <div className="w-full">
                   <Link
                     to="https://maps.app.goo.gl/MaYpmND9nCKTXZVA9"
                     rel="noopener noreferrer"
@@ -114,7 +114,7 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="my-8 sm:my-0 rounded-2xl mx-auto sm:mr-[10rem] w-auto sm:w-[32rem] h-auto sm:h-[42rem] p-8 sm:p-[5rem] bg-white relative z-20"
+            className="my-8 sm:my-0 rounded-2xl mx-auto md:mr-2 xl:mr-[10rem] w-auto sm:w-[18rem] md:w-[25rem] lg:w-[25rem] h-auto sm:h-[42rem] p-8 md:p-10 lg:px-[2.5rem] xl:p-[3rem] bg-white relative z-20"
             style={{ boxShadow: "0px 4px 30px 0px rgba(0, 0, 0, 0.10)" }}
           >
             <p className="font-[LufgaSemiBold] text-[1.75rem] pb-8">

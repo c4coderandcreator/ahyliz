@@ -124,7 +124,7 @@ const About = () => {
       </div>
 
       {/* section 2 */}
-      <div className="bg-cover bg-[#f4f9ff] px-4 lg:px-[7.5rem] py-4 sm:py-20 lg:mx-[6.25rem] my-[5rem] rounded-3xl">
+      <div className="bg-cover bg-[#f4f9ff] px-4 xl:px-[7.5rem] py-4 sm:py-20 lg:mx-[6.25rem] my-[5rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div className="flex justify-center w-full sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
             <div className=" ">
@@ -140,20 +140,20 @@ const About = () => {
         </div>
         <p className="text-center font-[LufgaBold] text-[2rem] my-[2rem]">
           Ahyliz Technologies: Leading the Charge in{" "}
-          <br className="hidden lg:block" /> Customized IT Solutions
+          <br className="hidden xl:block" /> Customized IT Solutions
         </p>
         <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem]">
           As a premier IT service provider, we specialize in Enterprise Digital
           Transformation, Cloud Consulting, Managed{" "}
-          <br className="hidden lg:block" /> IT Services, and Software
+          <br className="hidden xl:block" /> IT Services, and Software
           Development.
         </p>
         <p className="text-center font-[LufgaLight] sm:text-[1.25rem]">
           Our team is composed of elite professionals with extensive expertise
           in these key areas, ensuring that our{" "}
-          <br className="hidden lg:block" /> solutions not only meet but exceed
+          <br className="hidden xl:block" /> solutions not only meet but exceed
           the specific needs and expectations of our clients. This comprehensive{" "}
-          <br className="hidden lg:block" /> approach catalyzes significant
+          <br className="hidden xl:block" /> approach catalyzes significant
           business growth and enhances operational efficiency.
         </p>
 
@@ -343,7 +343,7 @@ const About = () => {
       </div> */}
 
       {/* section 6 */}
-      <div className=" py-4 sm:py-10 lg:px-[6.25rem] rounded-3xl">
+      <div className=" py-4 sm:py-10 xl:px-[6.25rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -367,7 +367,7 @@ const About = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mx-[6.25rem] my-[5rem]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:mx-[6.25rem] my-[5rem]">
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">
@@ -419,7 +419,7 @@ const About = () => {
       <div id="ot" className="text-white">
         .
       </div>
-      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-4 lg:px-[10rem] rounded-3xl">
+      <div className="bg-cover bg-[#f4f9ff] py-4 sm:py-20 px-4 xl:px-[10rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -442,14 +442,14 @@ const About = () => {
         <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem]">
           At Ahyliz Technologies, our commitment to excellence and innovation is
           reflected in the success stories and{" "}
-          <br className="hidden md:block" /> achievements we have amassed over
+          <br className="hidden xl:block" /> achievements we have amassed over
           the years. We pride ourselves on our ability to deliver transformative
-          IT <br className="hidden md:block" /> solutions across various
+          IT <br className="hidden xl:block" /> solutions across various
           sectors. Here are some highlights of our work and the milestones we
           have achieved:
         </p>
 
-        <div className="flex flex-wrap justify-center items-center lg:gap-[4rem] lg:mx-[6.25rem]">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center items-center xl:gap-[4rem] xl:mx-[4.25rem]">
           <div className="flex flex-col  items-center">
             <img
               className="w-[10rem] h-[7.5rem] my-6"
@@ -461,11 +461,11 @@ const About = () => {
             </p>
             <p className="text-center font-[LufgaLight]">
               Ahyliz Technologies has been recognized by industry leaders and{" "}
-              <br className="hidden md:block" />
+              <br className="hidden xl:block" />
               publications for our pioneering work in digital transformation and{" "}
-              <br className="hidden md:block" />
+              <br className="hidden xl:block" />
               IT services. Our accolades include awards for 'Best IT Services{" "}
-              <br className="hidden md:block" />
+              <br className="hidden xl:block" />
               Provider' and 'Innovator in Cloud Solutions.'
             </p>
           </div>
@@ -480,10 +480,10 @@ const About = () => {
             </p>
             <p className="text-center font-[LufgaLight] ">
               We have successfully partnered with over 500 companies{" "}
-              <br className="hidden md:block" /> worldwide, including Fortune
-              500 firms, providing them with <br className="hidden md:block" />{" "}
+              <br className="hidden xl:block" /> worldwide, including Fortune
+              500 firms, providing them with <br className="hidden xl:block" />{" "}
               tailored IT solutions that have revolutionized their operations
-              and <br className="hidden md:block" /> enhanced their
+              and <br className="hidden xl:block" /> enhanced their
               competitiveness in the market.
             </p>
           </div>
@@ -514,12 +514,12 @@ const About = () => {
         <p className=" font-[LufgaLight] sm:text-[1.25rem] text-center mb-[2rem]">
           Through our relentless pursuit of excellence and a client-centric
           approach, Ahyliz Technologies continues to set{" "}
-          <br className="hidden md:block" /> new standards in the IT industry,
+          <br className="hidden xl:block" /> new standards in the IT industry,
           ensuring our clients are well-equipped to meet the challenges of{" "}
-          <br className="hidden md:block" /> the digital age.
+          <br className="hidden xl:block" /> the digital age.
         </p>
       </div>
-      <div className="flex justify-center lg:mx-[6.25rem] lg:gap-[2.5rem]">
+      <div className="flex justify-center xl:mx-[6.25rem] lg:gap-[2.5rem]">
         <div className="lg:w-[29.625rem] h-[32.25rem]">
           <img
             className="hidden lg:block"
@@ -553,7 +553,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center lg:mx-[6.25rem] lg:gap-[2.5rem]">
+      <div className="flex justify-center xl:mx-[6.25rem] lg:gap-[2.5rem]">
         <div className="lg:w-[30rem] h-[20em]">
           <img
             className="hidden lg:block"
@@ -584,7 +584,7 @@ const About = () => {
 
       {/* section 9 */}
       <div className="flex flex-col  justify-between items-center lg:px-[10rem] bg-cover bg-[#f4f9ff] py-4 sm:py-20 rounded-3xl">
-        <div className="flex items-center justify-center w-full lg:pb-10 ">
+        <div className="flex flex-wrap items-center justify-center w-full pb-4 lg:pb-10 ">
           <div
             className="flex justify-center w-full sm:w-[21rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -600,8 +600,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center lg:mx-[5.5rem] lg:gap-[2.5rem]">
-          <div className="lg:w-[30rem] h-[20em]">
+        <div className="flex lg:flex-wrap xl:flex-nowrap justify-center xl:mx-[5.5rem] lg:gap-[2.5rem]">
+          <div className="w-auto xl:w-[30rem] h-[20em]">
             <img
               className="hidden lg:block w-[29.687rem]"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/AboutUs/Frame-1.svg"

@@ -35,7 +35,7 @@ const ContactUs = () => {
       </Helmet>
 
       {/* section 1 */}
-      <div className="flex p-6 sm:p-20 lg:mx-10 justify-between">
+      <div className="flex p-6 sm:p-20 xl:mx-10 justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
@@ -49,7 +49,7 @@ const ContactUs = () => {
             </div>
           </div>
           <p className="text-[3.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[4.875rem]">
-            Reach Out to <br /> Us Today
+            Reach Out to <br className="hidden lg:block" /> Us Today
           </p>
           <p className="py-2 font-[LufgaBook]">
             Our experts are available to answer any questions <br /> you might
@@ -104,7 +104,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block">
+        <div className="h-[29.375rem] w-[38.187rem] ml-20 hidden lg:block">
           <img
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/ContactUs/Illustration.png"
             alt="Contact Us - Ahyliz Technologies"
@@ -255,7 +255,7 @@ const ContactUs = () => {
 
       {/* section 3 */}
       <div className="bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/cc834e1a601ad1b9321eb071efba4458b0bd7bfb/Resources/Home/Images/Dots%20SVG.svg')] bg-cover w-full h-[16.81rem] flex  items-center">
-        <div className="flex flex-wrap justify-between items-center sm:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
+        <div className="flex flex-wrap justify-between items-center lg:mx-[7.5rem] sm:my-24 bg-[#f7f7f7] w-full rounded-lg">
           <div className="px-2 sm:px-8 py-3 font-[LufgaMedium] sm:font-[LufgaBold] text-[0.8rem] sm:text-[1.5rem]">
             Learn more about Ahyliz Technologies
           </div>

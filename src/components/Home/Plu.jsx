@@ -8,7 +8,7 @@ const Plu = () => {
   return (
     <>
       {/* PLU */}
-      <div className="mx-4 lg:px-[7.5rem] sm:pt-10 pt-10">
+      <div className="mx-4 xl:px-[7.5rem] sm:pt-10 pt-10">
         <div className="flex justify-center w-auto items-center">
           <div
             className="flex justify-center w-full sm:w-[14rem] gap-2 px-4 py-4 bg-white rounded-[2rem]"
@@ -39,7 +39,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-2 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+              <div className="px-2 xl:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
                 Managed IT services by Ahyliz Technologies ensured our systems{" "}
                 ran smoothly, allowing us to focus on core business operations.
               </div>
@@ -62,7 +62,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleW />
               </div>
-              <div className="sm:px-8 text-white font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+              <div className="px-2 xl:px-8 text-white font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
                 Impressive cloud consulting services from Ahyliz Technologies.
                 Seamless transition and improved{" "}
                 <br className="hidden lg:block" /> efficiency!
@@ -89,7 +89,7 @@ const Plu = () => {
               <div className="py-3">
                 <DoubleP />
               </div>
-              <div className="px-4 sm:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
+              <div className="px-2 xl:px-8 font-[LufgaLight] text-[0.8rem] sm:text-[1rem] mb-6">
                 Ahyliz Technologies transformed our outdated systems into
                 efficient digital solutions. Highly recommend their expertise!
               </div>

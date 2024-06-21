@@ -31,7 +31,7 @@ const Services = () => {
         </script>
       </Helmet>
       {/* section 1 */}
-      <div className="flex p-6 lg:p-20 lg:mx-10 justify-between">
+      <div className="flex p-6 lg:p-10  xl:p-20 lg:mx-10 justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
@@ -45,7 +45,7 @@ const Services = () => {
             </div>
           </div>
           <p className="text-[2.5rem] sm:text-[4.5rem] font-[LufgaBold] leading-[3.875rem] lg:leading-[4.875rem]">
-            Explore Range <br /> of Tailored <br />
+            Explore Range <br className="hidden xl:block" /> of Tailored <br />
             Solutions
           </p>
           <p className="py-2 font-[LufgaBook]">
@@ -102,7 +102,7 @@ const Services = () => {
         </div>
         <div>
           <img
-            className=" h-auto lg:h-[29.375rem] w-[38.187rem] ml-20 hidden sm:block"
+            className=" h-auto lg:h-[29.375rem] w-[38.187rem] ml-20 hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/2d20f17dc2478772f51aebff3c065fc1109b5fab/Resources/Services/Illustration%202.svg"
             alt="Services"
           />
@@ -196,7 +196,7 @@ const Services = () => {
       <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Proactive IT Management for Uninterrupted Business Operations
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
         <div
           className="flex flex-col items-center p-[2rem] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -312,7 +312,7 @@ const Services = () => {
       </div>
 
       {/* section 4 */}
-      <div className=" lg:px-[7.5rem] py-6 sm:py-20">
+      <div className=" xl:px-[7.5rem] py-6 sm:py-20">
         <p className="text-center font-[LufgaBold] text-[2rem] my-4">
           Cloud Consulting
         </p>
@@ -320,7 +320,7 @@ const Services = () => {
           Expert Guidance Through Your Cloud Journey
         </p>
         <div className="flex flex-wrap justify-between lg:justify-center pt-[5rem] gap-4 sm:gap-2 w-full font-[LufgaBook]">
-          <div className="text-left lg:text-right w-auto lg:w-[23.5rem]">
+          <div className="text-left xl:text-right w-auto lg:w-[23.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Architecture Design
             </p>
@@ -342,9 +342,9 @@ const Services = () => {
               your business objective
             </p>
           </div>
-          <div className="w-auto lg:w-[31rem] hidden sm:block">
+          <div className="w-auto lg:w-[31rem] hidden xl:block">
             <img
-              className="hidden lg:block"
+              className="hidden xl:block"
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/5fc43d2442267cee4b774f57fa073cca3fa85351/Resources/Services/Group%201000004731.svg"
               alt="Cloud Consulting"
             />
@@ -378,7 +378,7 @@ const Services = () => {
       <p className="text-center font-[LufgaBook] text-[1.25rem]">
         Tailored Software Solutions to Drive Business Innovation
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
+      <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 gap-[3.25rem] lg:mx-[7.5rem] my-[5rem]">
         <div
           className="flex flex-col items-center p-[2rem] rounded-xl"
           style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
@@ -526,7 +526,7 @@ const Services = () => {
       </div>
 
       {/* WCU */}
-      <div className=" py-4 sm:py-10 lg:px-[6.25rem] rounded-3xl">
+      <div className=" py-4 sm:py-10 xl:px-[6.25rem] rounded-3xl">
         <div className="flex items-center justify-center w-full ">
           <div
             className="flex justify-center w-full sm:w-[15rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
@@ -550,7 +550,7 @@ const Services = () => {
           Expertise, Innovation, Partnership, Excellence, Customer Focus, Value
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:mx-[6.25rem] my-[5rem]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:mx-[6.25rem] my-[5rem]">
           <div className="border-b border-r h-[22.375] hover:bg-[#4f45e2] hover:text-white">
             {" "}
             <p className="py-[2.7rem] font-[LufgaSemiBold] text-[1.25rem] pl-6">

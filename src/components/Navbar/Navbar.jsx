@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 bg-white z-50 flex px-4 sm:px-1 lg:px-20 justify-between h-auto sm:h-[6.25rem] items-center">
+    <div className="sticky top-0 bg-white z-50 flex px-4 sm:px-1 lg:px-10 xl:px-20 justify-between h-auto sm:h-[6.25rem] items-center">
       <div className="sm:px-6 py-5 sm:py-4">
         <Link to="/" onClick={() => handleLinkClick("/")}>
           <img
@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center font-[LufgaBook]">
         <Link to="/" onClick={() => handleLinkClick("/")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/" ? "#4f45e2" : "inherit" }}
           >
             Home
@@ -38,7 +38,7 @@ const Navbar = () => {
         </Link>
         <Link to="/about" onClick={() => handleLinkClick("/about")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/about" ? "#4f45e2" : "inherit" }}
           >
             About
@@ -46,7 +46,7 @@ const Navbar = () => {
         </Link>
         <Link to="/services" onClick={() => handleLinkClick("/services")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/services" ? "#4f45e2" : "inherit" }}
           >
             Services
@@ -54,7 +54,7 @@ const Navbar = () => {
         </Link>
         <Link to="/careers" onClick={() => handleLinkClick("/careers")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/careers" ? "#4f45e2" : "inherit" }}
           >
             Careers
@@ -62,7 +62,7 @@ const Navbar = () => {
         </Link>
         <Link to="/contact" onClick={() => handleLinkClick("/contact")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/contact" ? "#4f45e2" : "inherit" }}
           >
             Contact Us
@@ -70,14 +70,14 @@ const Navbar = () => {
         </Link>
         <Link to="/legal" onClick={() => handleLinkClick("/legal")}>
           <p
-            className="sm:px-3 lg:px-7 py-2 lg:text-[1.25rem] hover:opacity-40"
+            className="sm:px-3 xl:px-7 py-2 xl:text-[1.25rem] hover:opacity-40"
             style={{ color: activeTab === "/legal" ? "#4f45e2" : "inherit" }}
           >
             Legal
           </p>
         </Link>
         <Link to="/contact" onClick={() => handleLinkClick("/contact")}>
-          <p className="sm:px-2 lg:px-7 py-4 mx-6 bg-[#4f45E2] rounded-lg text-[#ffffff] hover:opacity-40">
+          <p className="sm:px-2 xl:px-7 py-4 mx-6 bg-[#4f45E2] rounded-lg text-[#ffffff] hover:opacity-40">
             Get Started
           </p>
         </Link>

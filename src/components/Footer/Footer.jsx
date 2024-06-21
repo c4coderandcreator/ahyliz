@@ -49,7 +49,7 @@ const Footer = () => {
   return (
     <>
       <div className="mt-[15rem] sm:mt-0 h-auto lg:h-auto bg-[url('https://raw.githubusercontent.com/c4coderandcreator/ahyliz/main/Resources/Home/Images/bgFooter.png')] bg-cover  text-white font-[LufgaLight] text-[1rem]">
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 mt-[3rem] pt-[2.5rem] justify-start sm:justify-between gap-4 lg:gap-4 sm:items-center sm:my-[2rem] md:my-[3rem] lg:my[2rem] lg:mx-[4.5rem] pl-4 sm:pl-0">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 mt-[3rem] pt-[2.5rem] justify-start sm:justify-between gap-4 lg:gap-4 sm:items-center sm:my-[2rem] md:my-[3rem] lg:my-[2rem] md:mx-[0.5rem] lg:mx-[4.5rem] pl-4 sm:pl-0">
           <div className="justify-items-center h-full mt-8 sm:mt-0">
             <img
               className=" h-[3.75rem] w-[10rem] mb-4"

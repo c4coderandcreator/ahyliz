@@ -35,7 +35,7 @@ const Home = () => {
         </script>
       </Helmet>
       {/* section 1 */}
-      <div className="flex p-0 mt-10 lg:mt-0 lg:p-20 mx-3 sm:mx-10 justify-center lg:justify-between">
+      <div className="flex p-0 mt-10 lg:mt-0 lg:p-10 xl:p-20 px-3 sm:mx-10 justify-center lg:justify-between">
         <div className="sm:text-[1.25rem] lg:mr-20 ">
           <div className="flex">
             <div>
@@ -118,14 +118,14 @@ const Home = () => {
       {/* section 2 */}
       <div className="bg-cover bg-[#f4f9ff] mt-8 sm:mt-0 px-4 lg:px-[7.5rem] py-4 sm:py-20">
         <div className="flex items-center justify-center w-auto ">
-          <div className="flex justify-center w-auto sm:w-[11rem] gap-2 px-1 py-4 bg-white rounded-[2rem]">
+          <div className="px-4 flex justify-center w-auto sm:w-[11rem] gap-2 py-4 bg-white rounded-[2rem]">
             <div className=" ">
               <img
                 src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Icons/like-tag.svg"
                 alt="img"
               />
             </div>
-            <div className="text-center font-[LufgaMedium] text-[1.25rem]">
+            <div className="text-center font-[LufgaMedium]  text-[1.25rem]">
               <p>About us</p>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Home = () => {
           Pioneering excellence in technology services
         </p>
 
-        <div className="flex flex-wrap lg:grid lg:grid-cols-2 my-[5rem] gap-[3.125rem] justify-center">
+        <div className="flex flex-wrap xl:grid xl:grid-cols-2 my-[5rem] gap-[3.125rem] justify-center">
           <div>
             {" "}
             <HomeSecBg />{" "}
@@ -234,7 +234,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3  sm:flex-nowrap justify-center items-center text-center gap-[2rem] lg:gap-[6rem] sm:mx-[4rem] pt-[8rem] sm:pt-0 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3  sm:flex-nowrap justify-center items-center text-center gap-[2rem] lg:gap-[2rem] xl:gap-[6rem] sm:mx-[1rem] xl:mx-[4rem] pt-[8rem] sm:pt-0 ">
           <div className="flex flex-col items-center mt-10 sm:mt-0">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/1b251821991e6d732a7b9976d6ac2ff9841a5b28/Resources/Home/Images/Group%20174.svg"
@@ -281,10 +281,10 @@ const Home = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div className=" my-10 sm:my-0 mx-3 sm:mx-0 lg:px-[7.5rem] py-6 sm:py-20">
+      <div className=" my-10 sm:my-0 px-3 sm:mx-0 lg:px-[7.5rem] py-6 sm:py-20">
         <div className="flex  justify-center w-auto items-center ">
           <div
-            className="flex justify-center mx-4 sm:mx-0 w-auto lg:w-[12rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center px-4 sm:mx-0 w-auto lg:w-[12rem] gap-2 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
@@ -304,16 +304,16 @@ const Home = () => {
         <p className="text-center font-[LufgaBook] text-[1.25rem]">
           Get your self ready for the most comprehensive solutions
         </p>
-        <div className="flex flex-wrap justify-between lg:justify-center pt-[5rem] gap-4 sm:gap-2 w-auto font-[LufgaBook]">
-          <div className="text-left lg:text-right w-auto lg:w-[22.5rem]">
+        <div className="flex flex-wrap xl:flex-nowrap justify-between xl:justify-center pt-[5rem] gap-4 sm:gap-2 w-auto font-[LufgaBook]">
+          <div className="text-left xl:text-right w-auto xl:w-[22.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
-              Enterprise Digital <br className="hidden lg:block" />{" "}
+              Enterprise Digital <br className="hidden xl:block" />{" "}
               Transformation
             </p>
-            <p className="pb-4 lg:pb-[6.5rem] font-[LufgaLight]">
+            <p className="pb-4 xl:pb-[6.5rem] font-[LufgaLight]">
               Transform your business with Ahyliz{" "}
-              <br className="hidden lg:block" /> Technologies' comprehensive
-              Enterprise Digital <br className="hidden lg:block " />{" "}
+              <br className="hidden xl:block" /> Technologies' comprehensive
+              Enterprise Digital <br className="hidden xl:block " />{" "}
               Transformation
             </p>
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
@@ -321,21 +321,21 @@ const Home = () => {
             </p>
             <p className="font-[LufgaLight]">
               Drive innovation and efficiency with Ahyliz{" "}
-              <br className="hidden lg:block" /> Technologies' Software
+              <br className="hidden xl:block" /> Technologies' Software
               Development services.
             </p>
           </div>
-          <div className="w-auto lg:w-[31.18rem] hidden lg:block">
+          <div className="w-auto xl:w-[31.18rem] hidden xl:block">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/ahyliz/00de41f919c32de27e72d59fd1cddbc9e70aa923/Resources/Home/Images/Group%201000004731.svg"
               alt="img"
             />
           </div>
-          <div className="w-auto lg:w-[22.5rem]">
+          <div className="w-auto xl:w-[22.5rem]">
             <p className="font-[LufgaSemiBold] text-[1.25rem]">
               Cloud Consulting Services
             </p>
-            <p className="pb-4 lg:pb-[8.7rem] font-[LufgaLight]">
+            <p className="pb-2 xl:pb-[8.7rem] font-[LufgaLight]">
               Navigate the complexities of cloud{" "}
               <br className="hidden lg:block" /> environments with Ahyliz
               Technologies' Cloud <br className="hidden lg:block" /> Consulting
@@ -370,7 +370,7 @@ const Home = () => {
       <div className=" hidden sm:block  sm:px-[7.5rem] py-20 bg-[#f4f9ff]">
         <div className="flex justify-center w-auto items-center ">
           <div
-            className="flex justify-center mx-6 sm:mx-0 w-auto sm:w-[14rem] gap-2 px-1 py-4 bg-white rounded-[2rem]"
+            className="flex justify-center px-6 sm:mx-0 w-auto sm:w-[14rem] gap-2 py-4 bg-white rounded-[2rem]"
             style={{ boxShadow: "0px 1px 15px 0px rgba(0, 0, 0, 0.05)" }}
           >
             <div className=" ">
