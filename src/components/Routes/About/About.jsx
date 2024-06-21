@@ -140,20 +140,20 @@ const About = () => {
         </div>
         <p className="text-center font-[LufgaBold] text-[2rem] my-[2rem]">
           Ahyliz Technologies: Leading the Charge in{" "}
-          <br className="hidden xl:block" /> Customized IT Solutions
+          <br className="hidden 2xl:block" /> Customized IT Solutions
         </p>
-        <p className="text-center font-[LufgaLight] sm:text-[1.25rem] mb-[2rem]">
+        <p className="text-center font-[LufgaLight] 2xl:text-[1.25rem] mb-[2rem]">
           As a premier IT service provider, we specialize in Enterprise Digital
           Transformation, Cloud Consulting, Managed{" "}
-          <br className="hidden xl:block" /> IT Services, and Software
+          <br className="hidden 2xl:block" /> IT Services, and Software
           Development.
         </p>
-        <p className="text-center font-[LufgaLight] sm:text-[1.25rem]">
+        <p className="text-center font-[LufgaLight] 2xl:text-[1.25rem]">
           Our team is composed of elite professionals with extensive expertise
           in these key areas, ensuring that our{" "}
-          <br className="hidden xl:block" /> solutions not only meet but exceed
+          <br className="hidden 2xl:block" /> solutions not only meet but exceed
           the specific needs and expectations of our clients. This comprehensive{" "}
-          <br className="hidden xl:block" /> approach catalyzes significant
+          <br className="hidden 2xl:block" /> approach catalyzes significant
           business growth and enhances operational efficiency.
         </p>
 
