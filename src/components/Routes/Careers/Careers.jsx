@@ -17,30 +17,6 @@ const Careers = () => {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://ahyliz.ca/careers" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "JobPosting",
-            title: "Careers at Ahyliz Technologies",
-            description:
-              "Explore career opportunities at Ahyliz Technologies. Join our team of experts in Enterprise Digital Transformation, Cloud Consulting, and IT Services.",
-            hiringOrganization: {
-              "@type": "Organization",
-              name: "Ahyliz Technologies",
-              sameAs: "https://ahyliz.ca",
-            },
-            employmentType: "Full-time",
-            jobLocation: {
-              "@type": "Place",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Your City",
-                addressRegion: "Your Region",
-                addressCountry: "Your Country",
-              },
-            },
-          })}
-        </script>
       </Helmet>
 
       {/* section 1 */}

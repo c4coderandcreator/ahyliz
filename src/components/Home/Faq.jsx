@@ -86,7 +86,7 @@ const Faq = () => {
             />
             <Accordion
               title="How to contact Ahyliz Technologies? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-              answer="You can easily get in touch with Ahyliz Technologies through various channels. Visit our website and fill out the contact form, or send us an email at contact@ahyliz.com. For more immediate inquiries, you can also call our customer service hotline at (123) 456-7890. Additionally, we are active on social media platforms like LinkedIn, Twitter, and Facebook, where you can follow us for updates and reach out with any questions. We look forward to connecting with you!"
+              answer="You can easily get in touch with Ahyliz Technologies through various channels. Visit our website and fill out the contact form, or send us an email at contact@ahyliz.com. For more immediate inquiries, you can also call our customer service hotline at +1(844)4007222. Additionally, we are active on social media platforms like LinkedIn, Twitter, and Facebook, where you can follow us for updates and reach out with any questions. We look forward to connecting with you!"
             />
           </div>
         </div>
